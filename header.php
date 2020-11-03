@@ -13,5 +13,29 @@
 </head>
 
 <body>
-
+    <div id="navbar" class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="">
+                            <span class="logo"></span>
+                        </a>
+                    </div>
+                    <div class="col-8">
+                        <?php wp_nav_menu([
+						'theme_location' => 'header-menu',
+						'menu' => 'main',
+						'container' => 'nav',
+						'container_id' => '',
+						'container_class' => 'navbar-main',
+						'menu_class' => 'navbar-list',
+						'items_wrap' => '<ul class="%2$s">%3$s</ul>',
+						]);
+						?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
