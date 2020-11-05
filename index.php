@@ -41,7 +41,7 @@
                                 <li><a>Условия приема в гимназию</a></li>
                                 <li><a>Руководство по зарплате</a></li>
                                 <li><a>Защита личных данных</a></li>
-                                <li><a>официальные бланки</a></li>
+                                <li><a>Официальные бланки</a></li>
                                 <li><a>Порядок питания</a></li>
                             </ul>
                         </div>
@@ -71,8 +71,83 @@
                                 <li><a>Языковое погружение</a></li>
                             </ul>
                         </div>
-                    </div> 
+                    </div>
+                    <div class="col-3">
+                        <div class="table">
+                            <h3>Учащимся</h3>
+                            <ul>
+                                <li><a>Выпускникам гимназии</a></li>
+                                <li><a>Выпускникам основной школы</a></li>
+                                <li><a>Практические и исследовательские работы в гимназии</a></li>
+                                <li><a>Учебный план гимназии</a></li>
+                                <li><a>Творческие работы в основной школе</a></li>
+                                <li><a>Опросы</a></li>
+                                <li><a>Темы творческих и исследовтельских работ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="table">
+                            <h3>Родителям</h3>
+                            <ul>
+                                <li><a>Распорядок дня</a></li>
+                                <li><a>Попечительский совет</a></li>
+                                <li><a>Родительские собрания</a></li>
+                                <li><a>Подготовительная группа</a></li>
+                                <li><a>Школьная форма</a></li>
+                                <li><a>Школа родительского успеха</a></li>
+                                <li><a>Материалы "Школа родительского успеха"</a></li>
+                                <li><a>Важная информация</a></li>
+                                <li><a>Среда для заказа ученического билета</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="table">
+                            <h3>Работа по интересам</h3>
+                            <ul>
+                                <li><a>Работа в кружках</a></li>
+                                <li><a>Ученическое самоуправление</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="table">
+                            <h3>Обзор школы</h3>
+                            <ul>
+                                <li><a>История</a></li>
+                                <li><a>Миссия и видения школы</a></li>
+                                <li><a>Основные уенности школы</a></li>
+                                <li><a>Символы школы</a></li>
+                                <li><a>Школьные традиции</a></li>
+                                <li><a>Выпускники</a></li>
+                                <li><a>Школа в СМИ</a></li>
+                                <li><a>Достижения</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <h2>Партнеры</h2>
+                <div id="lable-list" class="row justify-content-center">
+                    <div class="col-2"><a class="unesco"></a></div>
+                    <div class="col-2"><a class="ekool"></a></div>
+                    <div class="col-2"><a class="erasmus"></a></div>
+                    <div class="col-2"><a class="keel"></a></div>
+                    <div class="col-2"><a class="fox"></a></div>
+                    <div class="col-2"><a class="tek"></a></div>
+                    <div class="col-2"><a class="nk"></a></div>
+                    <div class="col-2"><a class="tagasi"></a></div>
+                    <div class="col-2"><a class="marka"></a></div>
+                    <div class="col-2"><a class="kiamisest"></a></div>
+                    <div class="col-2"><a class="tore"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lables" class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                
             </div>
         </div>
     </div>
