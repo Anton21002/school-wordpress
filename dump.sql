@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `lnd_options` (
   KEY `autoload` (`autoload`)
 ) ENGINE=InnoDB AUTO_INCREMENT=286 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing.lnd_options: ~169 rows (приблизительно)
+-- Дамп данных таблицы landing.lnd_options: ~170 rows (приблизительно)
 DELETE FROM `lnd_options`;
 /*!40000 ALTER TABLE `lnd_options` DISABLE KEYS */;
 INSERT INTO `lnd_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -208,7 +208,7 @@ INSERT INTO `lnd_options` (`option_id`, `option_name`, `option_value`, `autoload
 	(110, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 	(111, 'widget_nav_menu', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 	(112, 'widget_custom_html', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
-	(113, '_transient_doing_cron', '1604344592.6478340625762939453125', 'yes'),
+	(113, '_transient_doing_cron', '1604682244.5351419448852539062500', 'yes'),
 	(119, '_site_transient_timeout_browser_061976375808a67dff9a2be9bf819443', '1601998892', 'no'),
 	(120, '_site_transient_browser_061976375808a67dff9a2be9bf819443', 'a:10:{s:4:"name";s:7:"Firefox";s:7:"version";s:4:"81.0";s:8:"platform";s:7:"Windows";s:10:"update_url";s:32:"https://www.mozilla.org/firefox/";s:7:"img_src";s:44:"http://s.w.org/images/browsers/firefox.png?1";s:11:"img_src_ssl";s:45:"https://s.w.org/images/browsers/firefox.png?1";s:15:"current_version";s:2:"56";s:7:"upgrade";b:0;s:8:"insecure";b:0;s:6:"mobile";b:0;}', 'no'),
 	(139, 'theme_mods_twentytwenty', 'a:3:{s:16:"sidebars_widgets";a:2:{s:4:"time";i:1604330412;s:4:"data";a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}}}s:18:"nav_menu_locations";a:0:{}s:18:"custom_css_post_id";i:-1;}', 'yes'),
@@ -282,7 +282,7 @@ CREATE TABLE IF NOT EXISTS `lnd_postmeta` (
   KEY `meta_key` (`meta_key`(191))
 ) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing.lnd_postmeta: ~48 rows (приблизительно)
+-- Дамп данных таблицы landing.lnd_postmeta: ~47 rows (приблизительно)
 DELETE FROM `lnd_postmeta`;
 /*!40000 ALTER TABLE `lnd_postmeta` DISABLE KEYS */;
 INSERT INTO `lnd_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
@@ -368,7 +368,7 @@ CREATE TABLE IF NOT EXISTS `lnd_posts` (
   KEY `post_author` (`post_author`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы landing.lnd_posts: ~33 rows (приблизительно)
+-- Дамп данных таблицы landing.lnd_posts: ~32 rows (приблизительно)
 DELETE FROM `lnd_posts`;
 /*!40000 ALTER TABLE `lnd_posts` DISABLE KEYS */;
 INSERT INTO `lnd_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
