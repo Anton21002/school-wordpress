@@ -108,7 +108,7 @@
 
 
 html,body, main{width:100%; height:100%; margin:0}
-h1 {text-align:center; letter-spacing:30px; text-transform:uppercase; color:#d77a06; font-size:50px; margin:75px 0 45px 0; font-family:Playfair-Regular}
+h1 {text-align:center; letter-spacing:30px; text-transform:uppercase; color:#d77a06; font-size:50px; margin:105px 0 45px 0; font-family:Playfair-Regular}
 h2 {text-align:center; letter-spacing:20px; text-transform:uppercase; color:#d77a06; font-size:35px; margin:120px 0 45px 0; font-family:Playfair-Regular}
 h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regular}
 
@@ -126,8 +126,9 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 
 
 /*BANNER*/
-#banner {height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/1.jpg'); background-size:cover; background-position:center}
-
+#banner {height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/6.jpg'); background-size:cover; background-position:center}
+#banner .col-2 {height:500px; background:rgba(255,255,255, 0.5); border-radius:5px 0 0 5px}
+#banner .col-6 {height:500px; background:rgba(255,255,255, 0.4); border-radius:0 5px 5px 0}
 /*#slider {display:flex; justify-content:center}
 #slider .slide {position:relative; width:100%; height:100%; z-index:1; cursor:pointer; opacity:0.5; transition:all.3s}
 #slider .slide:hover {opacity:1; transition:all.3s}
@@ -147,28 +148,40 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 /*BANNER-END*/
 
 /*CATEGORY*/
-#category {height:100%}
 #category .col-10 {background:#fff; box-shadow:0 0 10px rgba(0,0,0,0.5); position:relative; top:-45px; border-radius:5px; padding: 0 45px 45px 45px}
 #category .table {padding:30px 45px; background:#fff;  box-shadow:20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
 #category .table:hover {box-shadow:none; border:1px solid #d5d5d5; transition:all.3s}
 #category .col-3 {padding:15px}
 #category ul {list-style-type:none; margin:0; padding:0}
-#category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:10px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
+#category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
 /*#category .table a:hover {background:#002959; color:#fff; transition:all.3s}*/
 #category .table a::after {content:""; display:block; position:absolute; bottom:0; left:0; width:0; height:1px; -webkit-transition:all .4s; -o-transition:all .4s; -moz-transition:all .6s; transition:all .4s; background:#002959}
 #category .table a:hover::after {width:50%/*content:""; position:absolute; left:0; bottom:0; background-color:#002959; width:50%; height:1px*/}
 
-#lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover; background:url("../school-p/img/lables/unesco.png")}
+#lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover}
+#lable-list .col-2 {display:flex; justify-content:center; padding:30px 0}
 #lable-list .unesco {background:url("../school-p/img/lables/unesco.png")}
 #lable-list .ekool {background:url("../school-p/img/lables/ekool.png")}
 #lable-list .erasmus {background:url("../school-p/img/lables/erasmus_plus.png")}
 #lable-list .keel {background:url("../school-p/img/lables/keelekumblus.png")}
 #lable-list .fox {background:url("../school-p/img/lables/fox.png")}
 #lable-list .tek {background:url("../school-p/img/lables/tek.png")}
-#lable-list .nk {background:url("../school-p/img/lables/nooredkoolid.png")}
+#lable-list .nk {background:url("../school-p/img/lables/nooredkooli.png")}
 #lable-list .tagasi {background:url("../school-p/img/lables/tagasikooli.png")}
 #lable-list .marka {background:url("../school-p/img/lables/marka_ja_aita.png")}
 #lable-list .kiamisest {background:url("../school-p/img/lables/kiamisest.png")}
 #lable-list .tore {background:url("../school-p/img/lables/tore.png")}
 /*CATEGORY-END*/
 
+/*FOOTER*/
+#footer {background:#002959; padding:105px 15px 45px 15px}
+#footer .col-3:nth-child(2) .table:last-child {margin: 60px 0 0 0}
+#footer .table {border-left:3px solid #d77a17; padding:15px}
+#footer h3 {color:#d77a06}
+#footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-family:Montserrat-Light; font-size:16px}
+#footer p {color:#fff; font-family:Montserrat-Light; line-height:1.5; font-size:16px; margin:0}
+#footer ul {margin:45px 0 0 0; padding:0; list-style-type:none}
+#footer li {padding:5px 0}
+#footer .copyright {margin:60px 0 0 0; color:#fff; font-family:Montserrat-Light; font-size:12px}
+#footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; background-size:cover!important; background:url("../school-p/img/map.svg")}
+/*FOOTER-END*/
