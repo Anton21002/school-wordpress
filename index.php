@@ -5,10 +5,17 @@
                 <h1>Tallinna Pae Gumnaasium</h1>
                 <div class="row justify-content-center">
                     <div class="col-2">
-                        
+                        <i class="fas fa-shield-virus"></i>
                     </div>
                     <div class="col-6">
-                    
+                        <div class="table-text">
+                        <h3>COVID</h3>
+                        <ul>
+                            <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
+                            <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
+                            <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
