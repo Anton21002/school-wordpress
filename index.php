@@ -1,26 +1,26 @@
 <?php get_header(); ?>
     <div id="banner" class="container-fluid">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center">
             <div class="col-10">
-                <h1>Tallinna Pae Gumnaasium</h1>
+                <h1>Tallinna Pae Gümnaasium</h1>
                 <div class="row justify-content-center">
-                    <div class="table">
-                    <div class="row">
-                    <div class="col-4">
-                        <i class="fas fa-shield-virus"></i>
-                    </div>
-                    <div class="col-8">
-                        <div class="table-text">
-                        <h2>COVID</h2>
-                        <ul>
-                            <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
-                            <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
-                            <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
-                        </ul>
+                    <!--<div class="table">
+                        <div class="row">
+                            <div class="col-4">
+                                <i class="fas fa-shield-virus"></i>
+                            </div>
+                            <div class="col-8">
+                                <div class="table-text">
+                                    <h2>COVID</h2>
+                                    <ul>
+                                        <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
+                                        <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
+                                        <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -28,22 +28,42 @@
     <div id="category" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-10">
+                <h2>Информация</h2>
+                <div class="row justify-content-center">
+                <div class="table-info">
+                    <div class="row">
+                        <div class="col-4">
+                            <i class="fas fa-shield-virus"></i>
+                        </div>
+                        <div class="col-8">
+                            <div class="table-text">
+                                <h3>COVID</h3>
+                                <ul>
+                                    <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
+                                    <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
+                                    <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
                 <h2>Категории</h2>
                 <div class="row">
                     <div class="col-3">
                         <div class="table">
                             <h3>Гимназия</h3>
                             <ul>
-                                <li><a>Наполняемость классов</a></li>
-                                <li><a>Список услуг</a></li>
-                                <li><a>Вакансии</a></li>
-                                <li><a>Государственные поставки</a></li>
-                                <li><a>Судебные решения</a></li>
-                                <li><a>Аренда помещений</a></li>
-                                <li><a>Регистр документов</a></li>
-                                <li><a>Прием в 1 класс</a></li>
-                                <li><a>Меню школьной столовой</a></li>
-                                <li><a>Страница школьных новостей</a></li>
+                                <li><a><span>Наполняемость классов</span></a></li>
+                                <li><a><span>Список услуг</span></a></li>
+                                <li><a><span>Вакансии</span></a></li>
+                                <li><a><span>Государственные поставки</span></a></li>
+                                <li><a><span>Судебные решения</span></a></li>
+                                <li><a><span>Аренда помещений</span></a></li>
+                                <li><a><span>Регистр документов</span></a></li>
+                                <li><a><span>Прием в 1 класс</span></a></li>
+                                <li><a><span>Меню школьной столовой</span></a></li>
+                                <li><a><span>Страница школьных новостей</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -51,16 +71,16 @@
                         <div class="table">
                             <h3>Документы</h3>
                             <ul>
-                                <li><a>Устав школы</a></li>
-                                <li><a>Программа развития</a></li>
-                                <li><a>Государственный надзор</a></li>
-                                <li><a>Педсоветы и решения</a></li>
-                                <li><a>Внутренний распорядок</a></li>
-                                <li><a>Условия приема в гимназию</a></li>
-                                <li><a>Руководство по зарплате</a></li>
-                                <li><a>Защита личных данных</a></li>
-                                <li><a>Официальные бланки</a></li>
-                                <li><a>Порядок питания</a></li>
+                                <li><a><span>Устав школы</span></a></li>
+                                <li><a><span>Программа развития</span></a></li>
+                                <li><a><span>Государственный надзор</span></a></li>
+                                <li><a><span>Педсоветы и решения</span></a></li>
+                                <li><a><span>Внутренний распорядок</span></a></li>
+                                <li><a><span>Условия приема в гимназию</span></a></li>
+                                <li><a><span>Руководство по зарплате</span></a></li>
+                                <li><a><span>Защита личных данных</span></a></li>
+                                <li><a><span>Официальные бланки</span></a></li>
+                                <li><a><span>Порядок питания</span></a></li>
                             </ul>
                         </div>
                     </div> 
@@ -68,10 +88,10 @@
                         <div class="table">
                             <h3>Коллектив</h3>
                             <ul>
-                                <li><a>Администрация</a></li>
-                                <li><a>Классные руководители</a></li>
-                                <li><a>Преподаватели</a></li>
-                                <li><a>Специалисты</a></li>
+                                <li><a><span>Администрация</span></a></li>
+                                <li><a><span>Классные руководители</span></a></li>
+                                <li><a><span>Преподаватели</span></a></li>
+                                <li><a><span>Специалисты</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,14 +99,14 @@
                         <div class="table">
                             <h3>Учебная работа</h3>
                             <ul>
-                                <li><a>Учебная программа</a></li>
-                                <li><a>Цели школы</a></li>
-                                <li><a>Режим работы гимназии</a></li>
-                                <li><a>Расписание уроков</a></li>
-                                <li><a>Расписание консультаций</a></li>
-                                <li><a>Охрана здоровья учащихся</a></li>
-                                <li><a>Образовательные потребности</a></li>
-                                <li><a>Языковое погружение</a></li>
+                                <li><a><span>Учебная программа</span></a></li>
+                                <li><a><span>Цели школы</span></a></li>
+                                <li><a><span>Режим работы гимназии</span></a></li>
+                                <li><a><span>Расписание уроков</span></a></li>
+                                <li><a><span>Расписание консультаций</span></a></li>
+                                <li><a><span>Охрана здоровья учащихся</span></a></li>
+                                <li><a><span>Образовательные потребности</span></a></li>
+                                <li><a><span>Языковое погружение</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,13 +114,13 @@
                         <div class="table">
                             <h3>Учащимся</h3>
                             <ul>
-                                <li><a>Выпускникам гимназии</a></li>
-                                <li><a>Выпускникам основной школы</a></li>
-                                <li><a>Практические и исследовательские работы в гимназии</a></li>
-                                <li><a>Учебный план гимназии</a></li>
-                                <li><a>Творческие работы в основной школе</a></li>
-                                <li><a>Опросы</a></li>
-                                <li><a>Темы творческих и исследовтельских работ</a></li>
+                                <li><a><span>Выпускникам гимназии</span></a></li>
+                                <li><a><span>Выпускникам основной школы</span></a></li>
+                                <li><a><span>Практические и исследовательские работы в гимназии</span></a></li>
+                                <li><a><span>Учебный план гимназии</span></a></li>
+                                <li><a><span>Творческие работы в основной школе</span></a></li>
+                                <li><a><span>Опросы</span></a></li>
+                                <li><a><span>Темы творческих и исследовтельских работ</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,15 +128,15 @@
                         <div class="table">
                             <h3>Родителям</h3>
                             <ul>
-                                <li><a>Распорядок дня</a></li>
-                                <li><a>Попечительский совет</a></li>
-                                <li><a>Родительские собрания</a></li>
-                                <li><a>Подготовительная группа</a></li>
-                                <li><a>Школьная форма</a></li>
-                                <li><a>Школа родительского успеха</a></li>
-                                <li><a>Материалы "Школа родительского успеха"</a></li>
-                                <li><a>Важная информация</a></li>
-                                <li><a>Среда для заказа ученического билета</a></li>
+                                <li><a><span>Распорядок дня</span></a></li>
+                                <li><a><span>Попечительский совет</span></a></li>
+                                <li><a><span>Родительские собрания</span></a></li>
+                                <li><a><span>Подготовительная группа</span></a></li>
+                                <li><a><span>Школьная форма</span></a></li>
+                                <li><a><span>Школа родительского успеха</span></a></li>
+                                <li><a><span>Материалы "Школа родительского успеха"</span></a></li>
+                                <li><a><span>Важная информация</span></a></li>
+                                <li><a><span>Среда для заказа ученического билета</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -124,8 +144,8 @@
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
-                                <li><a>Работа в кружках</a></li>
-                                <li><a>Ученическое самоуправление</a></li>
+                                <li><a><span>Работа в кружках</span></a></li>
+                                <li><a><span>Ученическое самоуправление</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -133,14 +153,14 @@
                         <div class="table">
                             <h3>Обзор школы</h3>
                             <ul>
-                                <li><a>История</a></li>
-                                <li><a>Миссия и видения школы</a></li>
-                                <li><a>Основные уенности школы</a></li>
-                                <li><a>Символы школы</a></li>
-                                <li><a>Школьные традиции</a></li>
-                                <li><a>Выпускники</a></li>
-                                <li><a>Школа в СМИ</a></li>
-                                <li><a>Достижения</a></li>
+                                <li><a><span>История</span></a></li>
+                                <li><a><span>Миссия и видения школы</span></a></li>
+                                <li><a><span>Основные уенности школы</span></a></li>
+                                <li><a><span>Символы школы</span></a></li>
+                                <li><a><span>Школьные традиции</span></a></li>
+                                <li><a><span>Выпускники</span></a></li>
+                                <li><a><span>Школа в СМИ</span></a></li>
+                                <li><a><span>Достижения</span></a></li>
                             </ul>
                         </div>
                     </div>
