@@ -126,9 +126,9 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 
 
 /*BANNER*/
-#banner {height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/6.jpg'); background-size:cover; background-position:center}
+#banner {height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/6HD.jpg'); background-size:cover; background-position:center}
 #banner > .row {height:100%}
-/*#banner .table {-ms-flex: 0 0 66.666667%; flex:0 0 66.666667%; max-width:66.666667%; position:relative; width:100%; padding-right:15px; padding-left:15px}
+#banner .table {-ms-flex: 0 0 66.666667%; flex:0 0 66.666667%; max-width:66.666667%; position:relative; width:100%; padding-right:15px; padding-left:15px}
 #banner .col-4 {display:flex; justify-content:center; align-items:center; height:500px; background:#002959; border-radius:5px 0 0 5px}
 #banner .col-4 i {font-size:200px; color:#fff}
 #banner .col-8 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
@@ -137,17 +137,17 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 #banner .col-8 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
 
 #banner .col-4, #banner .col-8 {opacity:0.5; transition:all.3s}
-#banner .table:hover .col-4, #banner .table:hover .col-8 {opacity:1; transition:all.3s}*/
+#banner .table:hover .col-4, #banner .table:hover .col-8 {opacity:1; transition:all.3s}
 
 
-/*#slider {display:flex; justify-content:center}
+#slider {display:flex; justify-content:center}
 #slider .slide {position:relative; width:100%; height:100%; z-index:1; cursor:pointer; opacity:0.5; transition:all.3s}
 #slider .slide:hover {opacity:1; transition:all.3s}
     
-#slider .slide-1 {background:url('../school-p/img/Banner/1.jpg'); background-size:cover}
+/*#slider .slide-1 {background:url('../school-p/img/Banner/1.jpg'); background-size:cover}
 #slider .slide-2 {background:url('../school-p/img/Banner/2.jpg'); background-size:cover}
 #slider .slide-3 {background:url('../school-p/img/Banner/3.jpg'); background-size: cover}
-#slider .slide-4 {background:url('../school-p/img/Banner/4.jpg'); background-size:cover}
+#slider .slide-4 {background:url('../school-p/img/Banner/4.jpg'); background-size:cover}*/
     
 #slider .swiper-container {position:relative; width:60vw; height:30vw; overflow:hidden; list-style:none; padding:0; margin:0; z-index:1}
 #slider .swiper-wrapper {position:relative; width:100%; height:100%; z-index:1; display:flex; transition-property:transform}
@@ -155,17 +155,17 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 
 #slider .title {display:block; position:absolute; text-transform:uppercase; width:100%; height:6vw; padding:2vw; padding-top:2vw; padding-top:1vw; background:rgba(0,0,0,.7); bottom:0px; opacity:0; transition:.3s all}
 #slider .slide:hover .title, #portfolio .title:hover {opacity:1}
-#slider p {letter-spacing:0.8vw}*/
+#slider p {letter-spacing:0.8vw}
 /*BANNER-END*/
 
 /*CATEGORY*/
-#category .table-info {-ms-flex: 0 0 66.666667%; flex:0 0 66.666667%; max-width:66.666667%; position:relative; width:100%; padding-right:15px; padding-left:15px; margin:45px 0 0 0; box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;}
+/*#category .table-info {-ms-flex: 0 0 66.666667%; flex:0 0 66.666667%; max-width:66.666667%; position:relative; width:100%; padding-right:15px; padding-left:15px; margin:45px 0 0 0; box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;}
 #category .col-4 {display:flex; justify-content:center; align-items:center; height:500px; background:#002959; border-radius:5px 0 0 5px}
 #category .col-4 i {font-size:200px; color:#fff}
 #category .col-8 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
 #category .col-8 h2 {color:#002959; text-align:left; margin:0 0 45px 0}
 #category .col-8 ul {margin:0; padding:0; list-style-type:none}
-#category .col-8 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
+#category .col-8 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}*/
 
 
 #category .col-10 {background:#fff; box-shadow:0 0 10px rgba(0,0,0,0.5); position:relative; top:-45px; border-radius:5px; padding: 0 45px 45px 45px}
@@ -174,12 +174,10 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 #category .col-3 {padding:15px}
 #category ul {list-style-type:none; margin:0; padding:0}
 #category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; margin:5px 0; border-left:1px solid #002959; transition:all.3s}
-/*#category .table a:hover {background:#002959; color:#fff; transition:all.3s}*/
 #category .table a::after {content:""; display:block; position:absolute; bottom:0; left:0; width:0; height:100%; -webkit-transition:all .4s; -o-transition:all .4s; -moz-transition:all .6s; transition:all .4s; background:linear-gradient(.25turn, #002959, 85%, #fff)}
-/*#category .table a::after {content:""; display:block; position:absolute; bottom:0; left:0; width:0; height:1px; -webkit-transition:all .4s; -o-transition:all .4s; -moz-transition:all .6s; transition:all .4s; background:#002959}*/
 #category .table span {position:relative; z-index:2; transition:all.3s}
 #category .table a:hover span {position:relative; z-index:2; color:#fff; transition:all.1s}
-#category .table a:hover::after {width:100%/*content:""; position:absolute; left:0; bottom:0; background-color:#002959; width:50%; height:1px*/}
+#category .table a:hover::after {width:100%}
 
 #lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover}
 #lable-list .col-2 {display:flex; justify-content:center; padding:30px 0}

@@ -3,24 +3,62 @@
         <div class="row justify-content-center">
             <div class="col-10">
                 <h1>Tallinna Pae Gümnaasium</h1>
-                <div class="row justify-content-center">
-                    <!--<div class="table">
-                        <div class="row">
-                            <div class="col-4">
-                                <i class="fas fa-shield-virus"></i>
+            </div>
+            <div class="col-10">
+                <!--<div class="row justify-content-center">
+                    
+                </div>-->
+                <div id="slider" data-aos="zoom-in">
+                    <div class="swiper-container" data-tilt="">
+                        <div class="swiper-wrapper">
+                            <div class="table slide slide-1 swiper-slide">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="fas fa-shield-virus"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="table-text">
+                                                <h2>COVID</h2>
+                                                <ul>
+                                                    <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
+                                                    <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
+                                                    <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="col-8">
-                                <div class="table-text">
-                                    <h2>COVID</h2>
-                                    <ul>
-                                        <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
-                                        <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
-                                        <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
-                                    </ul>
+                            <div class="table slide slide-2 swiper-slide">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="fas fa-shield-virus"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="table-text">
+                                                <h2>COVID</h2>
+                                                <ul>
+                                                    <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
+                                                    <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
+                                                    <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!--<div class="slide slide-3 swiper-slide">
+                                <div class="title">
+                                    <h4>FSmini</h4>
+                                    Дизайн | Разработка | Продвижение
                                 </div>
                             </div>
+                            <div class="slide slide-4 swiper-slide">
+                                <div class="title">
+                                    <h4>Della</h4>
+                                    Дизайн | Разработка | Продвижение
+                                </div>
+                            </div>-->
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,7 +66,7 @@
     <div id="category" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-10">
-                <h2>Информация</h2>
+                <!--<h2>Информация</h2>
                 <div class="row justify-content-center">
                 <div class="table-info">
                     <div class="row">
@@ -47,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                </div>
+                </div>-->
                 <h2>Категории</h2>
                 <div class="row">
                     <div class="col-3">
