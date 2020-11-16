@@ -114,19 +114,20 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 
 /*NAVBAR*/
 #navbar {position:absolute; background:#fff; z-index:1}
-#navbar .col-4 {display:flex}
-#navbar .col-4 a {padding:15px 0; margin:0}
-#navbar .logo {display:block; width:159px; height:79.8px; background:url("../school-p/img/tpg.svg"); background-size:cover; background-repeat:no-repeat}
+#navbar .col-4 {display:flex; align-items:center}
+#navbar .col-4 a {padding:0; margin:0}
+#navbar .logo {display:block; width:211px; height:100px; background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
 #navbar .col-8 {display:flex; align-items:center; justify-content:flex-end}
 #navbar ul {margin:0; padding:0; font-size:0}
 #navbar li {display:inline-block; position:relative}
-#navbar a {text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; font-family:Montserrat-Light;transition:all.3s}
+#navbar a {display:block; padding:50px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; font-family:Montserrat-Light;transition:all.3s}
 #navbar a:hover {color:#002959; transition:all.3s}
-/*#navbar a:after {content:""; display:block; position:absolute; bottom:0; left:0; width:0; height:2px; -webkit-transition:all .4s; -o-transition:all .4s; -moz-transition:all .4s; transition:all .4s; background:#002959}
-#navbar a:hover::after {width:100%}*/
-
-
-#navbar li:first-child a {margin:0 15px 0 0}
+/*#navbar li:first-child a {margin:0 15px 0 0}*/
+#navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible}
+#navbar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:300px; border-radius:0 0 5px 5px; left:0; top:90%; border-top: 3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+#navbar .sub-menu li {display:block}
+#navbar .sub-menu a {display:block; margin:0; padding:10px 0; font-size:14px; transition:all.3s}
+#navbar .sub-menu a:hover {padding:10px 0 10px 5px; transition:all.3s}
 /*NAVBAR-END*/
 
 
@@ -145,7 +146,7 @@ h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Playfair-Regul
 #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
 #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
 #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/6.jpg'); background-size:cover; background-position:center}
-#slider .slide-2 {display:flex; justify-content:center; align-items:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/212107.jpg'); background-size:cover; background-position:center}
+#slider .slide-2 {display:flex; justify-content:center; align-items:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Banner/7.jpg'); background-size:cover; background-position:center}
 
 
 
