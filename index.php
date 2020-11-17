@@ -5,6 +5,7 @@
                 <div class="slide slide-1 swiper-slide">
                     <div class="col-10">
                         <h1>Tallinna Pae Gümnaasium</h1>
+                        <h2>Партнерство | Открытость | Старательность | Сотрудничество | Любовь | Толерантность</h2>
                     </div>
                 </div>
                 <div class="slide slide-2 swiper-slide">
@@ -13,7 +14,7 @@
                     </div>
                     <div class="col-4">
                         <div class="table-text">
-                            <h2>COVID</h2>
+                            <h3>COVID</h3>
                             <ul>
                                 <li><a href="">Руководство для лиц, находившемся в тесном контакте с зараженным COVID-19</a></li>
                                 <li><a href="">Рекомендации министерства образования и науки и Департамента здоровья по организации учебной работы в условиях распространения коронавируса</a></li>
@@ -135,7 +136,7 @@
                             <ul>
                                 <li><a><span>История</span></a></li>
                                 <li><a><span>Миссия и видения школы</span></a></li>
-                                <li><a><span>Основные уенности школы</span></a></li>
+                                <li><a><span>Основные ценности школы</span></a></li>
                                 <li><a><span>Символы школы</span></a></li>
                                 <li><a><span>Школьные традиции</span></a></li>
                                 <li><a><span>Выпускники</span></a></li>
@@ -145,21 +146,31 @@
                         </div>
                     </div>
                 </div>
-                <h2>Партнеры</h2>
-                <div id="lable-list" class="row justify-content-center">
-                    <div class="col-2"><a class="unesco"></a></div>
-                    <div class="col-2"><a class="ekool"></a></div>
-                    <div class="col-2"><a class="erasmus"></a></div>
-                    <div class="col-2"><a class="keel"></a></div>
-                    <div class="col-2"><a class="fox"></a></div>
-                    <div class="col-2"><a class="tek"></a></div>
-                    <div class="col-2"><a class="nk"></a></div>
-                    <div class="col-2"><a class="tagasi"></a></div>
-                    <div class="col-2"><a class="marka"></a></div>
-                    <div class="col-2"><a class="kiamisest"></a></div>
-                    <div class="col-2"><a class="tore"></a></div>
-                </div>
             </div>
         </div>
     </div>
+<div id="lable" class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <h2>Партнеры</h2>
+                <div id="lable-list" class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="row justify-content-center">
+                            <div class="col-2"><a class="unesco"></a></div>
+                            <div class="col-2"><a class="ekool"></a></div>
+                            <div class="col-2"><a class="erasmus"></a></div>
+                            <div class="col-2"><a class="keel"></a></div>
+                            <div class="col-2"><a class="fox"></a></div>
+                            <div class="col-2"><a class="tek"></a></div>
+                            <div class="col-2"><a class="nk"></a></div>
+                            <div class="col-2"><a class="tagasi"></a></div>
+                            <div class="col-2"><a class="marka"></a></div>
+                            <div class="col-2"><a class="kiamisest"></a></div>
+                            <div class="col-2"><a class="tore"></a></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
 <?php get_footer(); ?>
