@@ -15,6 +15,11 @@
 </head>
 
 <body>
+<div id="preloader">
+    <div class="row-p">
+        <div class="loader-1"></div>
+    </div>
+</div>
     <div id="navbar" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-10">

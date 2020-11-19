@@ -9,7 +9,14 @@
                     </div>
                 </div>
                 <div class="slide slide-2 swiper-slide">
-                    <div class="col-2">
+                    <div class="col-10">
+                        <h1>COVID-19</h1>
+                        <h2>Рекомендации и советы в условиях распоространения короновируса</h2>
+                        <div class="row-button">
+                            <a href="">Подробнее</a>
+                        </div>
+                    </div>
+                    <!--<div class="col-2">
                         <i class="fas fa-shield-virus"></i>
                     </div>
                     <div class="col-4">
@@ -21,7 +28,7 @@
                                 <li><a href="">Tallinna Pae gumnaasiumi reeglid ja pohimotted COVID-19 riiskide maandamiseks</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
