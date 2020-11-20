@@ -5,7 +5,7 @@ window.onload = function() {
     function scroller() {
         var position = window.pageYOffset;
 
-        if (position > 96) {
+        if (position > 119) {
             navbar.classList.add('scrolldown');
         } else {
             navbar.classList.remove('scrolldown');
@@ -27,8 +27,8 @@ var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 0,
         loop: true,
-        autoplay: {
+        /*autoplay: {
             delay: 5000,
             disableOnInteraction: false,
-        }
+        }*/
     });
