@@ -24,14 +24,19 @@
 </div>
     <div id="navbar" class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-10">
+            <div class="col-lg-10">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <a href="">
                             <span class="logo"></span>
                         </a>
+                        <div id="hamburger">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <?php wp_nav_menu([
 						'theme_location' => 'header-menu',
 						'menu' => 'main',
@@ -45,6 +50,18 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="mnav" class="row">
+            <?php wp_nav_menu([
+				'theme_location' => 'header-menu',
+				'menu' => 'main',
+				'container' => 'nav',
+				'container_id' => '',
+				'container_class' => 'navbar-main',
+				'menu_class' => 'navbar-list',
+				'items_wrap' => '<ul class="%2$s">%3$s</ul>',
+				]);
+            ?>
         </div>
     </div>
     <div id="fader"></div>

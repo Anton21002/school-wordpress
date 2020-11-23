@@ -34,7 +34,8 @@
                     <div class="col-lg-10">
                         <h1>Новости</h1>
                         <h2>Все последние события: новости, замены, меню школьной столовой - со всем вы сможете ознакомится на нашем новом информационном портале.</h2>
-                        <div class="row justify-content-center">
+                        <div class="row-button">
+                            <a href="">Подробнее</a>
                             <div class="info">
                                 <div class="info-img"></div>
                             </div>

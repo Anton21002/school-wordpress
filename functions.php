@@ -103,7 +103,7 @@ if( 'Исполняемый PHP код в контенте' ){
 
 }
 
-function wp_corenavi() {
+/*function wp_corenavi() {
   global $wp_query;
   $total = isset( $wp_query->max_num_pages ) ? $wp_query->max_num_pages : 1;
   $a['total'] = $total;
@@ -119,4 +119,4 @@ function wp_corenavi() {
 
 add_filter('excerpt_more', function($more) {
 	return '...';
-});
+});*/
