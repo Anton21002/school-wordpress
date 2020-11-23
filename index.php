@@ -1,15 +1,15 @@
 <?php get_header(); ?>
     <div id="slider">
-        <div class="swiper-container" data-tilt="">
+        <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="slide slide-1 swiper-slide">
-                    <div class="col-10">
-                        <h1>Tallinna Pae Gümnaasium</h1>
-                        <h2>Партнерство | Открытость | Старательность | Сотрудничество | Любовь | Толерантность</h2>
+                    <div class="col-lg-10">
+                        <h1 data-aos="fade-up">Tallinna Pae Gümnaasium</h1>
+                        <h2 data-aos="fade-up" data-aos-delay="150">Партнерство | Открытость | Старательность | Сотрудничество | Любовь | Толерантность</h2>
                     </div>
                 </div>
                 <div class="slide slide-2 swiper-slide">
-                    <div class="col-10">
+                    <div class="col-lg-10">
                         <h1>COVID-19</h1>
                         <h2>Рекомендации и советы в условиях распоространения короновируса</h2>
                         <div class="row-button">
@@ -30,15 +30,26 @@
                         </div>
                     </div>-->
                 </div>
+                <div class="slide slide-3 swiper-slide">
+                    <div class="col-lg-10">
+                        <h1>Новости</h1>
+                        <h2>Все последние события: новости, замены, меню школьной столовой - со всем вы сможете ознакомится на нашем новом информационном портале.</h2>
+                        <div class="row justify-content-center">
+                            <div class="info">
+                                <div class="info-img"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div id="category" class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-10">
-                <h2>Категории</h2>
+            <div class="col-lg-10">
+                <h2 data-aos="fade-up">Категории</h2>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up">
                         <div class="table">
                             <h3>Гимназия</h3>
                             <ul>
@@ -55,7 +66,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="150">
                         <div class="table">
                             <h3>Документы</h3>
                             <ul>
@@ -72,7 +83,7 @@
                             </ul>
                         </div>
                     </div> 
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="table">
                             <h3>Коллектив</h3>
                             <ul>
@@ -83,7 +94,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="450">
                         <div class="table">
                             <h3>Учебная работа</h3>
                             <ul>
@@ -98,7 +109,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up">
                         <div class="table">
                             <h3>Учащимся</h3>
                             <ul>
@@ -112,7 +123,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="150">
                         <div class="table">
                             <h3>Родителям</h3>
                             <ul>
@@ -128,7 +139,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
@@ -137,7 +148,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="450">
                         <div class="table">
                             <h3>Обзор школы</h3>
                             <ul>
@@ -158,22 +169,22 @@
     </div>
 <div id="lable" class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
-            <h2>Партнеры</h2>
+        <div class="col-lg-10">
+            <h2 data-aos="fade-up">Партнеры</h2>
                 <div id="lable-list" class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-lg-10">
                         <div class="row justify-content-center">
-                            <div class="col-2"><a class="unesco"></a></div>
-                            <div class="col-2"><a class="ekool"></a></div>
-                            <div class="col-2"><a class="erasmus"></a></div>
-                            <div class="col-2"><a class="keel"></a></div>
-                            <div class="col-2"><a class="fox"></a></div>
-                            <div class="col-2"><a class="tek"></a></div>
-                            <div class="col-2"><a class="nk"></a></div>
-                            <div class="col-2"><a class="tagasi"></a></div>
-                            <div class="col-2"><a class="marka"></a></div>
-                            <div class="col-2"><a class="kiamisest"></a></div>
-                            <div class="col-2"><a class="tore"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="150"><a class="unesco"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300"><a class="ekool"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="450"><a class="erasmus"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="600"><a class="keel"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="750"><a class="fox"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="900"><a class="tek"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1050"><a class="nk"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1200"><a class="tagasi"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1350"><a class="marka"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1500"><a class="kiamisest"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1650"><a class="tore"></a></div>
                         </div>
                     </div>
                 </div>

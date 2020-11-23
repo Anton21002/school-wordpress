@@ -108,134 +108,176 @@
 
 
 html,body, main{width:100%; height:100%; margin:0}
-h1 {text-align:center; letter-spacing:30px; text-transform:uppercase; color:#d77a06; font-size:55px; margin:105px 0 30px 0; font-family:Lora}
-h2 {text-align:center; letter-spacing:20px; text-transform:uppercase; color:#d77a06; font-size:35px; margin:0 0 45px 0; font-family:Lora}
-h3 {color:#002959; font-size:25px; margin:0 0 45px 0; font-family:Lora}
-a, p {font-family:Montserrat-Regular}
-
-/*NAVBAR*/
-#navbar {position:absolute; background:#fff; z-index:2}
-#navbar .col-4 {display:flex; align-items:center}
-#navbar .col-4 a {padding:0!important; margin:0}
-#navbar .logo {display:block; width:211px; height:100px; background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
-#navbar .col-8 {display:flex; align-items:center; justify-content:flex-end}
-#navbar ul {margin:0; padding:0; font-size:0}
-#navbar li {display:inline-block; position:relative}
-#navbar a {display:block; padding:50px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
-#navbar a:hover {color:#002959; transition:all.3s}
-#navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible}
-#navbar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:300px; border-radius:0 0 5px 5px; left:0; top:90%; border-top: 3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
-#navbar .sub-menu li {display:block}
-#navbar .sub-menu a {display:block; margin:0; padding:10px 0!important; font-size:14px; transition:all.3s}
-#navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
-#navbar.scrolldown {position:fixed; opacity:0.8; transition:all.3s}
-#navbar.scrolldown:hover {position:fixed; z-index:2; background:#fff; opacity:1; transition:all.3s;}
-#fader {position:fixed; height:100%; width:100%; z-index:1; background:rgba(0, 0, 0, 0); visibility:hidden; transition:all.3s}
-#navbar.scrolldown:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:1; transition:all.3s}
-#navbar.scrolldown .logo{width:147.7px; height:70px}
-#navbar.scrolldown a {padding:30px 0}
-#navbar.scrolldown .submenu a {padding:10px 0}
-/*NAVBAR-END*/
 
 
-/*BANNER*/
-#slider h2 {font-size:18px; letter-spacing:5px; margin:0 0 45px 0}
-#slider .table {padding-right:15px; padding-left:15px}
-#slider .col-2 {display:flex; justify-content:center; align-items:center; height:500px; background:#002959; border-radius:5px 0 0 5px}
-#slider .col-2 i {font-size:200px; color:#fff}
-#slider .col-4 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
-#slider .col-4 ul {margin:0; padding:0; list-style-type:none}
-#slider .col-4 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
+@media (min-width:1px) {
+    h1 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:30px; font-weight:400; margin:0px 0 30px 0; font-family:Lora}
+    h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
+    h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
+    a, p {font-family:Montserrat-Regular}
+    
+    /*NAVBAR*/
+    #navbar {display:none}
+    /*NAVBAR-END*/
+    
+    /*BANNER*/
+    #slider h2 {font-size:18px; letter-spacing:5px; margin:0 0 45px 0}
+    
+    /*#slider .table {padding-right:15px; padding-left:15px}
+    #slider .col-2 {display:flex; justify-content:center; align-items:center; height:500px; background:#002959; border-radius:5px 0 0 5px}
+    #slider .col-2 i {font-size:200px; color:#fff}
+    #slider .col-4 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
+    #slider .col-4 ul {margin:0; padding:0; list-style-type:none}
+    #slider .col-4 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}*/
 
 
-#slider {display:flex; justify-content:center; height:90%}
-#slider .swiper-container {position:relative; width:100%; height:100%; overflow:hidden; list-style:none; padding:0; margin:0}
-#slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
-#slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
-#slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/banner/6.jpg'); background-size:cover; background-position:center}
-#slider .slide-2 {display:flex; justify-content:center; align-items:center; height:100%; background:#002959; padding:90px 15px}
-#slider .slide-2 .row-button {display:flex; justify-content:center}
-#slider .slide-2 a {color:#fff; text-decoration:none; text-transform:uppercase; margin:0; font-size:16px; padding:15px; background:#d77a06; border-radius:5px}
-
-
-/*BANNER-END*/
-
-/*CATEGORY*/
-#category {padding:90px 15px 45px 15px}
-#category .table {background:#fff;  box-shadow:0px 10px 20px #d9d9d9; padding:0 0 45px 0; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
-#category .col-3 {padding:15px; min-height:650px}
-#category h3 {position:relative; color:#002959; margin:0; padding:45px; background:#fff; border-radius:5px 5px 0 0; transition:all.3s}
-#category ul {list-style-type:none; margin:0; padding:0}
-#category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:10px 45px; line-height:1.5; font-size:16px; cursor:pointer; transition:all.2s}
-#category .table a:hover {background:#002959; transition:all.2s}
-#category .table span {position:relative; color:#000; transition:all.1s}
-#category .table a:hover span {color:#fff; transition:all.1s}
-
-
-#category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
-#category .table:hover h3::after {width:50%}
-
-#lable {padding:45px 15px 90px 15px}
-#lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover}
-#lable-list .col-2 {display:flex; justify-content:center; padding:30px 0}
-#lable-list .unesco {background:url("../school-p/img/lables/unesco.png")}
-#lable-list .ekool {background:url("../school-p/img/lables/ekool.png")}
-#lable-list .erasmus {background:url("../school-p/img/lables/erasmus_plus.png")}
-#lable-list .keel {background:url("../school-p/img/lables/keelekumblus.png")}
-#lable-list .fox {background:url("../school-p/img/lables/fox.png")}
-#lable-list .tek {background:url("../school-p/img/lables/tek.png")}
-#lable-list .nk {background:url("../school-p/img/lables/nooredkooli.png")}
-#lable-list .tagasi {background:url("../school-p/img/lables/tagasikooli.png")}
-#lable-list .marka {background:url("../school-p/img/lables/marka_ja_aita.png")}
-#lable-list .kiamisest {background:url("../school-p/img/lables/kiamisest.png")}
-#lable-list .tore {background:url("../school-p/img/lables/tore.png")}
-/*CATEGORY-END*/
-
-/*FOOTER*/
-#footer {background:#002959; padding:105px 15px 45px 15px}
-#footer .col-3:nth-child(2) .table:last-child {margin: 60px 0 0 0}
-#footer .table {min-height:300px; padding:15px}
-#footer h3 {color:#d77a06}
-#footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-size:16px}
-#footer p {color:#fff; line-height:1.5; font-size:16px; margin:0}
-#footer ul {margin:45px 0 0 0; padding:0; list-style-type:none}
-#footer li {padding:7.5px 15px; border-left:3px solid #d77a17}
-#footer .copyright {margin:60px 0 0 0; color:#fff; font-family:Montserrat-Light; font-size:12px}
-#footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:75px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
-/*FOOTER-END*/
-
-
-
-/*PRELOADER*/
-#preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
-.loaded_hiding #preloader {transition:0.3s opacity; opacity:0}
-.loaded #preloader {display:none}
-#preloader .row-p {position:relative; top:50%; left:50%; width:70px; height:70px; margin-top:-35px; margin-left:-35px; text-align:center; animation:preloader-rotate 2s infinite linear}
-#preloader .loader-1 {width:50px; height:50px;  position:absolute; top:50%; margin:-25px auto 0; border-radius:50%; background:#ffffff; background:-moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background: o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 50%); position:relative; -webkit-animation: loader-1 1.5s infinite linear; animation:loader-1 1.5s infinite linear; -webkit-transform:translateZ(0); -ms-transform:translateZ(0); transform:translateZ(0)}
-#preloader .loader-1:before { content:''; width:25px; height:25px; position:absolute; top:0; left:0; background:#ffffff; border-radius:100% 0 0 0;}
-#preloader .loader-1:after {content:''; width:40px; height:40px; border-radius:50%; background:#002959; margin:auto; position:absolute; top:0; left:0; bottom:0; right:0;}
-
-@-webkit-keyframes loader-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    #slider {display:flex; justify-content:center; height:90%}
+    #slider .swiper-container {position:relative; width:100%; height:100%; overflow:hidden; list-style:none; padding:0; margin:0}
+    #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
+    #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
+    #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/banner/6.jpg'); background-size:cover; background-position:center}
+    #slider .slide-2 {display:flex; justify-content:center; align-items:center; height:100%; background:#002959; padding:90px 15px}
+    #slider .slide-2 .row-button {display:flex; justify-content:center}
+    #slider .slide-2 a {color:#fff; text-decoration:none; text-transform:uppercase; margin:0; font-size:16px; padding:15px; background:#d77a06; border-radius:5px}
+    #slider .slide-3 {display:flex; justify-content:center; padding:90px 15px; background:#002959}
+    #slider .slide-3 .info {position:relative; width:40vw; height:19vw; overflow:hidden}
+    #slider .slide-3 .info-img {background:url('../school-p/img/banner/8.jpg'); width:100%; height:100%; background-size:cover; background-position:center}
+    /*BANNER-END*/
 }
 
-@keyframes loader-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+@media (min-width:1024px) {
+    h1 {text-align:center; letter-spacing:30px; text-transform:uppercase; color:#d77a06; font-size:55px; font-weight:400; margin:105px 0 30px 0; font-family:Lora}
+    h2 {text-align:center; letter-spacing:20px; text-transform:uppercase; color:#d77a06; font-size:35px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
+    h3 {color:#002959; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
+    a, p {font-family:Montserrat-Regular}
+    
+    /*NAVBAR*/
+    #navbar {display:block; position:absolute; background:#fff; z-index:2}
+    #navbar .col-4 {display:flex; align-items:center}
+    #navbar .col-4 a {padding:0!important; margin:0}
+    #navbar .logo {display:block; width:211px; height:100px; background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
+    #navbar .col-8 {display:flex; align-items:center; justify-content:flex-end}
+    #navbar ul {margin:0; padding:0; font-size:0}
+    #navbar li {display:inline-block; position:relative}
+    #navbar a {display:block; padding:50px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
+    #navbar a:hover {color:#002959; transition:all.3s}
+    #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible}
+    #navbar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border-top: 3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    #navbar .sub-menu li {display:block}
+    #navbar .sub-menu a {display:block; margin:0; padding:10px 0!important; font-size:14px; transition:all.3s}
+    #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
+    #navbar.scrolldown {position:fixed; opacity:0.8; transition:all.3s}
+    #navbar.scrolldown:hover {position:fixed; z-index:2; background:#fff; opacity:1; transition:all.3s;}
+    #fader {position:fixed; height:100%; width:100%; z-index:1; background:rgba(0, 0, 0, 0); visibility:hidden; transition:all.3s}
+    #navbar.scrolldown:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:1; transition:all.3s}
+    #navbar.scrolldown .logo{width:147.7px; height:70px}
+    #navbar.scrolldown a {padding:30px 0}
+    #navbar.scrolldown .submenu a {padding:10px 0}
+    /*NAVBAR-END*/
+
+
+    /*BANNER*/
+    #slider h2 {font-size:18px; letter-spacing:5px; margin:0 0 45px 0}
+    #slider .table {padding-right:15px; padding-left:15px}
+    #slider .col-2 {display:flex; justify-content:center; align-items:center; height:500px; background:#002959; border-radius:5px 0 0 5px}
+    #slider .col-2 i {font-size:200px; color:#fff}
+    #slider .col-4 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
+    #slider .col-4 ul {margin:0; padding:0; list-style-type:none}
+    #slider .col-4 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}
+
+
+    #slider {display:flex; justify-content:center; height:90%}
+    #slider .swiper-container {position:relative; width:100%; height:100%; overflow:hidden; list-style:none; padding:0; margin:0}
+    #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
+    #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
+    #slider .slide {cursor:grab; cursor:-moz-grab; cursor:-webkit-grab}
+    /*#slider .slide:focus {cursor:grabbing; cursor:-moz-grabbing; cursor:-webkit-grabbing}*/
+    #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/banner/6.jpg'); background-size:cover; background-position:center}
+    #slider .slide-2 {display:flex; justify-content:center; align-items:center; height:100%; background:#002959; padding:90px 15px}
+    #slider .slide-2 .row-button {display:flex; justify-content:center}
+    #slider .slide-2 a {color:#fff; text-decoration:none; text-transform:uppercase; margin:0; font-size:16px; padding:15px; background:#d77a06; border-radius:5px}
+    #slider .slide-3 {display:flex; justify-content:center; padding:90px 15px; background:#002959}
+    #slider .slide-3 .info {position:relative; width:40vw; height:19vw; overflow:hidden}
+    #slider .slide-3 .info-img {background:url('../school-p/img/banner/8.jpg'); width:100%; height:100%; background-size:cover; background-position:center}
+
+
+    /*BANNER-END*/
+
+    /*CATEGORY*/
+    #category {padding:90px 15px 45px 15px}
+    #category .table {background:#fff;  box-shadow:0px 10px 20px #d9d9d9; padding:0 0 45px 0; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
+    #category .col-lg-3 {padding:15px; min-height:650px}
+    #category h3 {position:relative; color:#002959; margin:0; padding:45px; background:#fff; border-radius:5px 5px 0 0; transition:all.3s}
+    #category ul {list-style-type:none; margin:0; padding:0}
+    #category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:10px 45px; line-height:1.5; font-size:16px; cursor:pointer; transition:all.2s}
+    #category .table a:hover {background:#002959; transition:all.2s}
+    #category .table span {position:relative; color:#000; transition:all.1s}
+    #category .table a:hover span {color:#fff; transition:all.1s}
+
+
+    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
+    #category .table:hover h3::after {width:50%}
+
+    #lable {padding:45px 15px 90px 15px}
+    #lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover}
+    #lable-list .col-lg-2 {display:flex; justify-content:center; padding:30px 0}
+    #lable-list .unesco {background:url("../school-p/img/lables/unesco.png")}
+    #lable-list .ekool {background:url("../school-p/img/lables/ekool.png")}
+    #lable-list .erasmus {background:url("../school-p/img/lables/erasmus_plus.png")}
+    #lable-list .keel {background:url("../school-p/img/lables/keelekumblus.png")}
+    #lable-list .fox {background:url("../school-p/img/lables/fox.png")}
+    #lable-list .tek {background:url("../school-p/img/lables/tek.png")}
+    #lable-list .nk {background:url("../school-p/img/lables/nooredkooli.png")}
+    #lable-list .tagasi {background:url("../school-p/img/lables/tagasikooli.png")}
+    #lable-list .marka {background:url("../school-p/img/lables/marka_ja_aita.png")}
+    #lable-list .kiamisest {background:url("../school-p/img/lables/kiamisest.png")}
+    #lable-list .tore {background:url("../school-p/img/lables/tore.png")}
+    /*CATEGORY-END*/
+
+    /*FOOTER*/
+    #footer {background:#002959; padding:105px 15px 45px 15px}
+    #footer .col-lg-3:nth-child(2) .table:last-child {margin: 60px 0 0 0}
+    #footer .table {min-height:300px; padding:15px}
+    #footer h3 {color:#d77a06}
+    #footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-size:16px}
+    #footer p {color:#fff; line-height:1.5; font-size:16px; margin:0}
+    #footer ul {margin:45px 0 0 0; padding:0; list-style-type:none}
+    #footer li {padding:7.5px 15px; border-left:3px solid #d77a17}
+    #footer .copyright {margin:60px 0 0 0; color:#fff; font-family:Montserrat-Light; font-size:12px}
+    #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:75px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
+    /*FOOTER-END*/
+
+
+
+    /*PRELOADER*/
+    #preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
+    .loaded_hiding #preloader {transition:0.3s opacity; opacity:0}
+    .loaded #preloader {display:none}
+    #preloader .row-p {position:relative; top:50%; left:50%; width:70px; height:70px; margin-top:-35px; margin-left:-35px; text-align:center; animation:preloader-rotate 2s infinite linear}
+    #preloader .loader-1 {width:50px; height:50px;  position:absolute; top:50%; margin:-25px auto 0; border-radius:50%; background:#ffffff; background:-moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background: o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 50%); position:relative; -webkit-animation: loader-1 1.5s infinite linear; animation:loader-1 1.5s infinite linear; -webkit-transform:translateZ(0); -ms-transform:translateZ(0); transform:translateZ(0)}
+    #preloader .loader-1:before { content:''; width:25px; height:25px; position:absolute; top:0; left:0; background:#ffffff; border-radius:100% 0 0 0;}
+    #preloader .loader-1:after {content:''; width:40px; height:40px; border-radius:50%; background:#002959; margin:auto; position:absolute; top:0; left:0; bottom:0; right:0;}
+
+    @-webkit-keyframes loader-1 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes loader-1 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+    /*PRELOADER-END*/
 }
-
-
-/*PRELOADER-END*/
