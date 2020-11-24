@@ -1,7 +1,7 @@
 var hamburger;
 var bars;
 var navbar;
-var li;
+/*var likey;*/
 window.onload = function() {
     
     AOS.init({
@@ -57,13 +57,13 @@ window.onload = function() {
     
     
     /*DROPDOWN*/
-    li = document.getElementsByClassName('menu-item-has-children');
-    
-    function droplist() {
-		li.classList.toggle('active');
-	}
-	
-	
+    const cbox = document.querySelectorAll(".menu-item-has-children");
+
+    for (let i = 0; i < cbox.length; i++) {
+     cbox[i].addEventListener("click", function() {
+       cbox[i].classList.toggle("active");
+     });
+ }
     /*DROPDOWN-END*/
 }
 
