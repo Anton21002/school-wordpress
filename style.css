@@ -120,7 +120,7 @@ html,body, main{width:100%; height:100%; margin:0}
     #navbar {background:#fff}
     #navbar.navbar-open {min-height:100%; background:#fff}
     #navbar .col-lg-8 {display:none}
-    #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
+    #navbar .logo {display:block; width:134px; height:63.9px; /*width:144.75; height:72px;*/ background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
     #navbar .col-lg-4 {display:flex; justify-content:space-between; align-items:center}
     #navbar .col-lg-4 a {padding:15px 0}
     #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/Logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
@@ -240,7 +240,7 @@ html,body, main{width:100%; height:100%; margin:0}
     #navbar {display:block; position:absolute; z-index:2}
     #navbar .col-lg-4 {display:flex; justify-content:center align-items:center}
     #navbar .col-lg-4 a {padding:0!important; margin:0}
-    #navbar .logo {width:211px; height:100px}
+    #navbar .logo {width:211px; height:100px; /*width:193px; height:96px*/}
     #navbar .col-lg-8 {display:flex; align-items:center; justify-content:flex-end}
     #navbar ul {margin:0; padding:0; font-size:0}
     #navbar li {display:inline-block; position:relative}
