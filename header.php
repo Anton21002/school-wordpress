@@ -12,12 +12,19 @@
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/main.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/aos.js' ?>" defer=""></script>
+    <script src="<?php echo get_stylesheet_directory_uri(). '/js/anime.min.js' ?>" defer=""></script>
+    <script src="<?php echo get_stylesheet_directory_uri(). '/js/jquery-3.5.1.min.js' ?>" defer=""></script>
     <title> <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title('');?></title>
     <?php wp_head(); ?>
 </head>
 
 <body>
 <div id="preloader">
+    <h1 class="flip">
+        <span class="text-wrapper">
+            <span class="letters">Tallinna&nbsp;Pae&nbsp;Gümnaasium</span>
+        </span>
+    </h1>
     <div class="row-p">
         <div class="loader-1"></div>
     </div>
