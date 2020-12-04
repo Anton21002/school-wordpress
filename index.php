@@ -4,8 +4,8 @@
             <div class="swiper-wrapper">
                 <div class="slide slide-1 swiper-slide">
                     <div class="col-lg-10">
-                        <h1 data-aos="fade-up">Tallinna Pae Gümnaasium</h1>
-                        <h2 data-aos="fade-up" data-aos-delay="150">Партнерство | Открытость | Старательность | Сотрудничество | Любовь | Толерантность</h2>
+                        <h1 class="data-aos-1" data-aos="fade-up" >Tallinna Pae Gümnaasium</h1>
+                        <h2 class="data-aos-2" data-aos="fade-up" >Партнерство | Открытость | Старательность | Сотрудничество | Любовь | Толерантность</h2>
                     </div>
                 </div>
                 <div class="slide slide-2 swiper-slide">

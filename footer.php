@@ -85,7 +85,7 @@
 
         // Using anime.js library
         var mirror = anime.timeline({
-          loop: true,
+          loop: false,
           duration: 4100  
         })
 
