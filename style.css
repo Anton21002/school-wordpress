@@ -129,10 +129,9 @@ html,body, main{width:100%; height:100%; margin:0}
     #navbar {background:#fff}
     #navbar.navbar-open {min-height:100%; background:#fff}
     #navbar .col-lg-8 {display:none}
-    #navbar .logo {display:block; width:134px; height:63.9px; /*width:144.75; height:72px;*/ background:url("../school-p/img/Logo.svg"); background-size:cover; background-repeat:no-repeat}
     #navbar .col-lg-4 {display:flex; justify-content:space-between; align-items:center}
     #navbar .col-lg-4 a {padding:15px 0}
-    #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/Logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
+    #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/Logo3.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
     #hamburger{display:inline-block; cursor:pointer}
     #hamburger .bar1, .bar2, .bar3 { width:40px; height:4px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
     #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-8px, 8px); transform:rotate(-45deg) translate(-8px, 8px)}
