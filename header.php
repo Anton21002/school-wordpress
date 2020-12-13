@@ -12,14 +12,14 @@
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/main.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/aos.js' ?>" defer=""></script>
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/anime.min.js' ?>" defer=""></script>
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/jquery-3.5.1.min.js' ?>" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <title> <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title('');?></title>
     <?php wp_head(); ?>
 </head>
 
 <body>
-<!--<div id="preloader">
+<div id="preloader">
     <h1 class="flip">
         <span class="text-wrapper">
             <span class="letters">Tallinna&nbsp;Pae&nbsp;Gümnaasium</span>
@@ -28,7 +28,7 @@
     <div class="row-p">
         <div class="loader-1"></div>
     </div>
-</div>-->
+</div>
     <div id="navbar" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-10">
