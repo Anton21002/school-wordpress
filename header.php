@@ -46,7 +46,7 @@
                     <div class="col-lg-8">
                         <?php wp_nav_menu([
 						'theme_location' => 'header-menu',
-						'menu' => 'main',
+						'menu' => 'Main menu',
 						'container' => 'nav',
 						'container_id' => '',
 						'container_class' => 'navbar-main',
@@ -61,7 +61,7 @@
         <div id="mnav" class="row">
             <?php wp_nav_menu([
 				'theme_location' => 'header-menu',
-				'menu' => 'main',
+				'menu' => 'Main menu',
 				'container' => 'nav',
 				'container_id' => '',
 				'container_class' => 'navbar-main',

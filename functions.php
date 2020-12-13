@@ -25,9 +25,11 @@ add_theme_support( 'post-thumbnails' );
 /*-----------------------------------------------------------------------------------*/
 /* Register main menu for Wordpress use
 /*-----------------------------------------------------------------------------------*/
+add_theme_support('menus');
 register_nav_menus(
-    array(
-            'primary'	=>	__( 'Primary Menu', 'naked' ), // Register the Primary menu
+    array(  
+            'header-menu' => 'Top area',
+            'left-menu'	=>	'Left area', // Register the Primary menu
             // Copy and paste the line above right here if you want to make another menu,
             // just change the 'primary' to another name
     )
@@ -72,11 +74,11 @@ function naked_scripts()  {
 // add_action( 'wp_enqueue_scripts', 'naked_scripts' ); // Register this fxn and allow Wordpress to call it automatcally in the header
 add_filter('show_admin_bar', '__return_false'); // отключить
 
-add_theme_support('menus');
+/*add_theme_support('menus');
 register_nav_menus([
 	'header-menu' => 'Верхняя область',
 	'footer-menu' => 'Нижняя область',
-	]);
+	]);*/
 
 
 

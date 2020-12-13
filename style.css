@@ -352,13 +352,16 @@ html,body, main{width:100%; height:100%; margin:0}
 /*PAGE-BANNER*/
 #page-banner {height:750px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Page-banners/1.jpg');background-size:cover; background-position:center}
 #page-banner > .row {height:100%; align-items:flex-end; justify-content:center}
-#page-banner .col-lg-10 {height:min-content}
+#page-banner .col-lg-8 {height:min-content}
 #page-banner h1 {margin:0 0 75px 0; text-align:start}
 /*PAGE-BANNER-END*/
 
 /*PAGE-CONTENT*/
-#page-content {min-height:100%; padding:75px 15px}
+#page-content {min-height:100%}
 #page-content > .row {justify-content:center}
 #page-content figure {margin:0; float:left}
 #page-content p {margin:0 0 45px 0}
+#page-content .col-lg-2 {padding:75px 15px}
+#page-content .col-lg-8 {padding:75px 15px}
+#page-content .sidebar {height:100%; border-right:2px solid #002951}
 /*PAGE-CONTENT-END*/
