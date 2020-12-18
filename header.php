@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<div id="preloader">
+<!--<div id="preloader">
     <h1 class="flip">
         <span class="text-wrapper">
             <span class="letters">Tallinna&nbsp;Pae&nbsp;Gümnaasium</span>
@@ -28,7 +28,7 @@
     <div class="row-p">
         <div class="loader-1"></div>
     </div>
-</div>
+</div>-->
     <div id="navbar" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-10">
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-lg-8">
                         <?php wp_nav_menu([
-						'theme_location' => 'header-menu',
+						'theme_location' => 'Top area',
 						'menu' => 'Main menu',
 						'container' => 'nav',
 						'container_id' => '',
@@ -72,4 +72,3 @@
         </div>
     </div>
     <div id="fader"></div>
-

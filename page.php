@@ -12,10 +12,10 @@
     <div id="page-content" class="container-fluid">
         <div class="row">
             <div class="col-lg-2">
-                <div class="sidebar">
+                <div id="sidebar">
                     <?php wp_nav_menu([
-						'theme_location' => 'header-menu',
-						'menu' => 'Main menu',
+						'theme_location' => 'Left area',
+						'menu' => 'Left menu',
 						'container' => 'nav',
 						'container_id' => '',
 						'container_class' => 'navbar-main',

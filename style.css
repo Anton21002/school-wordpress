@@ -169,7 +169,7 @@ html,body, main{width:100%; height:100%; margin:0}
     
     /*CATEGORY*/
     #category {padding:75px 15px 37.5px 15px}
-    #category .table {background:#fff;  box-shadow:0px 10px 20px #d9d9d9; padding:0 0 30px 0; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
+    #category .table {background:#fff; box-shadow:0px 10px 20px #d9d9d9; padding:0 0 30px 0; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
     #category .col-lg-3 {padding:15px}
     #category h3 {position:relative; color:#002959; margin:0; padding:30px; background:#fff; border-radius:5px 5px 0 0; transition:all.3s}
     #category ul {list-style-type:none; margin:0; padding:0}
@@ -363,5 +363,20 @@ html,body, main{width:100%; height:100%; margin:0}
 #page-content p {margin:0 0 45px 0}
 #page-content .col-lg-2 {padding:75px 15px}
 #page-content .col-lg-8 {padding:75px 15px}
-#page-content .sidebar {height:100%; border-right:2px solid #002951}
 /*PAGE-CONTENT-END*/
+
+/*LEFT-MENU*/
+#sidebar {height:100%; box-shadow:0px 10px 20px #d9d9d9}
+#sidebar li {list-style-type:none; position:relative}
+#sidebar a {display:block; padding:15px 45px; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; transition:all.3s}
+#sidebar li:first-child a {padding:45px 45px 15px 45px}
+#sidebar li:last-child a {padding:15px 45px 45px 45px}
+#sidebar a:hover {}
+#sidebar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px;
+top:0; left:90%; border-top:3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+#sidebar ul {padding:0; margin:0}
+#sidebar ul li:hover > .sub-menu {opacity:1; transition:all.3s; left:100%; visibility:visible}
+
+/*#sidebar:hover {position:relative; z-index:3; background:#fff; opacity:1; transition:all.3s}*/
+/*#sidebar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}*/
+/*LEFT-MENU-END*/
