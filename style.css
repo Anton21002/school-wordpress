@@ -114,7 +114,7 @@ html,body, main{width:100%; height:100%; margin:0}
     h1 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:30px; font-weight:400; margin:0px 0 30px 0; font-family:Lora}
     h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
     h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    a, p {font-size:16px; line-height:1.5; font-family:Montserrat-Regular}
+    a, p {font-size:16px; line-height:30px; font-family:Montserrat-Regular}
     
     /*PRELOADER*/
     #preloader .flip {position:relative; font-family:'EB Garamond', serif; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
@@ -129,8 +129,8 @@ html,body, main{width:100%; height:100%; margin:0}
     #navbar {background:#fff}
     #navbar.navbar-open {min-height:100%; background:#fff}
     #navbar .col-lg-8 {display:none}
-    #navbar .col-lg-4 {display:flex; justify-content:space-between; align-items:center}
-    #navbar .col-lg-4 a {padding:15px 0}
+    #navbar .col-lg-2 {display:flex; justify-content:space-between; align-items:center}
+    #navbar .col-lg-2 a {padding:15px 0}
     #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
     #hamburger{display:inline-block; cursor:pointer}
     #hamburger .bar1, .bar2, .bar3 { width:40px; height:4px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
@@ -247,8 +247,8 @@ html,body, main{width:100%; height:100%; margin:0}
     
     /*NAVBAR*/
     #navbar {display:block; position:absolute; top:0; z-index:2}
-    #navbar .col-lg-4 {display:flex; justify-content:center align-items:center}
-    #navbar .col-lg-4 a {padding:0!important; margin:0}
+    #navbar .col-lg-2 {display:flex; justify-content:center align-items:center}
+    #navbar .col-lg-2 a {padding:0!important; margin:0}
     #navbar .logo {width:169.044px; height:89.844px}
     #navbar .col-lg-8 {display:flex; align-items:center; justify-content:flex-end}
     #navbar ul {margin:0; padding:0; font-size:0}
@@ -256,9 +256,10 @@ html,body, main{width:100%; height:100%; margin:0}
     #navbar a {display:block; padding:50px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
     #navbar a:hover {color:#002959; transition:all.3s}
     #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible}
+    #navbar ul li:last-child a {margin:0 0 0 15px}
     #navbar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border-top: 3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
     #navbar .sub-menu li {display:block}
-    #navbar .sub-menu a {display:block; margin:0; padding:10px 0!important; font-size:14px; transition:all.3s}
+    #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
     #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
     #navbar.scrolldown {position:fixed; background:rgba(255, 255, 255, 0.8); transition:all.3s}
     #navbar.scrolldown:hover {position:fixed; z-index:2; background:#fff; opacity:1; transition:all.3s;}
@@ -350,33 +351,37 @@ html,body, main{width:100%; height:100%; margin:0}
 
 
 /*PAGE-BANNER*/
-#page-banner {height:750px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('../school-p/img/Page-banners/1.jpg');background-size:cover; background-position:center}
-#page-banner > .row {height:100%; align-items:flex-end; justify-content:center}
-#page-banner .col-lg-8 {height:min-content}
-#page-banner h1 {margin:0 0 75px 0; text-align:start}
+#page-banner {height:400px}
+#page-banner > .row {height:100%}
+#page-banner .col-lg-1 {background:#002959}
+#page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:75px 15px; background:#002959}
+#page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+#page-banner h2 {margin:0; text-align:start}
 /*PAGE-BANNER-END*/
 
 /*PAGE-CONTENT*/
-#page-content {min-height:100%}
-#page-content > .row {justify-content:center}
-#page-content figure {margin:0; float:left}
-#page-content p {margin:0 0 45px 0}
-#page-content .col-lg-2 {padding:75px 15px}
-#page-content .col-lg-8 {padding:75px 15px}
+#page-content {padding:75px 15px}
+#page-content .row {justify-content:center}
+#page-content .col-lg-5:last-child {top:-250px}
+#page-content .col-lg-5:first-child .row {justify-content:flex-start}
+#page-content .col-lg-5:last-child .row {justify-content:flex-end}
+#page-content .col-lg-10:nth-child(1), #page-content .col-lg-10:nth-child(2) {margin: 0 0 150px 0}
+#page-content .col-lg-5:nth-child(2) .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#e67e42; font-family:Lora}
+#page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:30px; border-radius:5px}
+#page-content figure {height:100%; margin:0}
+#page-content img {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+#page-content .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
+#page-content .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+#page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:disclosure-closed}
 /*PAGE-CONTENT-END*/
 
 /*LEFT-MENU*/
-#sidebar {height:100%; box-shadow:0px 10px 20px #d9d9d9}
+/*#sidebar {background:#fff; border-radius:5px}
 #sidebar li {list-style-type:none; position:relative}
-#sidebar a {display:block; padding:15px 45px; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; transition:all.3s}
-#sidebar li:first-child a {padding:45px 45px 15px 45px}
-#sidebar li:last-child a {padding:15px 45px 45px 45px}
-#sidebar a:hover {}
-#sidebar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px;
-top:0; left:90%; border-top:3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+#sidebar a {display:block; padding:7.5px 15px; margin:15px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; transition:all.3s; border-left: 2px solid #d77a06;}
+#sidebar a:hover {box-shadow:-10px 10px 20px #d9d9d9; transition:all.3s}
+#sidebar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; top:0; left:90%; border-top:3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden; z-index:1}
 #sidebar ul {padding:0; margin:0}
 #sidebar ul li:hover > .sub-menu {opacity:1; transition:all.3s; left:100%; visibility:visible}
-
-/*#sidebar:hover {position:relative; z-index:3; background:#fff; opacity:1; transition:all.3s}*/
-/*#sidebar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}*/
+#sidebar .sub-menu a {border:none; box-shadow:none}*/
 /*LEFT-MENU-END*/

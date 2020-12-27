@@ -12,6 +12,7 @@
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/main.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/aos.js' ?>" defer=""></script>
+    <script src="<?php echo get_stylesheet_directory_uri(). '/js/vanilla-tilt.js' ?>" defer=""></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <title> <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title('');?></title>
@@ -31,19 +32,17 @@
 </div>-->
     <div id="navbar" class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <a href="">
-                            <span class="logo"></span>
-                        </a>
-                        <div id="hamburger">
-                            <div class="bar1"></div>
-                            <div class="bar2"></div>
-                            <div class="bar3"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
+            <div class="col-lg-2">
+                <a href="">
+                    <span class="logo"></span>
+                </a>
+                <div id="hamburger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <div class="col-lg-8">
                         <?php wp_nav_menu([
 						'theme_location' => 'Top area',
 						'menu' => 'Main menu',
@@ -54,11 +53,10 @@
 						'items_wrap' => '<ul class="%2$s">%3$s</ul>',
 						]);
 						?>
-                    </div>
-                </div>
             </div>
         </div>
-        <div id="mnav" class="row">
+    </div>
+    <div id="mnav" class="row">
             <?php wp_nav_menu([
 				'theme_location' => 'header-menu',
 				'menu' => 'Main menu',
@@ -69,6 +67,5 @@
 				'items_wrap' => '<ul class="%2$s">%3$s</ul>',
 				]);
             ?>
-        </div>
     </div>
     <div id="fader"></div>

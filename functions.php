@@ -28,8 +28,8 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support('menus');
 register_nav_menus(
     array(  
-            'header-menu' => 'Top area',
-            'left-menu'	=>	'Left area', // Register the Primary menu
+            'Top-menu' => 'Top area',
+            'Left-menu'	=>	'Left area', // Register the Primary menu
             // Copy and paste the line above right here if you want to make another menu,
             // just change the 'primary' to another name
     )
