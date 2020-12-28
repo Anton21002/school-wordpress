@@ -367,21 +367,12 @@ html,body, main{width:100%; height:100%; margin:0}
 #page-content .col-lg-5:last-child .row {justify-content:flex-end}
 #page-content .col-lg-10:nth-child(1), #page-content .col-lg-10:nth-child(2) {margin: 0 0 150px 0}
 #page-content .col-lg-5:nth-child(2) .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#e67e42; font-family:Lora}
-#page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:30px; border-radius:5px}
+#page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
 #page-content figure {height:100%; margin:0}
 #page-content img {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
 #page-content .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
 #page-content .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
-#page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:disclosure-closed}
+#page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
+#page-content i {margin:0 10px 0 0; color:#002959}
+#page-content p {margin:0}
 /*PAGE-CONTENT-END*/
-
-/*LEFT-MENU*/
-/*#sidebar {background:#fff; border-radius:5px}
-#sidebar li {list-style-type:none; position:relative}
-#sidebar a {display:block; padding:7.5px 15px; margin:15px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; transition:all.3s; border-left: 2px solid #d77a06;}
-#sidebar a:hover {box-shadow:-10px 10px 20px #d9d9d9; transition:all.3s}
-#sidebar .sub-menu {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; top:0; left:90%; border-top:3px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden; z-index:1}
-#sidebar ul {padding:0; margin:0}
-#sidebar ul li:hover > .sub-menu {opacity:1; transition:all.3s; left:100%; visibility:visible}
-#sidebar .sub-menu a {border:none; box-shadow:none}*/
-/*LEFT-MENU-END*/
