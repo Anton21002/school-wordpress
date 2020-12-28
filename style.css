@@ -107,7 +107,10 @@
 /*FONTS-END*/
 
 
-html,body, main{width:100%; height:100%; margin:0}
+html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff; scrollbar-width:thin/*scrollbar-width:none*/}
+
+::-webkit-scrollbar-thumb {background-color:#002959; border-radius:5px}
+::-webkit-scrollbar {width:5px; height:5px; background-color:#fff; /*width:0; height:0*/}
 
 
 @media (min-width:1px) {
@@ -375,4 +378,6 @@ html,body, main{width:100%; height:100%; margin:0}
 #page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
 #page-content i {margin:0 10px 0 0; color:#002959}
 #page-content p {margin:0}
+
+
 /*PAGE-CONTENT-END*/
