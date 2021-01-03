@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/fonts/fontawesome/css/all.css' ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/aos.css' ?>">
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/particles.js' ?>" defer=""></script>
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/app.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/main.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/aos.js' ?>" defer=""></script>

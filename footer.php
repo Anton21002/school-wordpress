@@ -104,6 +104,10 @@
           easing: "easeOutCubic",
           duration: 2000
         })
+        let table = document.querySelectorAll('table');
+        table.forEach(element => {
+            element.setAttribute('data-tilt', '');
+        });
     </script>
 
 </body>

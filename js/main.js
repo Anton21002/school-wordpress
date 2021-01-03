@@ -4,6 +4,11 @@ var navbar;
 /*var likey;*/
 window.onload = function() {
     
+    /*SET-ATTRIBUTE-TABLE*/
+    let table = document.querySelector("table")
+    table.setAttribute('data-tilt', '');
+    /**/
+    
     AOS.init({
         duration: 1200,
         once: true,
@@ -78,3 +83,4 @@ var swiper = new Swiper('.swiper-container', {
             disableOnInteraction: false,
         }*/
     });
+
