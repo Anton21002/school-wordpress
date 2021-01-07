@@ -18,20 +18,22 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                    <div class="col-lg-10">
+                    
                         <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 1) { ?>
+                    <div class="col-lg-10">
                         <h3><?php the_title();?></h3>
                         <p><?php the_content(); ?></p>
+                    </div>
                             <?php }?>
                         <?php 
                         $idx++;
                         endwhile; 
                         ?>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-lg-5">
