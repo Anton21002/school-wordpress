@@ -369,7 +369,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #page-content .col-lg-5:first-child .row {justify-content:flex-start}
 #page-content .col-lg-5:last-child .row {justify-content:flex-end}
 #page-content .col-lg-10:nth-child(1), #page-content .col-lg-10:nth-child(2) {margin: 0 0 150px 0}
-#page-content .col-lg-5:nth-child(2) .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+#page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
 #page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
 #page-content figure {height:100%; margin:0}
 #page-content img {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
@@ -380,10 +380,11 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #page-content p {margin:0}
 
 
-
+#page-content .col-lg-5:first-child .col-lg-12 h2 {letter-spacing:0; text-align:start}
+#page-content .col-lg-5:last-child .col-lg-12 h2 {letter-spacing:0; text-align:end}
 #page-content .col-lg-12 {margin:0 0 150px 0}
 #page-content table {box-shadow: 0 50px 100px -30px rgba(0,0,0,.5); border-collapse:collapse; border-spacing:0}
-#page-content thead tr {background:#002959}
+#page-content tr:first-child {background:#002959; color:#fff; font-family:Lora; }
 #page-content th {padding:15px; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
 #page-content tbody tr {transition:all.3s}
 #page-content tbody td {font-size:14px; padding:10px; text-align:center; font-family:Montserrat-Regular; transition:all.3s}
@@ -395,14 +396,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #page-content tbody td:nth-child(3)::before {content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:#002959; background-image:linear-gradient(147deg,#002959 0%,#002959 74%); z-index:-1; clip-path:circle(0% at 50% 100%); transition:all.8s}
 #page-content tbody td:nth-child(3):hover::before {clip-path:circle(100% at 50% 100%)}
 
-#page-content .col-lg-12::before {display:block; /*width:300px; height:50px;*/ margin:0 0 50px 0; font-size:40px; color:#d77a06; font-family:Lora}
-#page-content .col-lg-5:nth-child(2) .col-lg-12::before {text-align:end; /*position:relative; left:100%; transform:translateX(-300px)*/}
-#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(1)::before {content:'2020-2021'}
-#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(2)::before {content:'2018-2019'}
-#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(3)::before {content:'2016-2017'}
 
-#page-content .col-lg-5:first-child .col-lg-12:nth-child(1)::before {content:'2019-2020'}
-#page-content .col-lg-5:first-child .col-lg-12:nth-child(2)::before {content:'2017-2018'}
 
 
 #page-content .col-lg-5:first-child .col-lg-12:first-child {margin:250px 0 150px 0}
@@ -412,9 +406,24 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #page-content tbody tr:hover td {color:#fff; transition:all.3s}
 #page-content tbody td:hover {background:#fff; color:#000!important; transition:all.3s}
 #page-content tbody td:nth-child(3):hover {background:#d77a06; transition:all.3s}
-#page-content tbody td:nth-child(3):hover a {color:#fff; transition:all.3s}*/
+#page-content tbody td:nth-child(3):hover a {color:#fff; transition:all.3s}
 
+#page-content .col-lg-12::before {display:block; width:300px; height:50px; margin:0 0 50px 0; font-size:40px; color:#d77a06; font-family:Lora}
+#page-content .col-lg-5:nth-child(2) .col-lg-12::before {text-align:end; position:relative; left:100%; transform:translateX(-300px)}
+#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(1)::before {content:'2020-2021'}
+#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(2)::before {content:'2018-2019'}
+#page-content .col-lg-5:nth-child(2) .col-lg-12:nth-child(3)::before {content:'2016-2017'}
+
+#page-content .col-lg-5:first-child .col-lg-12:nth-child(1)::before {content:'2019-2020'}
+#page-content .col-lg-5:first-child .col-lg-12:nth-child(2)::before {content:'2017-2018'}
 
 #page-content caption {margin:30px 0 0 0!important}
 #page-content caption a {color:#fff; padding:15px; background:#d77a06; text-decoration:none; border-radius:5px}
+*/
+
+
+
+
+
+#page-content figure {height:auto; margin:0; overflow-x:inherit}
 /*PAGE-CONTENT-END*/

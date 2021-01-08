@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: history-page
+Template Name: mass-media-page
 */
 get_header(); ?>
 
@@ -18,13 +18,13 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'meedias' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 1) { ?>
-                                <div class="col-lg-10">
-                                    <h3><?php the_title();?></h3>
+                            <? if( $idx % 2 == 0) { ?>
+                                <div class="col-lg-12">
+                                    <h2><?php the_title();?></h2>
                                     <p><?php the_content(); ?></p>
                                 </div>
                             <?php }?>
@@ -36,13 +36,13 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'meedias' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 !== 1) { ?>
-                                <div class="col-lg-10">
-                                    <h3><?php the_title();?></h3>
+                            <? if( $idx % 2 === 1) { ?>
+                                <div class="col-lg-12">
+                                    <h2><?php the_title();?></h2>
                                     <p><?php the_content(); ?></p>
                                 </div>
                             <?php }?>
