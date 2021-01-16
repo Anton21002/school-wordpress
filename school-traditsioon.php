@@ -1,8 +1,9 @@
 <?php
 /*
-Template Name: history-page
+Template Name: school-traditsioon
 */
 get_header(); ?>
+
     <div id=page-banner class="container-fluid">
         <div class="row">
             <div class="col-lg-1"></div>
@@ -17,7 +18,7 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'traditsioon' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
@@ -36,11 +37,11 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'traditsioon' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 1) { ?>
+                            <? if( $idx % 2 === 1) { ?>
                                 <div class="col-lg-10">
                                     <div class="table" data-tilt>
                                         <p><?php the_content(); ?></p>
@@ -55,4 +56,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+
+
+
 <?php get_footer(); ?>

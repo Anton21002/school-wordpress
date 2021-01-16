@@ -104,7 +104,47 @@ if( 'Исполняемый PHP код в контенте' ){
 	}
 
 }
+/*WP-LOGO-STYLE*/
+function alter_login_headerurl() {
+return ''; //Если оставить поле пустым, то ссылка будет вести на саму себя, то есть на текущую страницу.
+}
+add_action('login_headerurl','alter_login_headerurl');
 
+
+function alter_login_headertitle() {
+return 'Tallinna Pae Gümnaasium'; //здесь изменяем на свой title
+}
+add_action('login_headertitle','alter_login_headertitle');
+
+
+function my_login_logo() { ?>
+<style type="text/css">
+    #login {padding:7%!important}
+    .login h1 a {height:115px!important; margin:0 auto 45px!important}
+    .login form {padding:30px!important; border:2px solid #002959!important; box-shadow:none!important}
+    .login form, .login #login_error, .login .message, .login .success {border-radius:15px}
+    body.login div#login h1 a {background-image:url(<?php echo get_bloginfo('template_directory'); ?>/img/logo.svg)!important; background-size:auto; width:auto}
+    .wp-core-ui .button-primary {background:#002959!important; color:#fff!important; border-color:#002959!important; transition:all.3s}
+    .button-primary:focus {box-shadow: 0 0 0 1px #fff,0 0 0 3px #002959!important}
+    .wp-core-ui .button-primary:hover {background:#d77a06!important; border-color:#d77a06!important; transition:all.3s}
+    body {background:#fff!important}
+    .wp-core-ui .button-secondary {color:#002959!important}
+    .wp-core-ui .button-secondary:hover{color:#d77a06!important}
+    .login .button.wp-hide-pw:focus {border-color:#002959!important; box-shadow:0 0 0 1px #002959!important}
+    input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="radio"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus {border-color:#002959!important; box-shadow: 0 0 0 1px #002959!important}
+    .login #backtoblog a, .login #nav a {padding:2px; border-radius:5px; background-color:snow}
+    .login label {font-size:16px!important}
+    .login #backtoblog a, .login #nav a {background:transparent!important}
+    .login #login_error, .login .message, .login .success {background:#002959!important; color:#fff!important; border:none!important; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)!important; padding:15px!important}
+    
+    .login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {color:#002959!important; transition:all.3s!important}
+    .login #backtoblog a:focus, .login #nav a:focus, .login h1 a:focus {color:#002959!important}
+    .login #backtoblog a, .login #nav a {color:#444!important}
+    a:focus {box-shadow:0 0 0 1px #002959,0 0 2px 1px #002959!important}
+</style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+/*WP-LOGO-STYLE-END*/
 /*function wp_corenavi() {
   global $wp_query;
   $total = isset( $wp_query->max_num_pages ) ? $wp_query->max_num_pages : 1;
