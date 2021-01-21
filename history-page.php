@@ -13,18 +13,18 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="page-content" class="container-fluid">
+    <div id="history-content" class="container-fluid page-content common-page">
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'ajalugu-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 0) { ?>
                                 <div class="col-lg-10">
-                                    <div class="table" data-tilt>
-                                        <p><?php the_content(); ?></p>
+                                    <div class="table">
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
                             <?php }?>
@@ -36,14 +36,14 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'ajalugu' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'ajalugu-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 1) { ?>
                                 <div class="col-lg-10">
-                                    <div class="table" data-tilt>
-                                        <p><?php the_content(); ?></p>
+                                    <div class="table">
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
                             <?php }?>

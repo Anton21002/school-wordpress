@@ -118,6 +118,8 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
     h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
     a, p {font-size:16px; line-height:30px; font-family:Montserrat-Regular}
+    p {color:#000; margin:0}
+    a {color:#d77a06; text-decoration:none}
     
     /*PRELOADER*/
     /*#preloader .flip {position:relative; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
@@ -155,7 +157,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     .data-aos-1 {transition-delay:4.1s}
     .data-aos-2 {transition-delay:4.25s}
     #slider h2 {font-size:16px; line-height:1.5; letter-spacing:0px; margin:0 0 45px 0}
-    #slider {display:flex; justify-content:center; height:85%}
+    #slider {display:flex; justify-content:center; height:90%}
     #slider .swiper-container {position:relative; width:100%; height:100%; overflow:hidden; list-style:none; padding:0; margin:0}
     #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
     #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
@@ -183,7 +185,8 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     
     /*LABLE-LIST*/
     #lable {padding:37.5px 15px 75px 15px}
-    #lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover}
+    #lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover; box-shadow:0px 10px 20px #d9d9d9; transition:all.3s}
+    #lable-list a:hover {box-shadow:none; transition:all.3s}
     #lable-list .col-lg-2 {display:flex; justify-content:center; padding:15px 0}
     #lable-list .unesco {background:url("../school-p/img/lables/unesco.png")}
     #lable-list .ekool {background:url("../school-p/img/lables/ekool.png")}
@@ -202,7 +205,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #footer {background:#002959; padding:75px 15px 37.5px 15px}
     #footer .table {min-height:300px; padding:15px}
     #footer h3 {color:#d77a06}
-    #footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-size:16px}
+    #footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-size:16px; transition:all.3s}
     #footer p {color:#fff; line-height:1.5; font-size:16px; margin:0}
     #footer ul {margin:45px 0 0 0; padding:0; list-style-type:none}
     #footer li {padding:7.5px 15px; border-left:3px solid #d77a17}
@@ -283,8 +286,6 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #slider .col-4 {display:flex; flex-wrap:wrap; align-items:center; height:500px; background:rgba(255,255,255, 1); border-radius:0 5px 5px 0; padding:60px}
     #slider .col-4 ul {margin:0; padding:0; list-style-type:none}
     #slider .col-4 a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:5px 0; line-height:1.5; font-size:16px; font-family:Montserrat-Light; cursor:pointer; transition:all.3s}*/
-    #slider .slide {cursor:grab; cursor:-moz-grab; cursor:-webkit-grab}
-    /*#slider .slide:focus {cursor:grabbing; cursor:-moz-grabbing; cursor:-webkit-grabbing}*/
     #slider .slide-1 {padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('http://development/wp-content/uploads/2020/12/6.jpg'); background-size:cover; background-position:center}
     #slider .slide-1 h2 {visibility:visible}
     #slider .slide-2 {align-items:center; height:100%; background:#002959; padding:90px 15px}
@@ -314,6 +315,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #footer .col-lg-3:nth-child(2) .table:last-child {margin: 60px 0 0 0}
     #footer .copyright {margin:60px 0 0 0; font-size:12px}
     #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:75px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
+    #footer .phone-active a:hover, #footer .mail-active a:hover, #footer a:hover {color:#d77a06; transition:all.3s}
     /*FOOTER-END*/
 
 
@@ -357,60 +359,114 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #page-banner {height:400px}
 #page-banner > .row {height:100%}
 #page-banner .col-lg-1 {background:#002959}
-#page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:75px 15px; background:#002959}
+#page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:100px 15px; background:#002959}
 #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
 #page-banner h2 {margin:0; text-align:start}
 /*PAGE-BANNER-END*/
 
 /*PAGE-CONTENT*/
-#page-content {padding:75px 15px}
-#page-content .row {justify-content:center}
-#page-content .col-lg-5:last-child {top:-250px}
-#page-content .col-lg-5:first-child .row {justify-content:flex-start}
-#page-content .col-lg-5:last-child .row {justify-content:flex-end}
-#page-content .col-lg-10:nth-child(1), #page-content .col-lg-10:nth-child(2) {margin: 0 0 150px 0}
-#page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
-#page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
-#page-content figure {height:100%; margin:0}
-#page-content img {width:100%; height:auto; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
-#page-content .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
-#page-content .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
-#page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
-#page-content i {margin:0 10px 0 0; color:#002959}
-#page-content p {margin:0}
 
+    /*STYLE-FOR-ALL-PAGE*/
+.page-content .row {justify-content:center}
+.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+.page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+.page-content .wp-block-image img {width:100%; height:auto; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+.page-content figure {height:100%; margin:0; overflow-x:inherit}
+.page-content figcaption {text-transform:uppercase; color:#d77a06; font-size:20px; font-weight:400; margin:15px 0 0 0; font-family:Lora; letter-spacing:5px}
+.page-content .col-lg-5:last-child figcaption {text-align:end}
+.page-content img {width:100%; height:auto; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+.page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
+.page-content i {margin:0 10px 0 0; color:#002959}
+.page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
+    /*STYLE-FOR-ALL-PAGE-END*/
 
+    /*TABLE-PAGE-MAIN-STYLE-LIST*/
+.table-list-page  {padding:100px 15px}
+.table-list-page  table {box-shadow: 0 50px 100px -30px rgba(0,0,0,.5); border-collapse:collapse; border-spacing:0}
+.table-list-page tr {position:relative; transition:all.3s}
+.table-list-page tr:first-child {background:#002959}
+.table-list-page tr:first-child::before{width:0; height:0}
+.table-list-page tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
+.table-list-page tr:hover td {color:#fff; transition:all.3s}
+.table-list-page tr:hover {background:#002959; transition:all.3s}
 
-#page-content .col-lg-5:first-child .col-lg-12 h2 {letter-spacing:0; text-align:start}
-#page-content .col-lg-5:last-child .col-lg-12 h2 {letter-spacing:0; text-align:end}
-#page-content .col-lg-12 {margin:0 0 150px 0}
-#page-content table {box-shadow: 0 50px 100px -30px rgba(0,0,0,.5); border-collapse:collapse; border-spacing:0}
-#page-content tr:first-child {background:#002959}
-#page-content tr:first-child::before{width:0; height:0}
-#page-content tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
-#page-content tr {position:relative}
-#page-content tr:hover td {color:#fff; transition:all.5s}
-#page-content tr::before {content: "";position:absolute; z-index:-1; top:0; bottom:0; left:0; right:0; background:#002959; -webkit-transform:scaleX(0); transform:scaleX(0); -webkit-transform-origin:50%; transform-origin:50%; -webkit-transition-property:transform; transition-property:transform; -webkit-transition-duration:0.5s; transition-duration:0.5s; -webkit-transition-timing-function:ease-out; transition-timing-function:ease-out}
-#page-content tr:hover::before {-webkit-transform: scaleX(1); transform: scaleX(1)}
+/*.table-list-page tr::before {content: "";position:absolute; z-index:-1; top:0; bottom:0; left:0; right:0; background:#002959; -webkit-transform:scaleX(0); transform:scaleX(0); -webkit-transform-origin:50%; transform-origin:50%; -webkit-transition-property:transform; transition-property:transform; -webkit-transition-duration:0.5s; transition-duration:0.5s; -webkit-transition-timing-function:ease-out; transition-timing-function:ease-out}
+.table-list-page tr:hover::before {-webkit-transform: scaleX(1); transform: scaleX(1)}*/
 
-#page-content tr:hover .hover:hover {background:#d77a06; transition:all.5s}
-#page-content tr:hover .hover:hover a {color:#fff}
+.table-list-page tr:hover .hover:hover {background:#d77a06; transition:all.3s}
+.table-list-page tr:hover .hover:hover a {color:#fff}
+.table-list-page td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
+.table-list-page td:first-child {padding:15px 15px 15px 30px}
+.table-list-page td:last-child {padding:15px 30px 15px 15px}
+.table-list-page td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
+.table-list-page .col-lg-5:first-child .col-lg-12 h2 {letter-spacing:0; text-align:start}
+.table-list-page .col-lg-5:last-child .col-lg-12 h2 {letter-spacing:0; text-align:end}
+.table-list-page .col-lg-12 {margin:0 0 100px 0}
+.table-list-page .col-lg-12:last-child {margin:0}
+.table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
+    /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
+    
+    /*COMMON-PAGE-MAIN-STYLE-LIST*/
+.common-page {padding:100px 15px 0 15px}
+.common-page .col-lg-5:last-child {top:-175px}
+.common-page .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-50px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
+.common-page .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-50px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+.common-page .col-lg-10 {margin:0 0 150px 0}
+.common-page .col-lg-10:last-child {margin:0}
+.common-page .col-lg-5:first-child .row {justify-content:flex-start}
+.common-page .col-lg-5:last-child .row {justify-content:flex-end}
+    /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
 
+    /*WP-FILE-LINK*/
+.wp-block-file {display:flex; justify-content:space-between; text-align:center; margin:0 0 30px 0!important}
+.wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; text-transform:uppercase}
+.wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); text-transform:uppercase; opacity:1!important; z-index: 1}
+.wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
+.wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
+.wp-block-file .wp-block-file__button:hover::before {transition-delay:0s}
+.wp-block-file .wp-block-file__button:hover::after {background:#002959 !important; transition-delay:.35s}
+.wp-block-file .wp-block-file__button::before {top:0; left:50%;	height:100%; width:0; border:1px solid #002959;	border-left:0; border-right:0}
+.wp-block-file .wp-block-file__button::after {bottom:0;	left:0;	height:0; width:100%;	background:#002959!important}
+.wp-block-file .wp-block-file__button:hover::before {left:0; width:100%}
+.wp-block-file .wp-block-file__button:hover::after {top:0; height:100%}
+    /*WP-FILE-LINK-END*/
 
-#page-content td {font-size:14px; color:#000; line-height:1.5; padding:10px; text-align:center; font-family:Montserrat-Regular; transition:all.5s}
+    /*MEEDIAS-TEMPLATE*/
+#meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*MEEDIAS-TEMPLATE-END*/
 
+    /*SERVICE-LIST-TEMPLATE*/
+#service-list-content .row {height:100%}
+#service-list-content .col-lg-5:first-child .row {justify-content:flex-start; align-items:center}
+    /*SERVICE-LIST-TEMPLATE-END*/
 
-#page-content td:first-child {padding:15px 15px 15px 30px}
-#page-content td:last-child {padding:15px 30px 15px 15px}
-#page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.3s}
-#page-content .col-lg-5:first-child .col-lg-12:first-child {margin:250px 0 150px 0}
-#page-content .col-lg-5:nth-child(2) .col-lg-12:first-child {margin:250px 0 150px 0}
+    /*ACHIEVEMENTS-TEMPLATE*/
+#achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:250px 0 100px 0}
+#achivements-content .slider-achivements {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+#achivements-content .swiper-container {overflow:hidden}
+#achivements-content .swiper-wrapper {display:flex; transition-property:transform}
+#achivements-content .slider-achivements .slide {flex-shrink:0; transition-property:transform}
+#achivements-content .slider-achivements .slide img {box-shadow:none}
+#achivements-content .swiper-pagination {position:absolute; text-align:center; transition:.3s opacity; transform:translate3d(0,0,0); z-index:10}
+#achivements-content .swiper-pagination-bullets {bottom:10px; left:0; width:100%}
+#achivements-content .swiper-pagination-bullet {width:10px; height:10px; display:inline-block; border-radius:100%; background:#000; opacity:.2}
+#achivements-content .swiper-pagination-bullets .swiper-pagination-bullet {margin:0 5px}
+#achivements-content .swiper-pagination-clickable .swiper-pagination-bullet {cursor:pointer}
+#achivements-content .swiper-pagination-bullet-active {opacity:1; background:#002959;}
+    /*ACHIEVEMENTS-TEMPLATE-END*/
+    
+    /*RUUMIRENT-TEMPLATE*/
+#ruumirent-content {padding:100px 15px 0 15px}
+#ruumirent-content .col-lg-5:last-child {top:-250px}
+#ruumirent-content .col-lg-5:last-child .row {justify-content:flex-end}
+#ruumirent-content .wp-block-file {margin:0!important}
+#ruumirent-content .wp-block-file:nth-child(2) {margin:0 0 30px 0!important}
+    /*RUUMIRENT-TEMPLATE-END*/
+#koolisookla-content .wp-block-file {margin:0!important}
+#koolisookla-content .wp-block-file a {text-transform:none}
 
-
-
-
-
-
-
-#page-content figure {height:auto; margin:0; overflow-x:inherit}
+/*OPPENOUKOGU-TEMPLATE*/
+#oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+#oppenoukogud-content .wp-block-file {margin:0!important}
+/*OPPENOUKOGU-TEMPLATE-END*/
 /*PAGE-CONTENT-END*/

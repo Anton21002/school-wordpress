@@ -16,6 +16,7 @@
                     <div class="col-xl-8">
                         <?php the_content(); ?>
                         <span><?php the_time('j F Y'); ?></span>
+                        <span>Время публикации: <?php the_time('g:i a'); ?></span>
                     </div>
                 </div>
             </div>

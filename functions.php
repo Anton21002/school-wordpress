@@ -141,6 +141,10 @@ function my_login_logo() { ?>
     .login #backtoblog a:focus, .login #nav a:focus, .login h1 a:focus {color:#002959!important}
     .login #backtoblog a, .login #nav a {color:#444!important}
     a:focus {box-shadow:0 0 0 1px #002959,0 0 2px 1px #002959!important}
+    
+    /*#wp-auth-check-wrap #wp-auth-check {padding:0!important}
+    #wp-auth-check-wrap #wp-auth-check-form {overflow:hidden}*/
+    
 </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );

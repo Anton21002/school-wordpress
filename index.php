@@ -54,15 +54,15 @@
                         <div class="table">
                             <h3>Гимназия</h3>
                             <ul>
-                                <li><a><span>Наполняемость классов</span></a></li>
-                                <li><a><span>Список услуг</span></a></li>
-                                <li><a><span>Вакансии</span></a></li>
-                                <li><a><span>Государственные поставки</span></a></li>
-                                <li><a><span>Судебные решения</span></a></li>
-                                <li><a><span>Аренда помещений</span></a></li>
-                                <li><a><span>Регистр документов</span></a></li>
-                                <li><a><span>Прием в 1 класс</span></a></li>
-                                <li><a><span>Меню школьной столовой</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/Opilaste-arv-klassides.pdf' ?>"><span>Наполняемость классов</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'teenused', null)?>"><span>Список услуг</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'tookoht', null)?>"><span>Вакансии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'riigihanked', null)?>"><span>Государственные поставки</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'kohtulahendid', null)?>"><span>Судебные решения</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'ruumirent', null)?>"><span>Аренда помещений</span></a></li>
+                                <li><a href="http://dhs.tallinn.ee/atp/"><span>Регистр документов</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'klassiastumine', null)?>"><span>Прием в 1 класс</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'koolisookla', null)?>"><span>Меню школьной столовой</span></a></li>
                                 <li><a><span>Страница школьных новостей</span></a></li>
                             </ul>
                         </div>
@@ -71,16 +71,15 @@
                         <div class="table">
                             <h3>Документы</h3>
                             <ul>
-                                <li><a><span>Устав школы</span></a></li>
-                                <li><a><span>Программа развития</span></a></li>
-                                <li><a><span>Государственный надзор</span></a></li>
-                                <li><a><span>Педсоветы и решения</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/TPG_pohimaarus2013.pdf' ?>"><span>Устав школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/TPG_Arengukava.pdf' ?>"><span>Программа развития</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'jarelvalve', null)?>"><span>Государственный надзор</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppenoukogud', null)?>"><span>Педсоветы и решения</span></a></li>
                                 <li><a><span>Внутренний распорядок</span></a></li>
                                 <li><a><span>Условия приема в гимназию</span></a></li>
                                 <li><a><span>Руководство по зарплате</span></a></li>
                                 <li><a><span>Защита личных данных</span></a></li>
                                 <li><a><span>Официальные бланки</span></a></li>
-                                <li><a><span>Порядок питания</span></a></li>
                             </ul>
                         </div>
                     </div> 
@@ -153,14 +152,13 @@
                         <div class="table">
                             <h3>Обзор школы</h3>
                             <ul>
-                                <li><a><span>История</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'ajalugu', null)?>"><span>История школы</span></a></li>
                                 <li><a><span>Миссия и видения школы</span></a></li>
-                                <li><a><span>Основные ценности школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'vaartused', null)?>"><span>Основные ценности школы</span></a></li>
                                 <li><a><span>Символы школы</span></a></li>
-                                <li><a><span>Школьные традиции</span></a></li>
-                                <li><a><span>Выпускники</span></a></li>
-                                <li><a><span>Школа в СМИ</span></a></li>
-                                <li><a><span>Достижения</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'traditsioonid', null)?>"><span>Школьные традиции</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'meedias', null)?>"><span>Школа в СМИ</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'saavutused', null)?>"><span>Достижения</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -175,17 +173,17 @@
                 <div id="lable-list" class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row justify-content-center">
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="150"><a class="unesco"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300"><a class="ekool"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="450"><a class="erasmus"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="600"><a class="keel"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="750"><a class="fox"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="900"><a class="tek"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1050"><a class="nk"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1200"><a class="tagasi"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1350"><a class="marka"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1500"><a class="kiamisest"></a></div>
-                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1650"><a class="tore"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="150"><a class="unesco" href="http://unesco.ee/uhendkoolide-vorgustik/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300"><a class="ekool" href="https://ekool.eu" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="450"><a class="erasmus" href="http://www.erasmuspluss.ee/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="600"><a class="keel" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="750"><a class="fox" href="https://www.foxcademy.com/#welcome" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="900"><a class="tek" href="http://www.terviseinfo.ee/et/tervise-edendamine/koolis/tervist-edendavate-koolide-vorgustik" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1050"><a class="nk" href="http://www.nooredkooli.ee/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1200"><a class="tagasi" href="https://tagasikooli.ee/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1350"><a class="marka" href="https://www.tallinn.ee/est/markajaaita/Marka-ja-aita-see-on-imeline-2" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1500"><a class="kiamisest" href="http://kiusamisestvabaks.ee/" target="_blank"></a></div>
+                            <div class="col-lg-2" data-aos="fade-up" data-aos-delay="1650"><a class="tore" href="http://tore.ee/" target="_blank"></a></div>
                         </div>
                     </div>
                 </div>

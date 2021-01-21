@@ -14,11 +14,11 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="page-content" class="container-fluid">
+    <div id="meedias-content" class="container-fluid page-content table-list-page">
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'meedias' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'meedias-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
@@ -36,7 +36,7 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'meedias' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'meedias-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
