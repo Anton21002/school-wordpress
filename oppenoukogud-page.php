@@ -23,7 +23,7 @@ get_header(); ?>
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 0) { ?>
                                 <div class="col-lg-12">
-                                    <h2><?php the_title();?></h2>
+                                    <h3><?php the_title();?></h3>
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div> 
@@ -43,7 +43,7 @@ get_header(); ?>
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 1) { ?>
                                 <div class="col-lg-12">
-                                    <h2><?php the_title();?></h2>
+                                    <h3><?php the_title();?></h3>
                                     <div class="table">
                                     <?php the_content(); ?>
                                     </div>

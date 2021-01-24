@@ -314,7 +314,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*FOOTER*/
     #footer .col-lg-3:nth-child(2) .table:last-child {margin: 60px 0 0 0}
     #footer .copyright {margin:60px 0 0 0; font-size:12px}
-    #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:75px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
+    #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:100px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
     #footer .phone-active a:hover, #footer .mail-active a:hover, #footer a:hover {color:#d77a06; transition:all.3s}
     /*FOOTER-END*/
 
@@ -374,7 +374,6 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 .page-content figure {height:100%; margin:0; overflow-x:inherit}
 .page-content figcaption {text-transform:uppercase; color:#d77a06; font-size:20px; font-weight:400; margin:15px 0 0 0; font-family:Lora; letter-spacing:5px}
 .page-content .col-lg-5:last-child figcaption {text-align:end}
-.page-content img {width:100%; height:auto; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
 .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
 .page-content i {margin:0 10px 0 0; color:#002959}
 .page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
@@ -399,8 +398,8 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 .table-list-page td:first-child {padding:15px 15px 15px 30px}
 .table-list-page td:last-child {padding:15px 30px 15px 15px}
 .table-list-page td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
-.table-list-page .col-lg-5:first-child .col-lg-12 h2 {letter-spacing:0; text-align:start}
-.table-list-page .col-lg-5:last-child .col-lg-12 h2 {letter-spacing:0; text-align:end}
+.table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
+.table-list-page .col-lg-5:last-child .col-lg-12 h3 {letter-spacing:0; text-align:end}
 .table-list-page .col-lg-12 {margin:0 0 100px 0}
 .table-list-page .col-lg-12:last-child {margin:0}
 .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
