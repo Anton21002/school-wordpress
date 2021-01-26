@@ -370,18 +370,18 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 .page-content .row {justify-content:center}
 .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
 .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
-.page-content .wp-block-image img {width:100%; height:auto; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+.page-content .wp-block-image img {width:100%; height:auto; box-shadow:0px 20px 100px -30px rgba(0,0,0,0.5)}
 .page-content figure {height:100%; margin:0; overflow-x:inherit}
 .page-content figcaption {text-transform:uppercase; color:#d77a06; font-size:20px; font-weight:400; margin:15px 0 0 0; font-family:Lora; letter-spacing:5px}
 .page-content .col-lg-5:last-child figcaption {text-align:end}
 .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
 .page-content i {margin:0 10px 0 0; color:#002959}
-.page-content .table {background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5); padding:45px; border-radius:5px}
+.page-content .table {background:#fff; box-shadow: 0px 10px 20px #d9d9d9; padding:45px; border-radius:5px}
     /*STYLE-FOR-ALL-PAGE-END*/
 
     /*TABLE-PAGE-MAIN-STYLE-LIST*/
 .table-list-page  {padding:100px 15px}
-.table-list-page  table {box-shadow: 0 50px 100px -30px rgba(0,0,0,.5); border-collapse:collapse; border-spacing:0}
+.table-list-page  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0}
 .table-list-page tr {position:relative; transition:all.3s}
 .table-list-page tr:first-child {background:#002959}
 .table-list-page tr:first-child::before{width:0; height:0}
@@ -464,8 +464,16 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #koolisookla-content .wp-block-file {margin:0!important}
 #koolisookla-content .wp-block-file a {text-transform:none}
 
-/*OPPENOUKOGU-TEMPLATE*/
+    /*OPPENOUKOGU-TEMPLATE*/
 #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
 #oppenoukogud-content .wp-block-file {margin:0!important}
-/*OPPENOUKOGU-TEMPLATE-END*/
+    /*OPPENOUKOGU-TEMPLATE-END*/
+
+    /*JUHTKOND-TEMPLATE*/
+#juhtkond-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*JUHTKOND-TEMPLATE-END*/
+
+    /*KLASSIJUHATAJAD-TEMPLATE*/
+#klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*KLASSIJUHATAJAD-TEMPLATE-END*/
 /*PAGE-CONTENT-END*/
