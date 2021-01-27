@@ -82,15 +82,15 @@
                                 <li><a><span>Официальные бланки</span></a></li>
                             </ul>
                         </div>
-                    </div> 
+                    </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="table">
                             <h3>Коллектив</h3>
                             <ul>
-                                <li><a><span>Администрация</span></a></li>
-                                <li><a><span>Классные руководители</span></a></li>
-                                <li><a><span>Преподаватели</span></a></li>
-                                <li><a><span>Специалисты</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'juhtkond', null)?>"><span>Администрация</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'klassijuhatajad', null)?>"><span>Классные руководители</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opetajad', null)?>"><span>Преподаватели</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'spetsialistid', null)?>"><span>Специалисты</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -66,7 +66,7 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="copyright">
-                            Copyright © 2021 <strong>Tallinna Pae Gumnaasium</strong>. All Rights Reserved
+                            Copyright © <?php echo date ( 'Y' ) ; ?> | Tallinna Pae Gumnaasium | All Rights Reserved
                         </div>
                     </div>
                 </div>

@@ -127,7 +127,6 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #preloader .flip .letter {display:inline-block; line-height:1em; transform-origin:0 0; margin:0 10px}
     #preloader a {text-decoration:none; color:#333; font-style:italic; font-size:1.2em}
     #preloader a:hover {color:#990000; transition:1.2s ease}*/
-    
     /*PRELOADER-END*/
     
     /*NAVBAR*/
@@ -370,13 +369,15 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 .page-content .row {justify-content:center}
 .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
 .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
-.page-content .wp-block-image img {width:100%; height:auto; box-shadow:0px 20px 100px -30px rgba(0,0,0,0.5)}
+.page-content .wp-block-image img {width:auto; height:100%; box-shadow:0px 20px 100px -30px rgba(0,0,0,0.5)}
 .page-content figure {height:100%; margin:0; overflow-x:inherit}
-.page-content figcaption {text-transform:uppercase; color:#d77a06; font-size:20px; font-weight:400; margin:15px 0 0 0; font-family:Lora; letter-spacing:5px}
+.page-content figcaption {color:#002959; font-size:25px; font-weight:400; margin:0 0 30px 0!important; font-family:Lora}
 .page-content .col-lg-5:last-child figcaption {text-align:end}
 .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
 .page-content i {margin:0 10px 0 0; color:#002959}
 .page-content .table {background:#fff; box-shadow: 0px 10px 20px #d9d9d9; padding:45px; border-radius:5px}
+
+.page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
     /*STYLE-FOR-ALL-PAGE-END*/
 
     /*TABLE-PAGE-MAIN-STYLE-LIST*/
@@ -456,13 +457,29 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     
     /*RUUMIRENT-TEMPLATE*/
 #ruumirent-content {padding:100px 15px 0 15px}
-#ruumirent-content .col-lg-5:last-child {top:-250px}
+#ruumirent-content .col-lg-5:last-child {top:-175px}
 #ruumirent-content .col-lg-5:last-child .row {justify-content:flex-end}
+/*#ruumirent-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+#ruumirent-content .wp-block-image img {width:auto; height:750px}*/
 #ruumirent-content .wp-block-file {margin:0!important}
 #ruumirent-content .wp-block-file:nth-child(2) {margin:0 0 30px 0!important}
     /*RUUMIRENT-TEMPLATE-END*/
+    
+    /*JARELVALVE-TEMPLATE*/
+/*#jarelvalve-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+#jarelvalve-content .wp-block-image img {width:auto; height:750px}*/
+    /*JARELVALVE-TEMPLATE-END*/
+
+    /*RIIGIHANGED-TEMPLATE*/
+/*#riigihanged-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+#riigihanged-content .wp-block-image img {width:auto; height:750px}*/
+    /*RIIGIHANGED-TEMPLATE-END*/
+
+
+    /*KOOLISOOKLA-TEMPLATE*/
 #koolisookla-content .wp-block-file {margin:0!important}
 #koolisookla-content .wp-block-file a {text-transform:none}
+    /*KOOLISOOKLA-TEMPLATE-END*/
 
     /*OPPENOUKOGU-TEMPLATE*/
 #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
@@ -476,4 +493,13 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*KLASSIJUHATAJAD-TEMPLATE*/
 #klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
     /*KLASSIJUHATAJAD-TEMPLATE-END*/
+    /*KLASSIJUHATAJAD-TEMPLATE*/
+#opetajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*KLASSIJUHATAJAD-TEMPLATE-END*/
+
+    /*SPETSIALISTID-TEMPLATE*/
+#spetsialistid-content {padding:100px 15px 0 15px}
+#spetsialistid-content .col-lg-5:last-child {top:-175px}
+#spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
+    /*SPETSIALISTID-TEMPLATE-END*/
 /*PAGE-CONTENT-END*/
