@@ -493,9 +493,10 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*KLASSIJUHATAJAD-TEMPLATE*/
 #klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
     /*KLASSIJUHATAJAD-TEMPLATE-END*/
-    /*KLASSIJUHATAJAD-TEMPLATE*/
+
+    /*OPETAJAD-TEMPLATE*/
 #opetajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
-    /*KLASSIJUHATAJAD-TEMPLATE-END*/
+    /*OPETAJAD-TEMPLATE-END*/
 
     /*SPETSIALISTID-TEMPLATE*/
 #spetsialistid-content {padding:100px 15px 0 15px}
@@ -503,10 +504,16 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
     /*SPETSIALISTID-TEMPLATE-END*/
 
-    /*SPETSIALISTID-TEMPLATE*/
+    /*TOOKORRALDUS-TEMPLATE*/
+#tookorraldus-content {padding:100px 15px 0 15px}
+#tookorraldus-content .col-lg-5:last-child {top:-175px}
+#tookorraldus-content .col-lg-5:last-child .row {justify-content:flex-end}
+    /*TOOKORRALDUS-TEMPLATE-END*/
+
+    /*OPPEKAVA-TEMPLATE*/
 #oppekava-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0}
 #oppekava-content .wp-block-file {margin:0!important}
 #oppekava-content .col-lg-5:last-child .row {justify-content:flex-end}
-    /*SPETSIALISTID-TEMPLATE-END*/
+    /*OPPEKAVA-TEMPLATE-END*/
 
 /*PAGE-CONTENT-END*/
