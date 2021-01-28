@@ -419,7 +419,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
     /*WP-FILE-LINK*/
 .wp-block-file {display:flex; justify-content:space-between; text-align:center; margin:0 0 30px 0!important}
-.wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; text-transform:uppercase}
+.wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; /*text-transform:uppercase*/}
 .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); text-transform:uppercase; opacity:1!important; z-index: 1}
 .wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
 .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
@@ -502,4 +502,11 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #spetsialistid-content .col-lg-5:last-child {top:-175px}
 #spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
     /*SPETSIALISTID-TEMPLATE-END*/
+
+    /*SPETSIALISTID-TEMPLATE*/
+#oppekava-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0}
+#oppekava-content .wp-block-file {margin:0!important}
+#oppekava-content .col-lg-5:last-child .row {justify-content:flex-end}
+    /*SPETSIALISTID-TEMPLATE-END*/
+
 /*PAGE-CONTENT-END*/
