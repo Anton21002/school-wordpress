@@ -254,11 +254,11 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #navbar {display:block; position:absolute; top:0; z-index:2}
     #navbar .col-lg-2 {display:flex; justify-content:center align-items:center}
     #navbar .col-lg-2 a {padding:0!important; margin:0}
-    #navbar .logo {width:169.044px; height:89.844px}
+    #navbar .logo {/*width:169.044px; height:89.844px*/width:126.783px; height:67.383px}
     #navbar .col-lg-8 {display:flex; align-items:center; justify-content:flex-end}
     #navbar ul {margin:0; padding:0; font-size:0}
     #navbar li {display:inline-block; position:relative}
-    #navbar a {display:block; padding:50px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
+    #navbar a {display:block; padding:30px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
     #navbar a:hover {color:#002959; transition:all.3s}
     #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible}
     #navbar ul li:last-child a {margin:0 0 0 15px}
@@ -355,10 +355,10 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
 
 /*PAGE-BANNER*/
-#page-banner {height:400px}
+#page-banner {height:300px}
 #page-banner > .row {height:100%}
 #page-banner .col-lg-1 {background:#002959}
-#page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:100px 15px; background:#002959}
+#page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:75px 15px; background:#002959}
 #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
 #page-banner h2 {margin:0; text-align:start}
 /*PAGE-BANNER-END*/
@@ -367,8 +367,8 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
     /*STYLE-FOR-ALL-PAGE*/
 .page-content .row {justify-content:center}
-.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-100px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
-.page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-60px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+.page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-30px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}
 .page-content .wp-block-image img {width:auto; height:100%; box-shadow:0px 20px 100px -30px rgba(0,0,0,0.5)}
 .page-content figure {height:100%; margin:0; overflow-x:inherit}
 .page-content figcaption {color:#002959; font-size:25px; font-weight:400; margin:0 0 30px 0!important; font-family:Lora}
@@ -407,10 +407,10 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
     
     /*COMMON-PAGE-MAIN-STYLE-LIST*/
-.common-page {padding:100px 15px 0 15px}
-.common-page .col-lg-5:last-child {top:-175px}
-.common-page .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-50px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
-.common-page .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-50px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+.common-page {padding:75px 15px 0 15px}
+.common-page .col-lg-5:last-child {top:-130px}
+.common-page .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
+.common-page .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}
 .common-page .col-lg-10 {margin:0 0 150px 0}
 .common-page .col-lg-10:last-child {margin:0}
 .common-page .col-lg-5:first-child .row {justify-content:flex-start}
@@ -419,7 +419,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
     /*WP-FILE-LINK*/
 .wp-block-file {display:flex; justify-content:space-between; text-align:center; margin:0 0 30px 0!important}
-.wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; /*text-transform:uppercase*/}
+.wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none}
 .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); text-transform:uppercase; opacity:1!important; z-index: 1}
 .wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
 .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
@@ -465,17 +465,6 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 #ruumirent-content .wp-block-file:nth-child(2) {margin:0 0 30px 0!important}
     /*RUUMIRENT-TEMPLATE-END*/
     
-    /*JARELVALVE-TEMPLATE*/
-/*#jarelvalve-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
-#jarelvalve-content .wp-block-image img {width:auto; height:750px}*/
-    /*JARELVALVE-TEMPLATE-END*/
-
-    /*RIIGIHANGED-TEMPLATE*/
-/*#riigihanged-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
-#riigihanged-content .wp-block-image img {width:auto; height:750px}*/
-    /*RIIGIHANGED-TEMPLATE-END*/
-
-
     /*KOOLISOOKLA-TEMPLATE*/
 #koolisookla-content .wp-block-file {margin:0!important}
 #koolisookla-content .wp-block-file a {text-transform:none}

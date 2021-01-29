@@ -98,9 +98,9 @@
                         <div class="table">
                             <h3>Учебная работа</h3>
                             <ul>
-                                <li><a><span>Учебная программа</span></a></li>
-                                <li><a><span>Цели школы</span></a></li>
-                                <li><a><span>Режим работы гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppekava', null)?>"><span>Учебная программа</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'eesmark', null)?>"><span>Цели школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'tookorraldus', null)?>"><span>Режим работы гимназии</span></a></li>
                                 <li><a><span>Расписание уроков</span></a></li>
                                 <li><a><span>Расписание консультаций</span></a></li>
                                 <li><a><span>Охрана здоровья учащихся</span></a></li>
