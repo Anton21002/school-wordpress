@@ -17,7 +17,7 @@ window.onload = function() {
     function scroller() {
         var position = window.pageYOffset;
 
-        if (position > 119) {
+        if (position > 90) {
             navbar.classList.add('scrolldown');
         } else {
             navbar.classList.remove('scrolldown');
@@ -27,11 +27,11 @@ window.onload = function() {
     
     
     /*LOADER*/
-    /*document.body.classList.add('loaded_hiding');
+    document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
       document.body.classList.add('loaded');
       document.body.classList.remove('loaded_hiding');
-    }, 4000);*/
+    }, 4000);
     /*LOADER-END*/
     
     

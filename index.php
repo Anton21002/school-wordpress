@@ -103,7 +103,7 @@
                                 <li><a href="<?php echo get_site_url(null, 'tookorraldus', null)?>"><span>Режим работы гимназии</span></a></li>
                                 <li><a href="https://pae.edupage.org/timetable/?1"><span>Расписание уроков</span></a></li>
                                 <li><a href="http://development/wp-content/uploads/2021/02/Konsultatsioonid.pdf"><span>Расписание консультаций</span></a></li>
-                                <li><a><span>Охрана здоровья учащихся</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'terviseedendus', null)?>"><span>Охрана здоровья учащихся</span></a></li>
                                 <li><a><span>Образовательные потребности</span></a></li>
                                 <li><a><span>Языковое погружение</span></a></li>
                             </ul>
