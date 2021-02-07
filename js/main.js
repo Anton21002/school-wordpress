@@ -1,7 +1,7 @@
 var hamburger;
 var bars;
 var navbar;
-/*var likey;*/
+var likey;
 window.onload = function() {
     
     AOS.init({
@@ -11,7 +11,7 @@ window.onload = function() {
     
     
     /*NAVBAR-SCROLL*/
-    const navbar = document.getElementById('navbar');
+    /*const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', scroller);
     
     function scroller() {
@@ -22,7 +22,7 @@ window.onload = function() {
         } else {
             navbar.classList.remove('scrolldown');
         }
-    }
+    }*/
     /*NAVBAR-SCROLL-END*/
     
     
@@ -54,8 +54,6 @@ window.onload = function() {
     /*HAMBURGER-END*/
     
     
-    
-    
     /*DROPDOWN*/
     const cbox = document.querySelectorAll(".menu-item-has-children");
 
@@ -72,6 +70,7 @@ window.onload = function() {
 var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 0,
+        speed: 1500,
         loop: true,
         grabCursor: true,
         pagination: {
@@ -82,9 +81,33 @@ var swiper = new Swiper('.swiper-container', {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        /*autoplay: {
-            delay: 5000,
+        autoplay: {
+            delay: 8000,
             disableOnInteraction: false,
-        }*/
+        }
     });
 
+
+
+/*SMOOTH-SCROLL*/
+document.querySelectorAll('a[href^="#"').forEach(link => {
+
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        let href = this.getAttribute('href').substring(1);
+
+        const scrollTarget = document.getElementById(href);
+
+        const topOffset = document.querySelector('.scrollby').offsetHeight;
+        // const topOffset = 0; // если не нужен отступ сверху 
+        const elementPosition = scrollTarget.getBoundingClientRect().top;
+        const offsetPosition = elementPosition - topOffset;
+
+        window.scrollBy({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    });
+});
+/*SMOOTH-SCROLL-END*/

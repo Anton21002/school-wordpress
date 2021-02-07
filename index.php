@@ -43,9 +43,18 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div id="section-bottom">
+            <a id="bottom-button" href="#category">
+                <div class="arrow-left"></div>
+                <div class="arrow-right"></div>
+            </a>
         </div>
     </div>
-    <div id="category" class="container-fluid">
+
+    <div id="particles-js"></div>
+    <div id="category" class="container-fluid scrollto">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <h2 data-aos="fade-up">Категории</h2>
@@ -104,8 +113,8 @@
                                 <li><a href="https://pae.edupage.org/timetable/?1"><span>Расписание уроков</span></a></li>
                                 <li><a href="http://development/wp-content/uploads/2021/02/Konsultatsioonid.pdf"><span>Расписание консультаций</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'terviseedendus', null)?>"><span>Охрана здоровья учащихся</span></a></li>
-                                <li><a><span>Образовательные потребности</span></a></li>
-                                <li><a><span>Языковое погружение</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'hariduslik-erivajadus', null)?>"><span>Образовательные потребности</span></a></li>
+                                <li><a href="http://development/wp-content/uploads/2021/02/KK2017-2018.pdf"><span>Языковое погружение</span></a></li>
                             </ul>
                         </div>
                     </div>
