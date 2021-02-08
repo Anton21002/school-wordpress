@@ -19,9 +19,7 @@ get_header(); ?>
                 <div class="row">
                         <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
                             <?php 
-                            $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 0) { ?>
                                 <div class="col-lg-12">
                                     <h2><?php the_title();?></h2>
                                     <div class="slider-achivements">
@@ -33,14 +31,12 @@ get_header(); ?>
                                         </div>
                                     </div>     
                                 </div>
-                            <?php }?>
                         <?php 
-                        $idx++;
                         endwhile; 
                         ?>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <!--<div class="col-lg-5">
                 <div class="row">
                     <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
                             <?php 
@@ -64,7 +60,7 @@ get_header(); ?>
                         endwhile; 
                         ?>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 <?php get_footer(); ?>
@@ -73,5 +69,21 @@ get_header(); ?>
     for (let i=0; i<imgSlider.length; i++){
         imgSlider.item(i).classList.add("slide", "swiper-slide");
     }
+    let swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
 </script>
 
