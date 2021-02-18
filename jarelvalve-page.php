@@ -22,7 +22,7 @@ get_header(); ?>
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx % 2 == 0) { ?>
-                                <div class="col-lg-12">
+                                <div class="col-lg-10">
                                     <div class="table">
                                         <p><?php the_content(); ?></p>
                                     </div>
