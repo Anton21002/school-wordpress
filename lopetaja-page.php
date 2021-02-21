@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: lopetaja-page
+Template Name: gumnaasiumi-lopetaja-page
 */
 get_header(); ?>
     <div id=page-banner class="container-fluid">
@@ -13,11 +13,11 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="lopetaja-content" class="container-fluid page-content common-page">
+    <div id="gumnaasiumi-lopetaja-content" class="container-fluid page-content common-page">
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'lopetaja-category' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'gumnaasiumi-lopetaja-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
@@ -36,7 +36,7 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'lopetaja-category' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'gumnaasiumi-lopetaja-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>

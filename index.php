@@ -122,10 +122,10 @@
                         <div class="table">
                             <h3>Учащимся</h3>
                             <ul>
-                                <li><a><span>Выпускникам гимназии</span></a></li>
-                                <li><a><span>Выпускникам основной школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasiumi-lopetaja', null)?>"><span>Выпускникам гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'pohikooli-lopetaja', null)?>"><span>Выпускникам основной школы</span></a></li>
                                 <li><a><span>Практические и исследовательские работы в гимназии</span></a></li>
-                                <li><a><span>Учебный план гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppeplaan', null)?>"><span>Учебный план гимназии</span></a></li>
                                 <li><a><span>Творческие работы в основной школе</span></a></li>
                                 <li><a><span>Опросы</span></a></li>
                                 <li><a><span>Темы творческих и исследовтельских работ</span></a></li>
