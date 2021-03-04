@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: juhtkond-page
+Template Name: koosolekud-page
 */
 get_header(); ?>
 
@@ -14,11 +14,11 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="juhtkond-content" class="container-fluid page-content table-list-page">
+    <div id="koosolekud-content" class="container-fluid page-content table-list-page">
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'juhtkond-category' ) );?>	
+                        <?php $query = new WP_Query( array( 'category_name' => 'koosolekud-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
@@ -36,7 +36,7 @@ get_header(); ?>
             </div>
             <div class="col-lg-5">
                 <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'juhtkond-category' ) );?>	
+                    <?php $query = new WP_Query( array( 'category_name' => 'koosolekud-category' ) );?>	
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
@@ -54,4 +54,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+
+
+
 <?php get_footer(); ?>

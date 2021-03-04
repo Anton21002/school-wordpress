@@ -124,11 +124,11 @@
                             <ul>
                                 <li><a href="<?php echo get_site_url(null, 'gumnaasiumi-lopetaja', null)?>"><span>Выпускникам гимназии</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'pohikooli-lopetaja', null)?>"><span>Выпускникам основной школы</span></a></li>
-                                <li><a><span>Практические и исследовательские работы в гимназии</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'oppeplaan', null)?>"><span>Учебный план гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'kusitlused', null)?>"><span>Опросы</span></a></li>
+                                <li><a><span>Практические и исследовательские работы в гимназии</span></a></li>
                                 <li><a><span>Творческие работы в основной школе</span></a></li>
-                                <li><a><span>Опросы</span></a></li>
-                                <li><a><span>Темы творческих и исследовтельских работ</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'uurimistoo-teema', null)?>"><span>Темы исследовательских работ</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -137,12 +137,12 @@
                             <h3>Родителям</h3>
                             <ul>
                                 <li><a><span>Распорядок дня</span></a></li>
-                                <li><a><span>Попечительский совет</span></a></li>
-                                <li><a><span>Родительские собрания</span></a></li>
-                                <li><a><span>Подготовительная группа</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'hoolekogu', null)?>"><span>Попечительский совет</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'koosolekud', null)?>"><span>Родительские собрания</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'eelkool', null)?>"><span>Подготовительная группа</span></a></li>
                                 <li><a><span>Школьная форма</span></a></li>
                                 <li><a><span>Школа родительского успеха</span></a></li>
-                                <li><a><span>Материалы "Школа родительского успеха"</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'lapsevanemate-kooli-materjalid', null)?>"><span>Материалы "Школа родительского успеха"</span></a></li>
                                 <li><a><span>Важная информация</span></a></li>
                                 <li><a><span>Среда для заказа ученического билета</span></a></li>
                             </ul>
@@ -163,7 +163,7 @@
                             <ul>
                                 <li><a href="<?php echo get_site_url(null, 'ajalugu', null)?>"><span>История школы</span></a></li>
                                 <li><a><span>Миссия и видения школы</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'vaartused', null)?>"><span>Основные ценности школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'vaartused', null)?>"><span>Ценности школы</span></a></li>
                                 <li><a><span>Символы школы</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'traditsioonid', null)?>"><span>Школьные традиции</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'meedias', null)?>"><span>Школа в СМИ</span></a></li>
