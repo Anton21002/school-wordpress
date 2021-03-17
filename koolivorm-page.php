@@ -21,9 +21,32 @@ get_header(); ?>
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 0) { ?>
-                                <div class="col-lg-10">
-                                    <div id="flipp" class="table">
+                            <? if( $idx == 1) { ?>
+                                <div class="col-lg-6">
+                                    <div id=flip-1 class="table">
+                                        <div class="flipper">
+                                            <div class="flip-front">
+                                                <h3><?php the_title();?></h3>
+                                                <a class="flip-button">Наведи на меня</a>
+                                            </div>
+                                            <div class="flip-back">
+                                                <?php the_content(); ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php }?>
+                        <?php 
+                        $idx++;
+                        endwhile; 
+                        ?>
+                        <?php $query = new WP_Query( array( 'category_name' => 'koolivorm-category' ) );?>	
+                            <?php 
+                            $idx = 1;
+                            while ($query -> have_posts()) : $query -> the_post(); ?>
+                            <? if( $idx == 3) { ?>
+                                <div class="col-lg-6">
+                                    <div id=flip-2 class="table">
                                         <div class="flipper">
                                             <div class="flip-front">
                                                 <h3><?php the_title();?></h3>
@@ -48,7 +71,7 @@ get_header(); ?>
                             <?php 
                             $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 1) { ?>
+                            <? if( $idx == 2) { ?>
                                 <div class="col-lg-10">
                                     <div class="table">
                                         <?php the_content(); ?>
@@ -66,34 +89,43 @@ get_header(); ?>
 <?php get_footer(); ?>
 <script type="text/javascript">
     //flipp.onmouseover = flipp.onmouseout = handler;
-    /*handler = document.getElementsByClassName("flipper");
-    aHandler = document.getElementsByClassName("flip-button");
+    //handler = document.getElementsByClassName("flipper");
+    /*handler = document.getElementsByClassName("flip-button");
+    flipp = document.getElementById("flipp");
     
-    function aHandler (event){
-        if (event.type == 'mouseover') {
-            handler.target.style.transform = 'rotateY(180deg)'
+    function handler(event) {
+        if (event.type === 'mouseenter') {
+            flipp.style.transform = 'rotateY(180deg)'
         }
-        if (event.type == 'mouseout') {
-            handler.target.style.transform = 'rotateY(0deg)'
+        if (event.type === 'mouseleave') {
+            flipp.style.transform = 'rotateY(0deg)'
         }
     }*/
     
-    /*function handler(event) {
-        if (event.type == 'mouseover') {
-            event.target.style.transform = 'rotateY(180deg)'
-        }
-        if (event.type == 'mouseout') {
-            event.target.style.transform = 'rotateY(0deg)'
-        }
-    }*/
+    /*$('.flip-front a').hover(function(){
+		$('.flipper').css('transform', 'rotateY(180deg)');
+	})
+
+	$('.table').mouseleave(function(){
+		$('.flipper').css('transform', 'rotateY(0deg)');
+	})*/
     
-    	$('#flipp a').hover(function(){
-		$('#flipp .flipper').css('transform', 'rotateY(180deg)');
+    $('#flip-1 a').hover(function(){
+		$('#flip-1 .flipper').css('transform', 'rotateY(180deg)');
 	})
 
-
-
-	$('#flipp').mouseleave(function(){
-		$('#flipp .flipper').css('transform', 'rotateY(0deg)');
+	$('#flip-1').mouseleave(function(){
+		$('#flip-1 .flipper').css('transform', 'rotateY(0deg)');
 	})
+    
+    
+    
+    $('#flip-2 a').hover(function(){
+		$('#flip-2 .flipper').css('transform', 'rotateY(180deg)');
+	})
+
+	$('#flip-2').mouseleave(function(){
+		$('#flip-2 .flipper').css('transform', 'rotateY(0deg)');
+	})
+    
 </script>

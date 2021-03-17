@@ -612,10 +612,14 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /**/
     
     /*TEST*/
-    #flipp {height:450px}
-    .flipper {transition:0.6s; transform-style:preserve-3d; position:relative}
-    .flip-front, #flipp .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0}
-    .flip-front {z-index:2; transform:rotateY(0deg)}
-    .flip-back {transform:rotateY(180deg)}
+    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:450px}
+    #koolivorm-content .flip-front, .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0; width:100%}
+    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center}
+    #koolivorm-content .flip-back {transform:rotateY(180deg)}
+    #koolivorm-content .col-lg-6 {margin:0 0 150px 0}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    #flip-1 h3, #flip-2 h3 {margin:45px 0 90px 0}
+    #flip-1 .flip-back h3:nth-child(2), #flip-2 .flip-back h3:last-child {margin:30px 0 45px 0}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
     /*TEST-END*/
 /*PAGE-CONTENT-END*/
