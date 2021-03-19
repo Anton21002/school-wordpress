@@ -10,7 +10,7 @@
                 </div>
                 <div class="slide slide-2 swiper-slide">
                     <div class="col-lg-10">
-                        <h1>COVID-19</h1>
+                        <h1>COVID</h1>
                         <h2>Рекомендации и советы в условиях распоространения короновируса</h2>
                         <div class="row-button">
                             <a href="">Подробнее</a>
@@ -140,7 +140,7 @@
                                 <li><a href="<?php echo get_site_url(null, 'hoolekogu', null)?>"><span>Попечительский совет</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'koosolekud', null)?>"><span>Родительские собрания</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'eelkool', null)?>"><span>Подготовительная группа</span></a></li>
-                                <li><a><span>Школьная форма</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'koolivorm', null)?>"><span>Школьная форма</span></a></li>
                                 <li><a><span>Школа родительского успеха</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'lapsevanemate-kooli-materjalid', null)?>"><span>Материалы "Школа родительского успеха"</span></a></li>
                                 <li><a><span>Важная информация</span></a></li>
@@ -152,8 +152,10 @@
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
-                                <li><a><span>Работа в кружках</span></a></li>
-                                <li><a><span>Ученическое самоуправление</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Работа в кружках</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Ученическое самоуправление</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>План мероприятий</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Проекты</span></a></li>
                             </ul>
                         </div>
                     </div>

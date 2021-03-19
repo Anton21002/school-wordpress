@@ -35,6 +35,7 @@ register_nav_menus(
     )
 );
 
+
 /*-----------------------------------------------------------------------------------*/
 /* Activate sidebar for Wordpress use
 /*-----------------------------------------------------------------------------------*/
@@ -104,6 +105,23 @@ if( 'Исполняемый PHP код в контенте' ){
 	}
 
 }
+
+/*ADD-COLUMN-ID*/
+function add_column( $columns ){
+	$columns['post_id_clmn'] = 'ID'; // $columns['Column ID'] = 'Column Title';
+	return $columns;
+}
+add_filter('manage_posts_columns', 'add_column', 5);
+
+function column_content( $column, $id ){
+	if( $column === 'post_id_clmn')
+		echo $id;
+}
+add_action('manage_posts_custom_column', 'column_content', 5, 2);
+/*ADD-COLUMN-ID-END*/
+
+
+
 /*WP-LOGO-STYLE*/
 function alter_login_headerurl() {
 return ''; //Если оставить поле пустым, то ссылка будет вести на саму себя, то есть на текущую страницу.
@@ -146,6 +164,7 @@ function my_login_logo() { ?>
     #wp-auth-check-wrap #wp-auth-check-form {overflow:hidden}*/
     
 </style>
+
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 /*WP-LOGO-STYLE-END*/
