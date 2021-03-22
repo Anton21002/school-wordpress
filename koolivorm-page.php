@@ -23,7 +23,7 @@ get_header(); ?>
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx == 1) { ?>
                                 <div class="col-lg-6">
-                                    <div id=flip-1 class="table">
+                                    <div id=flip-1>
                                         <div class="flipper">
                                             <div class="flip-front">
                                                 <h3><?php the_title();?></h3>
@@ -46,7 +46,7 @@ get_header(); ?>
                             while ($query -> have_posts()) : $query -> the_post(); ?>
                             <? if( $idx == 3) { ?>
                                 <div class="col-lg-6">
-                                    <div id=flip-2 class="table">
+                                    <div id=flip-2>
                                         <div class="flipper">
                                             <div class="flip-front">
                                                 <h3><?php the_title();?></h3>

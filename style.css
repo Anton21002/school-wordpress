@@ -122,15 +122,15 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     a {color:#d77a06; text-decoration:none}
     
     /*PRELOADER*/
-    /*#preloader .flip {position:relative; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
+    #preloader .flip {position:relative; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
     #preloader .flip .text-wrapper {position:relative; display:inline-block; padding:0.02em 50px; overflow:hidden}
     #preloader .flip .letter {display:inline-block; line-height:1em; transform-origin:0 0; margin:0 10px}
     #preloader a {text-decoration:none; color:#333; font-style:italic; font-size:1.2em}
-    #preloader a:hover {color:#990000; transition:1.2s ease}*/
+    #preloader a:hover {color:#990000; transition:1.2s ease}
     /*PRELOADER-END*/
     
     /*NAVBAR*/
-    #navbar {position:fixed; top:0; background:#fff; z-index:2}
+    #navbar {position:fixed; top:0; background:#fff; z-index:3}
     #navbar.navbar-open {min-height:100%; background:#fff}
     #navbar .col-lg-8 {display:none}
     #navbar .col-lg-2 {display:flex; justify-content:space-between; align-items:center}
@@ -240,7 +240,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*FOOTER-END*/
     
     /*PRELOADER*/
-    /*#preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
+    #preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
     .loaded_hiding #preloader {transition:0.3s opacity; opacity:0}
     #preloader .row-p {position:relative; top:50%; left:50%; width:70px; height:70px; margin-top:-35px; margin-left:-35px; text-align:center; animation:preloader-rotate 2s infinite linear}
     #preloader .loader-1 {width:50px; height:50px;  position:absolute; top:50%; margin:-25px auto 0; border-radius:50%; background:#ffffff; background:-moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background: o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 50%); position:relative; -webkit-animation: loader-1 1.5s infinite linear; animation:loader-1 1.5s infinite linear; -webkit-transform:translateZ(0); -ms-transform:translateZ(0); transform:translateZ(0)}
@@ -267,7 +267,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
       }
-    }*/
+    }
     /*PRELOADER-END*/
 
 @media (min-width:1024px) {
@@ -297,8 +297,8 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
     #fader {position:fixed; height:100%; width:100%; z-index:1; background:rgba(0, 0, 0, 0); visibility:hidden; transition:all.3s}
     #hamburger{display:none}
-    #navbar:hover {position:fixed; z-index:2; background:#fff; opacity:1; transition:all.3s}
-    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:1; transition:all.3s}
+    #navbar:hover {position:fixed; z-index:4; background:#fff; opacity:1; transition:all.3s}
+    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}
     #navbar .logo{width:126.783px; height:67.383px}
     #navbar a {padding:30px 0}
     #navbar .submenu a {padding:10px 0}
@@ -343,7 +343,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
 
     /*PRELOADER*/
-    /*preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
+    preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
     body.loaded_hiding {overflow:hidden}
     .loaded_hiding #preloader {transition:0.3s opacity; opacity:1}
     .loaded #preloader {transition:800ms; transform:translateY(-100vh); opacity:0}
@@ -372,7 +372,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
       }
-    }*/
+    }
     /*PRELOADER-END*/
 
     /*PAGE-BANNER*/
@@ -388,15 +388,15 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
         /*STYLE-FOR-ALL-PAGE*/
     .page-content .row {justify-content:center}
-    .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gumnaasium"; bottom:-60px; right:15px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
-    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-30px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}
-    .page-content .wp-block-image img {/*width:100%; height:100%;*/ box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5)}
+    .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+    .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
     .page-content figure {/*height:100%;*/ margin:0; overflow-x:inherit}
     .page-content figcaption {color:#002959; font-size:25px; font-weight:400; margin:0 0 30px 0!important; font-family:Lora}
     .page-content .col-lg-5:last-child figcaption {text-align:end}
     .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
-    .page-content .table {background:#fff; box-shadow: 0px 10px 20px #d9d9d9; padding:45px; border-radius:5px}
+    .page-content .table {background:#fff; /*box-shadow: 0px 10px 20px #d9d9d9;*/ box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:45px; border-radius:5px}
     .page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
         /*STYLE-FOR-ALL-PAGE-END*/
 
@@ -423,7 +423,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
 
         /*COMMON-PAGE-MAIN-STYLE-LIST*/
-    .common-page {padding:75px 15px 0 15px}
+    .common-page {padding:75px 15px 75px 15px}
     .common-page .col-lg-5:last-child {top:-130px}
     .common-page .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
     .common-page .col-lg-5:first-child .col-lg-10:last-child::after {content:none}
@@ -454,13 +454,13 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         /*MEEDIAS-TEMPLATE-END*/
 
         /*SERVICE-LIST-TEMPLATE*/
-    #service-list-content .row {height:100%}
-    #service-list-content .col-lg-5:first-child .row {justify-content:flex-start; align-items:center}
+    #service-list-content .col-lg-5:last-child {top:-130px}
+    #service-list-content .col-lg-5:last-child .row {justify-content:flex-end}
         /*SERVICE-LIST-TEMPLATE-END*/
 
         /*ACHIEVEMENTS-TEMPLATE*/
-    #achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:250px 0 100px 0}
-    #achivements-content .slider-achivements {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+    #achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:0}
+    /*#achivements-content .slider-achivements {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
     #achivements-content .swiper-container {overflow:hidden}
     #achivements-content .swiper-wrapper {display:flex; transition-property:transform}
     #achivements-content .slider-achivements .slide {flex-shrink:0; transition-property:transform}
@@ -470,7 +470,17 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #achivements-content .swiper-pagination-bullet {width:10px; height:10px; display:inline-block; border-radius:100%; background:#000; opacity:.2}
     #achivements-content .swiper-pagination-bullets .swiper-pagination-bullet {margin:0 5px}
     #achivements-content .swiper-pagination-clickable .swiper-pagination-bullet {cursor:pointer}
-    #achivements-content .swiper-pagination-bullet-active {opacity:1; background:#002959;}
+    #achivements-content .swiper-pagination-bullet-active {opacity:1; background:#002959;}*/
+    #page-banner.achivements-title {height:350px}
+    .achivements-title .col-lg-8 {padding:125px 15px!important}
+    
+    #achivements-content {height:500px}
+    #achivements-content .col-lg-12 {top:-230px}
+    #achivements-content .swiper-container-achivements {width:100%; padding:100px 0; perspective:1200px; touch-action:pan-y; margin:0 auto; position:relative; overflow:hidden; list-style:none; /*z-index:1*/}
+    #achivements-content .swiper-wrapper {transform-style:preserve-3d; position:relative; width:100%; height:100%; /*z-index:1;*/ display:flex; transition-property:transform; box-sizing:content-box}
+    #achivements-content .swiper-slide {background-position:center; background-size:cover; flex-shrink:0; position:relative; transition-property:transform}
+    
+    
         /*ACHIEVEMENTS-TEMPLATE-END*/
 
         /*RUUMIRENT-TEMPLATE*/
@@ -619,14 +629,13 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /**/
     
     /*TEST*/
-    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:450px}
+    #koolivorm-content .col-lg-5:last-child {top:0}
+    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:400px}
     #koolivorm-content .flip-front, .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0; width:100%}
-    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center}
+    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center; top:30%}
     #koolivorm-content .flip-back {transform:rotateY(180deg)}
-    #koolivorm-content .col-lg-6 {margin:0 0 150px 0}
     #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
-    #flip-1 h3, #flip-2 h3 {margin:45px 0 90px 0}
-    #flip-1 .flip-back h3:nth-child(2), #flip-2 .flip-back h3:last-child {margin:30px 0 45px 0}
+    #flip-1 .flip-back h3:nth-child(3), .flip-back h3:nth-child(3) {margin:45px 0}
     #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
     /*TEST-END*/
 /*PAGE-CONTENT-END*/

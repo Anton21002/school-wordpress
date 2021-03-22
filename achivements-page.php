@@ -3,7 +3,7 @@
 Template Name: achievements-page
 */
 get_header(); ?>
-    <div id=page-banner class="container-fluid">
+    <div id=page-banner class="container-fluid achivements-title">
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-8">
@@ -15,52 +15,21 @@ get_header(); ?>
     
     <div id="achivements-content" class="container-fluid page-content table-list-page">
         <div class="row">
-            <div class="col-lg-5">
-                <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
-                            <?php 
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-12">
-                                    <h2><?php the_title();?></h2>
-                                    <div class="slider-achivements">
-                                        <div class="swiper-container">
-                                            <div class="swiper-wrapper">
-                                                <?php the_content(); ?>
-                                            </div>
-                                            <div class="swiper-pagination"></div>
-                                        </div>
-                                    </div>     
+            <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
+            <?php 
+                while ($query -> have_posts()) : $query -> the_post(); ?>
+                    <div class="col-lg-12">
+                        <div class="slider-achivements">
+                            <div class="swiper-container-achivements">
+                                <div class="swiper-wrapper">
+                                    <?php the_content(); ?>
                                 </div>
-                        <?php 
-                        endwhile; 
-                        ?>
-                </div>
-            </div>
-            <!--<div class="col-lg-5">
-                <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
-                            <?php 
-                            $idx = 1;
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 1) { ?>
-                                <div class="col-lg-12">
-                                    <h2><?php the_title();?></h2>
-                                    <div class="slider-achivements">
-                                        <div class="swiper-container">
-                                            <div class="swiper-wrapper">
-                                                <?php the_content(); ?>
-                                            </div>
-                                            <div class="swiper-pagination"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php }?>
-                        <?php 
-                        $idx++;
-                        endwhile; 
-                        ?>
-                </div>
-            </div>-->
+                            </div>
+                        </div>     
+                    </div>
+                <?php 
+                endwhile; 
+                ?>
         </div>
     </div>
 <?php get_footer(); ?>
@@ -69,21 +38,10 @@ get_header(); ?>
     for (let i=0; i<imgSlider.length; i++){
         imgSlider.item(i).classList.add("slide", "swiper-slide");
     }
-    let swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
+    
+    let aosRemove = document.getElementsByClassName("wp-block-image");
+        for (let i=0; i<aosRemove.length; i++){
+            aosRemove.item(i).removeAttribute("data-tilt");
+        }
 </script>
 

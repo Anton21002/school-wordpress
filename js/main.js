@@ -27,11 +27,11 @@ window.onload = function() {
     
     
     /*LOADER*/
-    /*document.body.classList.add('loaded_hiding');
+    document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
       document.body.classList.add('loaded');
       document.body.classList.remove('loaded_hiding');
-    }, 4000);*/
+    }, 4000);   
     /*LOADER-END*/
     
     
@@ -65,9 +65,7 @@ window.onload = function() {
     /*DROPDOWN-END*/
 }
 
-
-
-var swiper = new Swiper('.swiper-container', {
+    let swiperMain = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 0,
         speed: 1500,
@@ -88,6 +86,25 @@ var swiper = new Swiper('.swiper-container', {
     });
 
 
+let swiperAchievements = new Swiper('.swiper-container-achivements', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      speed: 1500,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+    autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        }
+    
+    });
 
 /*SMOOTH-SCROLL*/
 document.querySelectorAll('a[href^="#"').forEach(link => {

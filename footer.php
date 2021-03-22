@@ -183,6 +183,7 @@
             }
         }
         /*Добавление Arrow в список-end*/
+        
         /*Добавление data-tilt атрибута*/
         let animationImg = document.getElementsByClassName("wp-block-image");
         for (let i=0; i<animationImg.length; i++){
