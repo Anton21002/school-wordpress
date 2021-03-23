@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<div id="preloader">
+<!--<div id="preloader">
     <h1 class="flip">
         <span class="text-wrapper">
             <span class="letters">Tallinna&nbsp;Pae&nbsp;Gümnaasium</span>
@@ -33,7 +33,7 @@
     <div class="row-p">
         <div class="loader-1"></div>
     </div>
-</div>
+</div>-->
     <div id="navbar" class="container-fluid scrollby">
         <div class="row justify-content-center">
             <div class="col-lg-2">

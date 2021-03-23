@@ -122,11 +122,11 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     a {color:#d77a06; text-decoration:none}
     
     /*PRELOADER*/
-    #preloader .flip {position:relative; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
+    /*#preloader .flip {position:relative; letter-spacing:0; transform:scaleX(-1); margin-top:0; top:50%}
     #preloader .flip .text-wrapper {position:relative; display:inline-block; padding:0.02em 50px; overflow:hidden}
     #preloader .flip .letter {display:inline-block; line-height:1em; transform-origin:0 0; margin:0 10px}
     #preloader a {text-decoration:none; color:#333; font-style:italic; font-size:1.2em}
-    #preloader a:hover {color:#990000; transition:1.2s ease}
+    #preloader a:hover {color:#990000; transition:1.2s ease}*/
     /*PRELOADER-END*/
     
     /*NAVBAR*/
@@ -135,7 +135,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #navbar .col-lg-8 {display:none}
     #navbar .col-lg-2 {display:flex; justify-content:space-between; align-items:center}
     #navbar .col-lg-2 a {padding:15px 0}
-    #navbar .logo {display:block; width:134px; height:63.9px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
+    #navbar .logo {display:block; width:134px; height:71px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
     #hamburger{display:inline-block; cursor:pointer}
     #hamburger .bar1, .bar2, .bar3 { width:40px; height:4px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
     #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-8px, 8px); transform:rotate(-45deg) translate(-8px, 8px)}
@@ -240,7 +240,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*FOOTER-END*/
     
     /*PRELOADER*/
-    #preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
+    /*#preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
     .loaded_hiding #preloader {transition:0.3s opacity; opacity:0}
     #preloader .row-p {position:relative; top:50%; left:50%; width:70px; height:70px; margin-top:-35px; margin-left:-35px; text-align:center; animation:preloader-rotate 2s infinite linear}
     #preloader .loader-1 {width:50px; height:50px;  position:absolute; top:50%; margin:-25px auto 0; border-radius:50%; background:#ffffff; background:-moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background: o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:-ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 50%); background:linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 50%); position:relative; -webkit-animation: loader-1 1.5s infinite linear; animation:loader-1 1.5s infinite linear; -webkit-transform:translateZ(0); -ms-transform:translateZ(0); transform:translateZ(0)}
@@ -267,7 +267,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
       }
-    }
+    }*/
     /*PRELOADER-END*/
 
 @media (min-width:1024px) {
@@ -343,7 +343,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
 
     /*PRELOADER*/
-    preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
+    /*preloader {position:fixed; left:0; top:0; right:0; bottom:0; background:#002959; z-index:999}
     body.loaded_hiding {overflow:hidden}
     .loaded_hiding #preloader {transition:0.3s opacity; opacity:1}
     .loaded #preloader {transition:800ms; transform:translateY(-100vh); opacity:0}
@@ -372,7 +372,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
       }
-    }
+    }*/
     /*PRELOADER-END*/
 
     /*PAGE-BANNER*/

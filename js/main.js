@@ -27,11 +27,11 @@ window.onload = function() {
     
     
     /*LOADER*/
-    document.body.classList.add('loaded_hiding');
+    /*document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
       document.body.classList.add('loaded');
       document.body.classList.remove('loaded_hiding');
-    }, 4000);   
+    }, 4000);*/   
     /*LOADER-END*/
     
     
@@ -79,10 +79,10 @@ window.onload = function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        autoplay: {
+        /*autoplay: {
             delay: 8000,
             disableOnInteraction: false,
-        }
+        }*/
     });
 
 
