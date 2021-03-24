@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row justify-content-between">
-                        <div class="col-md-12 col-lg-3">
+                        <div class="col-md-12 col-lg-4">
                             <div class="table">
                                 <h3>Контакты</h3>
                                 <p>
@@ -24,7 +24,7 @@
                             <div class="map">
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
+                        <div class="col-md-6 col-lg-4">
                             <div class="table">
                                 <h3>Полезные ссылки</h3>
                                 <ul>
@@ -45,7 +45,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
+                        <div class="col-md-6 col-lg-4">
                             <div class="table">
                                 <h3>Ссылки</h3>
                                 <ul>
