@@ -107,7 +107,7 @@ let swiperAchievements = new Swiper('.swiper-container-achivements', {
     });
 
 /*SMOOTH-SCROLL*/
-document.querySelectorAll('a[href^="#"').forEach(link => {
+document.querySelectorAll('a[href^="#"]').forEach(link => {
 
     link.addEventListener('click', function(e) {
         e.preventDefault();
