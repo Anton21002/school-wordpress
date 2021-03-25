@@ -290,8 +290,9 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     h2 {text-align:center; letter-spacing:5px; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
 
     /*CATEGORY*/
-    
+    #category .col-md-6 {padding:15px}
     /*CATEGORY-END*/
+    
     /*FOOTER*/
     #footer .col-md-12 {display:flex; flex-wrap:wrap; margin:0 0 45px 0}
     #footer .col-md-12 .table {width:50%}

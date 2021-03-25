@@ -4,7 +4,8 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
+    <!--<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">-->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style-index.css' ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/fonts/fontawesome/css/all.css' ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/aos.css' ?>">
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>
@@ -36,7 +37,7 @@
 </div>-->
     <div id="navbar" class="container-fluid scrollby">
         <div class="row justify-content-center">
-            <div class="col-lg-2">
+            <div class="col-lg-10 col-xl-2">
                 <a href="">
                     <span class="logo"></span>
                 </a>
@@ -46,7 +47,7 @@
                     <div class="bar3"></div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-xl-8">
                         <?php wp_nav_menu([
 						'theme_location' => 'Top area',
 						'menu' => 'Main menu',
