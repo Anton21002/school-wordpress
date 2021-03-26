@@ -60,8 +60,9 @@
 						?>
             </div>
         </div>
-    </div>
-    <div id="mnav" class="row">
+        <div class="row">
+            <div id="mnav">
+                <button id="back-button">Пиздатая кнопка назад</button>
             <?php wp_nav_menu([
 				'theme_location' => 'header-menu',
 				'menu' => 'Main menu',
@@ -72,5 +73,7 @@
 				'items_wrap' => '<ul class="%2$s">%3$s</ul>',
 				]);
             ?>
+    </div>
+        </div>
     </div>
     <div id="fader"></div>

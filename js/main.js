@@ -1,7 +1,7 @@
-var hamburger;
-var bars;
-var navbar;
-var likey;
+let hamburger;
+let bars;
+let navbar;
+let likey;
 window.onload = function() {
     
     AOS.init({
@@ -41,6 +41,7 @@ window.onload = function() {
     hamburger = document.getElementById('hamburger');
 	bars = hamburger.getElementsByTagName('div');
 	mnav = document.getElementById('mnav');
+    navbar = document.getElementById('navbar')
     
     function hamburgerMenu() {
 		for (var b = 0; b < bars.length; b++) {
@@ -56,12 +57,20 @@ window.onload = function() {
     
     /*DROPDOWN*/
     const cbox = document.querySelectorAll(".menu-item-has-children");
-
+    
     for (let i = 0; i < cbox.length; i++) {
-     cbox[i].addEventListener("click", function() {
-       cbox[i].classList.toggle("active");
+        cbox[i].addEventListener("click", function() {
+            cbox[i].classList.add("active");
+            mnav.classList.add("disable");
      });
  }
+    let buttonBack = document.getElementById('back-button');
+    for (let i = 0; i < cbox.length; i++) {
+    buttonBack.addEventListener("click", function(){
+        cbox[i].classList.remove("active");
+        mnav.classList.remove("disable");
+    })
+    }
     /*DROPDOWN-END*/
 }
 
@@ -128,3 +137,19 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
 });
 /*SMOOTH-SCROLL-END*/
+
+
+
+/*NAVBAR-PAGE*/
+    let navPage = document.getElementById('mnav');
+    let categoryList = navPage.querySelectorAll('li');
+    let category = categoryList.item(1);
+
+    /*for (let i=0; i<category.length; i++){
+        let item = category[i];
+        
+    }*/
+    
+    console.log(category);
+    
+/*NAVBAR-PAGE-END*/
