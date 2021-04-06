@@ -169,26 +169,34 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #navbar .col-xl-8 {display:none}
     #navbar .col-xl-2 {display:flex; justify-content:space-between; align-items:center}
     #navbar .col-xl-2 a {padding:15px 0}
-    #navbar .logo {display:block; width:113px; height:60px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
+    #navbar .logo {display:block; width:85px; height:45px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
     #hamburger{display:inline-block; cursor:pointer}
-    #hamburger .bar1, .bar2, .bar3 { width:40px; height:4px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
-    #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-8px, 8px); transform:rotate(-45deg) translate(-8px, 8px)}
+    #hamburger .bar1, .bar2, .bar3 { width:30px; height:2px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
+    #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-7px, 7px); transform:rotate(-45deg) translate(-7px, 7px)}
     #hamburger .bar2.clicked {opacity:0}
-    #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-8px, -8px); transform:rotate(45deg) translate(-8px, -8px)}
+    #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-7px, -7px); transform:rotate(45deg) translate(-7px, -7px)}
     #mnav {display:none}
-    #mnav.mnav {display:block}
+    #mnav.mnav {display:block; width:100%}
     
-    #mnav .navbar-main {background:#fff; padding:0 15px}
+    #mnav .navbar-main {position:relative; width:100%; background:#fff}
     #mnav .navbar-list {list-style-type:none; margin:0; padding:0; font-size:0}
-    #mnav a {display:block; padding:15px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0; transition:all.3s}
+    #mnav a {display:block; padding:15px; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0; transition:all.3s}
     #mnav li .sub-menu {display:none; list-style-type: disclosure-closed; color:#e67e42}
     
     
-    
+    #mnav li.active .sub-menu {width:100%; padding:0; position:absolute; top:0}
     #mnav li.active > .sub-menu {display:block; visibility:visible}
-    #mnav li.active .sub-menu > li > a{color:#002959; padding:15px 15px 15px 0;}
-    #mnav.disable {visibility:hidden}
+    #mnav li.active .sub-menu > li > a{color:#002959; padding:10px 15px}
+    #mnav .disable {visibility:hidden!important}
     #mnav button {visibility:visible}
+    
+    /*NAV-ARROW-BACK*/
+    #back-button {display:inline-block; cursor:pointer; padding:15px}
+    #back-button .line-1, #back-button .line-2, #back-button .line-3 {width:25px; height:2px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
+    #back-button .line-1 {transform:rotate(-30deg) translate(-4px, 2px)}
+    #back-button .line-2 {width:50px}
+    #back-button .line-3 {transform:rotate(30deg) translate(-4px, -2px)}
+    /*END-ARROW*/
     
     
     

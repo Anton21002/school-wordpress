@@ -56,7 +56,38 @@ window.onload = function() {
     
     
     /*DROPDOWN*/
-    const cbox = document.querySelectorAll(".menu-item-has-children");
+    let ulList = mnav.querySelectorAll('.menu-item-has-children');
+    let activeNav = mnav.getElementsByClassName("active");
+    
+  
+    let button = document.getElementById('back-button');
+    
+    
+    for (let i = 0; i < ulList.length; i++) {
+        if (ulList[i].classList.contains('menu-item-has-children')){ 
+            ulList[i].addEventListener("click", function () {
+                ulList[i].classList.add("active");
+                //mnav.classList.add("disable");
+                ulList[i].parentNode.classList.add("disable")
+            })
+        }
+    }
+    
+    
+    button.addEventListener("click", function (){
+        let last = activeNav[activeNav.length-1];
+        last.classList.remove("active");
+        last.parentNode.classList.remove("disable");
+    })
+    
+    //button.addEventListener("click", removeActive);
+
+    /*function removeActive () {
+        last.classList.remove("active");
+        last.parentNode.classList.remove("disable")
+    }*/
+    
+    /*const cbox = document.querySelectorAll(".menu-item-has-children");
     
     for (let i = 0; i < cbox.length; i++) {
         cbox[i].addEventListener("click", function() {
@@ -70,7 +101,7 @@ window.onload = function() {
         cbox[i].classList.remove("active");
         mnav.classList.remove("disable");
     })
-    }
+    }*/
     /*DROPDOWN-END*/
 }
 
@@ -137,19 +168,3 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
 });
 /*SMOOTH-SCROLL-END*/
-
-
-
-/*NAVBAR-PAGE*/
-    let navPage = document.getElementById('mnav');
-    let categoryList = navPage.querySelectorAll('li');
-    let category = categoryList.item(1);
-
-    /*for (let i=0; i<category.length; i++){
-        let item = category[i];
-        
-    }*/
-    
-    console.log(category);
-    
-/*NAVBAR-PAGE-END*/
