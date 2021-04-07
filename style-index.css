@@ -175,17 +175,17 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-7px, 7px); transform:rotate(-45deg) translate(-7px, 7px)}
     #hamburger .bar2.clicked {opacity:0}
     #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-7px, -7px); transform:rotate(45deg) translate(-7px, -7px)}
-    #mnav {display:none}
-    #mnav.mnav {display:block; width:100%}
+    #mnav {position:fixed; Width:100%; height:100%; -webkit-transform:translateX(-110%); transform:translateX(-110%); -webkit-transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out}
+    #mnav.mnav {background:#fff; -webkit-transform:translateX(0); transform:translateX(0); -webkit-transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out, -webkit-transform 0.5s ease-out}
     
-    #mnav .navbar-main {position:relative; width:100%; background:#fff}
+    #mnav .navbar-main {position:relative; width:100%; height:100%}
     #mnav .navbar-list {list-style-type:none; margin:0; padding:0; font-size:0}
-    #mnav a {display:block; padding:15px; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0; transition:all.3s}
-    #mnav li .sub-menu {display:none; list-style-type: disclosure-closed; color:#e67e42}
+    #mnav a {display:block; padding:15px; text-decoration:none; font-size:18px; color:#d77a06; margin:0; transition:all.3s}
+    #mnav li .sub-menu {position:absolute; top:0; background:#fff; transform:translateX(-100%); transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s}
     
     
-    #mnav li.active .sub-menu {width:100%; padding:0; position:absolute; top:0}
-    #mnav li.active > .sub-menu {display:block; visibility:visible}
+    #mnav li.active .sub-menu {width:100%; padding:0}
+    #mnav li.active > .sub-menu {display:block; visibility:visible; transform:translateX(0); transition:transform 0.5s ease-out, background-color 0.5s ease-out}
     #mnav li.active .sub-menu > li > a{color:#002959; padding:10px 15px}
     #mnav .disable {visibility:hidden!important}
     #mnav button {visibility:visible}

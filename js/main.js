@@ -41,67 +41,46 @@ window.onload = function() {
     hamburger = document.getElementById('hamburger');
 	bars = hamburger.getElementsByTagName('div');
 	mnav = document.getElementById('mnav');
-    navbar = document.getElementById('navbar')
+    navbar = document.getElementById('navbar');
+    let ulList = mnav.querySelectorAll('.menu-item-has-children');
+    let activeNav = mnav.getElementsByClassName("active");
+    let button = document.getElementById('back-button');
     
     function hamburgerMenu() {
-		for (var b = 0; b < bars.length; b++) {
-			bars[b].classList.toggle('clicked');
+        for (let b = 0; b < bars.length; b++) {
+            bars[b].classList.toggle('clicked');
 		}
 		navbar.classList.toggle('navbar-open');
 		mnav.classList.toggle('mnav');
 	}
 	
-	hamburger.addEventListener	('click', hamburgerMenu);
+	hamburger.addEventListener('click', hamburgerMenu);
     /*HAMBURGER-END*/
     
     
     /*DROPDOWN*/
-    let ulList = mnav.querySelectorAll('.menu-item-has-children');
-    let activeNav = mnav.getElementsByClassName("active");
-    
-  
-    let button = document.getElementById('back-button');
-    
-    
     for (let i = 0; i < ulList.length; i++) {
         if (ulList[i].classList.contains('menu-item-has-children')){ 
             ulList[i].addEventListener("click", function () {
                 ulList[i].classList.add("active");
-                //mnav.classList.add("disable");
-                ulList[i].parentNode.classList.add("disable")
+                ulList[i].parentNode.classList.add("disable");
+                button.classList.remove("disable");
             })
         }
     }
     
-    
     button.addEventListener("click", function (){
         let last = activeNav[activeNav.length-1];
-        last.classList.remove("active");
-        last.parentNode.classList.remove("disable");
-    })
-    
-    //button.addEventListener("click", removeActive);
+        for (let i = 0; i < ulList.length; i++) {
+            if (activeNav.length === 0){
+                button.classList.add("disable");
+            }else{
+                last.classList.remove("active");
+                last.parentNode.classList.remove("disable");
+            }
+        } 
 
-    /*function removeActive () {
-        last.classList.remove("active");
-        last.parentNode.classList.remove("disable")
-    }*/
-    
-    /*const cbox = document.querySelectorAll(".menu-item-has-children");
-    
-    for (let i = 0; i < cbox.length; i++) {
-        cbox[i].addEventListener("click", function() {
-            cbox[i].classList.add("active");
-            mnav.classList.add("disable");
-     });
- }
-    let buttonBack = document.getElementById('back-button');
-    for (let i = 0; i < cbox.length; i++) {
-    buttonBack.addEventListener("click", function(){
-        cbox[i].classList.remove("active");
-        mnav.classList.remove("disable");
     })
-    }*/
     /*DROPDOWN-END*/
 }
 
