@@ -24,7 +24,7 @@
     <base target="_blank">
 </head>
 
-<body>
+<body id="tpg">
 <!--<div id="preloader">
     <h1 class="flip">
         <span class="text-wrapper">
@@ -79,7 +79,9 @@
 				'items_wrap' => '<ul class="%2$s">%3$s</ul>',
 				]);
             ?>
-    </div>
+                <button id="btn-ru">Рус</button>
+                <button id="btn-est">Est</button>
+            </div>
         </div>
     </div>
     <div id="fader"></div>
