@@ -79,8 +79,8 @@
 				'items_wrap' => '<ul class="%2$s">%3$s</ul>',
 				]);
             ?>
-                <button id="btn-ru">Рус</button>
-                <button id="btn-est">Est</button>
+                <!--<button id="btn-ru">Рус</button>-->
+                <!--<button id="btn-est">Est</button>-->
             </div>
         </div>
     </div>
