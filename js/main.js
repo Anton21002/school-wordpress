@@ -1,6 +1,7 @@
 let hamburger;
 let bars;
 let navbar;
+let fader;
 let likey;
 window.onload = function() {
     
@@ -42,7 +43,8 @@ window.onload = function() {
 	bars = hamburger.getElementsByTagName('div');
 	mnav = document.getElementById('mnav');
     navbar = document.getElementById('navbar');
-    let body = document.getElementById('tpg')
+    fader = document.getElementById('fader');
+    let body = document.getElementById('tpg');
     let ulList = mnav.querySelectorAll('.menu-item-has-children');
     let activeNav = mnav.getElementsByClassName("active");
     let button = document.getElementById('back-button');
@@ -54,6 +56,7 @@ window.onload = function() {
         body.classList.toggle('no-scroll');
 		navbar.classList.toggle('navbar-open');
 		mnav.classList.toggle('mnav');
+        fader.classList.toggle('active');
 	}
 	
 	hamburger.addEventListener('click', hamburgerMenu);

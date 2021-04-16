@@ -63,12 +63,7 @@
         <div class="row">
             <div id="mnav">
                 <!--<button id="back-button">Назад</button>-->
-                <!--<i id="back-button" class="fas fa-arrow-left"></i>-->
-                <div id="back-button" class="disable">
-                    <div class="line-1"></div>
-                    <div class="line-2"></div>
-                    <div class="line-3"></div>
-                </div>
+                <i id="back-button" class="fas fa-arrow-left disable"></i>
             <?php wp_nav_menu([
 				'theme_location' => 'header-menu',
 				'menu' => 'Main menu',
