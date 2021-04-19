@@ -177,14 +177,13 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-7px, 7px); transform:rotate(-45deg) translate(-7px, 7px)}
     #hamburger .bar2.clicked {opacity:0}
     #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-7px, -7px); transform:rotate(45deg) translate(-7px, -7px)}
-    #mnav {position:fixed; Width:100%; height:100%; background:#fff; -webkit-transform:translateX(-110%); transform:translateX(-110%); -webkit-transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out}
+    #mnav {position:fixed; Width:100%; height:100%; padding:0 15px; background:#fff; -webkit-transform:translateX(-110%); transform:translateX(-110%); -webkit-transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out}
     #mnav.mnav {overflow:auto; -webkit-transform:translateX(0); transform:translateX(0); -webkit-transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out, -webkit-transform 0.5s ease-out}
     
     #mnav .navbar-main {position:relative; width:100%; height:100%}
-    #mnav .navbar-list {list-style-type:none; margin:0; padding:0; font-size:0}
-    #mnav a {display:block; text-decoration:none; font-size:15px; color:#002959; margin:0; transition:all.3s}
-    #mnav li .sub-menu {position:absolute; padding:0; top:0; background:#fff; transform:translateX(-100%); transition:transform 0.25s ease-out, background-color 0s ease-out; transition-delay:.6s}
-    #mnav .navbar-list li {padding:10px 15px}
+    #mnav .navbar-list {position:relative; list-style-type:none; margin:0; padding:0; font-size:0}
+    #mnav a {display:block; text-decoration:none; font-size:15px; padding:10px 0px; color:#002959; margin:0; transition:all.3s}
+    #mnav li .sub-menu {position:absolute; padding:0; top:0; background:#fff; transform:translateX(-110%); transition:transform 0.25s ease-out, background-color 0s ease-out; transition-delay:.6s}
     
     
     #mnav li.active .sub-menu {width:100%}
@@ -227,6 +226,13 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #mnav .navbar-list > li:last-child a::after, #mnav.mnav .navbar-list.disable > li:last-child a::after {content:''; position:absolute; bottom:-15px; left:50%; transition:all 1000ms cubic-bezier(0.0, 0.0, 0.58, 1.0); width:0; border-bottom:2px solid #002959; opacity:0}
     
     #mnav.mnav .navbar-list > li:last-child a::after {transition-delay:.9s; left:0; width:100%; opacity:1}
+
+
+
+    /*#mnav .navbar-list::before, #mnav .navbar-list.disable::before{content:''; position:absolute; top:-15px; left:50%; transition:all 1000ms cubic-bezier(0.0, 0.0, 0.58, 1.0); width:0; border-top:2px solid #002959; opacity:0}
+    #mnav.mnav .navbar-list::before {transition-delay:.9s; left:0; width:100%; opacity:1}
+    #mnav .navbar-list::after, #mnav .navbar-list.disable::after {content:''; position:absolute; bottom:-15px; left:50%; transition:all 1000ms cubic-bezier(0.0, 0.0, 0.58, 1.0); width:0; border-top:2px solid #002959; opacity:0}
+    #mnav.mnav .navbar-list::after {transition-delay:.9s; left:0; width:100%; opacity:1}*/
     /*NAV-LINE-END*/
     
     
