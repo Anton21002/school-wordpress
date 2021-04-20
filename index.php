@@ -60,7 +60,7 @@
             <div class="col-lg-10">
                 <h2 data-aos="fade-up">Категории</h2>
                 <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Гимназия</h3>
                             <ul>
@@ -77,7 +77,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
                         <div class="table">
                             <h3>Документы</h3>
                             <ul>
@@ -93,7 +93,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="table">
                             <h3>Коллектив</h3>
                             <ul>
@@ -104,7 +104,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
                         <div class="table">
                             <h3>Учебная работа</h3>
                             <ul>
@@ -119,7 +119,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Учащимся</h3>
                             <ul>
@@ -133,7 +133,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
                         <div class="table">
                             <h3>Родителям</h3>
                             <ul>
@@ -149,7 +149,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
@@ -160,7 +160,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
                         <div class="table">
                             <h3>Обзор школы</h3>
                             <ul>
