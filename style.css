@@ -130,11 +130,38 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 ::-webkit-scrollbar {width:5px; height:5px; background-color:#fff}
 
 
+
+
+
+
+
+
+
+
+
 @media (min-width:1px) {
-    h1 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:30px; font-weight:400; margin:0px 0 30px 0; font-family:Lora}
-    h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 30px 0; font-family:Lora}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:30px; font-weight:400; letter-spacing:3px; margin:0px 0 30px 0; font-family:Lora}
+    h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; letter-spacing:3px; margin:0 0 30px 0; font-family:Lora}
     h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    a, p {font-size:16px; line-height:30px; font-family:Montserrat-Regular}
+    a, p {font-size:15px; line-height:1.5; font-family:Montserrat-Regular}
     p {color:#000; margin:0}
     a {color:#d77a06; text-decoration:none}
     
@@ -147,26 +174,59 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*PRELOADER-END*/
     
     /*NAVBAR*/
+    #tpg.no-scroll {overflow:hidden}
+    #fader {position:fixed; height:100%; width:100%; z-index:1; background:rgba(0, 0, 0, 0); visibility:hidden; transition:all.3s}
+    #fader.active {z-index:2; background:rgba(0, 0, 0, 0.4); visibility:visible; transition:all.3s}
     #navbar {position:fixed; top:0; background:#fff; z-index:3}
-    #navbar.navbar-open {min-height:100%; background:#fff}
-    #navbar .col-lg-8 {display:none}
-    #navbar .col-lg-2 {display:flex; justify-content:space-between; align-items:center}
-    #navbar .col-lg-2 a {padding:15px 0}
-    #navbar .logo {display:block; width:113px; height:60px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
+    #navbar .col-xl-8 {display:none}
+    #navbar .col-xl-2 {display:flex; justify-content:space-between; align-items:center}
+    #navbar .col-xl-2 a {padding:15px 0}
+    #navbar .logo {display:block; width:85px; height:45px; background:url("../school-p/img/logo.svg"); background-repeat:repeat; background-size:auto; background-size:cover; background-repeat:no-repeat}
     #hamburger{display:inline-block; cursor:pointer}
-    #hamburger .bar1, .bar2, .bar3 { width:40px; height:4px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
-    #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-8px, 8px); transform:rotate(-45deg) translate(-8px, 8px)}
+    #hamburger .bar1, .bar2, .bar3 { width:30px; height:2px; background-color:#002959; margin:8px 0; transition:all.4s; border-radius:2px}
+    #hamburger .bar1.clicked {-webkit-transform:rotate(-45deg) translate(-7px, 7px); transform:rotate(-45deg) translate(-7px, 7px)}
     #hamburger .bar2.clicked {opacity:0}
-    #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-8px, -8px); transform:rotate(45deg) translate(-8px, -8px)}
-    #mnav {display:none}
-    #mnav.mnav {display:block}
+    #hamburger .bar3.clicked {-webkit-transform:rotate(45deg) translate(-7px, -7px); transform:rotate(45deg) translate(-7px, -7px)}
     
-    #mnav .navbar-list {list-style-type:none}
-    #mnav a {display:block; padding:15px 0; text-decoration:none; font-size:16px; color:#d77a06; text-transform:uppercase; margin:0; transition:all.3s}
-    #mnav li .sub-menu {display:none; list-style-type: disclosure-closed; color:#e67e42}
-    #mnav li.active .sub-menu {display:block}
-    #mnav li.active .sub-menu > li > a{color:#002959; padding:15px 15px 15px 0;}
+    #mnav {position:fixed; Width:100%; height:100%; padding:0 15px; background:#fff; overflow:hidden; -webkit-transform:translateX(-110%); transform:translateX(-110%); -webkit-transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s; transition:transform 0.25s ease-out, background-color 0s ease-out 0.25s, -webkit-transform 0.25s ease-out}
+    #mnav.mnav {-webkit-transform:translateX(0); transform:translateX(0); -webkit-transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out, -webkit-transform 0.5s ease-out}
+    #mnav .navbar-main {position:relative; width:100%; height:100%}
+    #mnav .navbar-list {position:relative; list-style-type:none; margin:0; padding:0; font-size:0; z-index:1}
+    #mnav a {display:block; text-decoration:none; font-size:15px; padding:10px 0px; color:#002959; margin:0; transition:all.3s}
+    #mnav li .sub-menu {position:absolute; padding:0; top:0; background:#fff; list-style-type:none; transform:translateX(-110%); transition:transform 0.25s ease-out, background-color 0s ease-out; transition-delay:.6s}
+    #mnav li.active .sub-menu {width:100%}
+    #mnav li.active > .sub-menu {display:block; visibility:visible!important; transform:translateX(0); transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition-delay:.6s; z-index:2}
+    /*ANIMATION-LI*/
+        /*LAYER-1*/
+    #mnav .navbar-list > li:last-child, #mnav .navbar-list > li:first-child {position:relative; transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1)}
+    #mnav .navbar-list > li:first-child a::before, #mnav.mnav .navbar-list.disable > li:first-child a::before {content:''; position:absolute; top:-15px; left:50%; transition:all 1000ms cubic-bezier(0.0, 0.0, 0.58, 1.0); width:0; border-top:2px solid #002959; opacity:0}
+    #mnav.mnav .navbar-list > li:first-child a::before {transition-delay:.9s; left:0; width:100%; opacity:1}
+    #mnav .navbar-list > li:last-child a::after, #mnav.mnav .navbar-list.disable > li:last-child a::after {content:''; position:absolute; bottom:-15px; left:50%; transition:all 1000ms cubic-bezier(0.0, 0.0, 0.58, 1.0); width:0; border-bottom:2px solid #002959; opacity:0}
+    #mnav.mnav .navbar-list > li:last-child a::after {transition-delay:.9s; left:0; width:100%; opacity:1}
     
+    #mnav .navbar-list > li > a, #mnav.mnav .navbar-list.disable > li > a {transform:translateX(-10%); transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1); opacity:0}
+    #mnav.mnav .navbar-list > li > a {transform:translateX(0); transition-delay:.9s; opacity:1}
+    #mnav.mnav .navbar-list > li:last-child, #mnav.mnav .navbar-list > li:first-child {transition-delay:.9s!important}
+        /*LAYER-1-END*/
+        /*LAYER-2*/
+    #mnav .navbar-list > li .sub-menu.disable > li > a, #mnav .navbar-list > li .sub-menu > li > a {transform:translateX(-10%); transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1); opacity:0}
+    #mnav li.active > .sub-menu > li > a {transform:translateX(0); transition-delay:1100ms; opacity:1}
+        /*LAYER-2-END*/
+        /*LAYER-3*/
+    #mnav .navbar-list > li > .sub-menu.disable > li > .submenu > li > a, #mnav .navbar-list > li .sub-menu > li > .submenu > li > a{transform:translateX(-10%); transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1); opacity:0}
+        /*LAYER-3-END*/
+    /*ANIMATION-LI-END*/
+    
+    /*NAV-ARROW-BACK*/
+    #back-button.disable {opacity:0; transform:translateX(-110%); transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1)}
+    #back-button {display:inline-block; cursor:pointer; padding:10px 10px 10px 0; font-size:20px; color:#002959; opacity:1; transform:translateX(0); transition:all 500ms cubic-bezier(0.42, 0, 0.58, 1); transition-delay:.9s}
+    /*END-ARROW*/
+    
+    /*BUTTON-TRANS*/
+    #btn-ru, #btn-est {background:none; border:none; color:#d77a06; font-family:Montserrat-Regular; position:absolute; top:10px; font-size:18px; padding:0 15px; cursor:pointer}
+    #btn-ru {left:0}
+    #btn-est {right:0}
+    /*BUTTON-TRANS-END*/
     /*NAVBAR-END*/
     
     /*BANNER*/
@@ -178,7 +238,7 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
     #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
     #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:150px 15px 30px 15px; background:#002959; background-size:cover; background-position:center}
-    #slider .slide-1 h2.mobile {display:inline-block}
+    #slider .slide-1 h2.mobile {display:block}
     #slider .slide-1 h2.full {display:none}
     #slider .slide-2 {display:flex; justify-content:center; height:100%; background:#002959; padding:150px 15px 30px 15px}
     #slider .slide-2 .row-button {display:flex; justify-content:center}
@@ -217,10 +277,11 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     
     /*CATEGORY*/
     #category {padding:60px 15px 30px 15px}
+    #category .col-md-6 {padding:15px}
     #category .table {background:rgba(255,255,255, 0.6); box-shadow:0px 10px 20px #d9d9d9; padding:0 0 30px 0; border-radius:5px; height:100%; border:1px solid #fff; transition:all.3s}
     #category h3 {position:relative; color:#002959; margin:0; padding:30px; border-radius:5px 5px 0 0; transition:all.3s}
     #category ul {list-style-type:none; margin:0; padding:0}
-    #category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:10px 30px; line-height:1.5; font-size:14px; cursor:pointer; transition:all.2s}
+    #category .table a {display:inline-block; position:relative; width:100%; text-decoration:none; color:#000; padding:10px 30px; cursor:pointer; transition:all.3s}
     #category .table span {position:relative; color:#000; transition:all.1s}
     #category .table h3::after {content:""; display:block; position:absolute; bottom:15px; left:30px; width:50%; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
     /*CATEGORY-END*/
@@ -286,12 +347,56 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     }*/
     /*PRELOADER-END*/
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 @media (min-width:768px) {
-    h2 {text-align:center; letter-spacing:5px; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {font-size:35px; letter-spacing:5px}
+    h2 {font-size:28px; letter-spacing:5px; margin:0 0 15px 0}
+    h3 {margin:0 0 30px 0}
+    
+    /*NAVBAR*/
+    /*NAVBAR-END*/
+    
+    
+    /*BANNER*/
+    /*BANNER-END*/
 
     /*CATEGORY*/
     #category .col-md-6 {padding:15px}
     /*CATEGORY-END*/
+    
+    /*LABEL*/
+    /*LABEL-END*/
     
     /*FOOTER*/
     #footer .col-md-12 {display:flex; flex-wrap:wrap; margin:0 0 45px 0}
@@ -300,46 +405,61 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #footer .copyright {font-size:12px}
     /*FOOTER-END*/
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 @media (min-width:1024px) {
-    h1 {text-align:center; letter-spacing:10px; text-transform:uppercase; color:#d77a06; font-size:35px; font-weight:400; margin:45px 0 30px 0; font-family:Lora}
-    h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    a, p {font-family:Montserrat-Regular}
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {font-size:38px; margin:45px 0 30px 0}
+    h2 {font-size:30px; margin:0 0 30px 0}
+    h3 {font-size:21px; margin:0 0 45px 0}
+    a, p {font-size:16px; line-height:30px}
+
     /*NAVBAR*/
-    #navbar .col-lg-2 {display:flex; justify-content:center align-items:center}
-    #navbar .col-lg-2 a {padding:0!important; margin:0}
-    #navbar .logo {width:126.783px; height:67.383px}
-    #navbar .col-lg-8 {display:flex; align-items:center; justify-content:flex-end}
-    #navbar ul {margin:0; padding:0; font-size:0}
-    #navbar li {display:inline-block; position:relative}
-    #navbar a {display:block; padding:30px 0; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
-    #navbar a:hover {color:#002959; transition:all.3s}
-    #navbar ul li:last-child a {margin:0 0 0 15px}
-    #navbar ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
-    #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible; border-top:3px solid #d77a06}
-    #navbar .sub-menu li {display:block}
-    #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
-    #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
-    
-    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
-    
-    #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
-    #fader {position:fixed; height:100%; width:100%; z-index:1; background:rgba(0, 0, 0, 0); visibility:hidden; transition:all.3s}
-    #hamburger{display:none}
-    #navbar:hover {position:fixed; z-index:4; background:#fff; opacity:1; transition:all.3s}
-    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}
-    #navbar .logo{width:126.783px; height:67.383px}
-    #navbar a {padding:30px 0}
-    #navbar .submenu a {padding:10px 0}
+    #mnav {display:flex; justify-content:center; flex-wrap:wrap; width:40%}
+    #mnav .navbar-main {width:83.33%}
+    #mnav .navbar-list {margin:15px 0 0 0}
+    #back-button {width:83.33%}
     /*NAVBAR-END*/
-
-
+    
     /*BANNER*/
     #slider {height:100%}
     #slider .swiper-container {height:90%}
     #slider h2 {font-size:14px; letter-spacing:3px; text-transform:uppercase}
     #slider .slide-1 h2.mobile {display:none}
-    #slider .slide-1 h2.full {display:inline-block}
+    #slider .slide-1 h2.full {display:block}
     #slider .slide-1 {padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('http://development/wp-content/uploads/2020/12/6.jpg'); background-size:cover; background-position:center}
     #slider .slide-2 {align-items:center; height:100%; background:#002959; padding:90px 15px}
     #slider .slide-3 {padding:90px 15px}
@@ -350,15 +470,6 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
 
     /*CATEGORY*/
     #category .table {padding:0 0 45px 0; background:rgba(255,255,255, 0.3); transition:all.3s}
-    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
-    #category .col-lg-4 {min-height:650px; padding:15px}
-    #category h3 {padding:45px}
-    #category .table a {padding:10px 45px}
-    #category .table a:hover {background:#002959; transition:all.2s}
-    #category .table span {position:relative; color:#000; transition:all.1s}
-    #category .table a:hover span {color:#fff; transition:all.1s}
-    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
-    #category .table:hover h3::after {width:50%}
     /*CATEGORY-END*/
     
     /*LABLE-LIST*/
@@ -672,16 +783,56 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     /*TEST-END*/
 /*PAGE-CONTENT-END*/
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 @media (min-width:1366px) {
-    h1 {text-align:center; letter-spacing:30px; text-transform:uppercase; color:#d77a06; font-size:55px; font-weight:400; margin:105px 0 30px 0; font-family:Lora}
-    h2 {text-align:center; letter-spacing:15px; text-transform:uppercase; color:#d77a06; font-size:35px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    h3 {color:#002959; font-size:25px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    a, p {font-family:Montserrat-Regular}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {letter-spacing:15px; font-size:45px; margin:105px 0 30px 0}
+    h2 {letter-spacing:5px; font-size:32px}
+    h3 {font-size:25px; margin:0 0 45px 0}
+    
+    /*NAVBAR*/
+    /*NAVBAR-END*/
 
     /*BANNER*/
     #slider {height:100%}
     #slider .swiper-container {height:90%}
-    #slider h2 {font-size:18px; letter-spacing:5px}
+    #slider h2 {font-size:16px; letter-spacing:3px}
     #slider .slide-1 {padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('http://development/wp-content/uploads/2020/12/6.jpg'); background-size:cover; background-position:center}
     #slider .slide-2 {align-items:center; height:100%; background:#002959; padding:90px 15px}
     #slider .slide-3 {padding:90px 15px}
@@ -689,8 +840,72 @@ html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff;
     #slider .slide-3 .info {position:relative; width:40vw; height:19vw; overflow:hidden; visibility:visible}
     #slider .slide-3 .info-img {background:url('http://development/wp-content/uploads/2020/12/14.jpg'); width:100%; height:100%; background-size:cover; background-position:center}
     /*BANNER-END*/
+    
+    /*CATEGORY*/
+    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
+    #category .col-lg-4 {min-height:650px; padding:15px}
+    #category h3 {padding:45px}
+    #category .table a {padding:10px 45px}
+    #category .table a:hover {background:#002959; transition:all.2s}
+    #category .table span {position:relative; color:#000; transition:all.1s}
+    #category .table a:hover span {color:#fff; transition:all.1s}
+    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
+    #category .table:hover h3::after {width:50%}
+    /*CATEGORY-END*/
+    
+    
+    /*LABEL*/
+    /*LABEL-END*/
 
     /*FOOTER*/
     #footer .col-lg-4:nth-child(2) .table:last-child {margin: 60px 0 0 0}
     /*FOOTER-END*/
 }
+    
+    
+    
+    
+@media (min-width:1600px) {
+    
+    /*NAVBAR*/
+    #navbar .col-xl-2 a {padding:0!important; margin:0}
+    #navbar .logo {width:126.783px; height:67.383px}
+    #navbar .col-xl-8 {display:flex; align-items:center; justify-content:flex-end}
+    #navbar ul {margin:0; padding:0; font-size:0}
+    #navbar li {display:inline-block; position:relative}
+    #navbar a {display:block; padding:30px 0; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
+    #navbar a:hover {color:#002959; transition:all.3s}
+    #navbar ul li:last-child a {margin:0 0 0 15px}
+    #navbar ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible; border-top:3px solid #d77a06}
+    #navbar .sub-menu li {display:block}
+    #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
+    #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
+    
+    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    
+    #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
+    #hamburger{display:none}
+    #navbar:hover {position:fixed; z-index:4; background:#fff; opacity:1; transition:all.3s}
+    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}
+    #navbar .logo{width:126.783px; height:67.383px}
+    #navbar a {padding:30px 0}
+    #navbar .submenu a {padding:10px 0}
+    /*NAVBAR-END*/
+    
+    
+    
+    /*CATEGORY*/
+    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
+    #category .col-lg-4 {min-height:650px; padding:15px}
+    #category h3 {padding:45px}
+    #category .table a {padding:10px 45px}
+    #category .table a:hover {background:#002959; transition:all.2s}
+    #category .table span {position:relative; color:#000; transition:all.1s}
+    #category .table a:hover span {color:#fff; transition:all.1s}
+    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
+    #category .table:hover h3::after {width:50%}
+    /*CATEGORY-END*/
+    
+    
+    }

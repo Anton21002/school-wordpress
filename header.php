@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style-index.css' ?>">
+    <!--<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style-index.css' ?>">-->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/fonts/fontawesome/css/all.css' ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/aos.css' ?>">
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/swiper.js' ?>" defer=""></script>

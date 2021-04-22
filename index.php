@@ -55,7 +55,7 @@
     </div>
 
     <div id="particles-js"></div>
-    <div id="category" class="container-fluid scrollto">
+    <div id="category" class="container-fluid scrollby">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <h2 data-aos="fade-up">Категории</h2>
@@ -153,10 +153,10 @@
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
-                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Работа в кружках</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Ученическое самоуправление</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>План мероприятий</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'huvitegevus', null)?>"><span>Проекты</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus/#post-1389', null)?>"><span>Работа в кружках</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus/#post-1407', null)?>"><span>Ученическое самоуправление</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus/#post-1404', null)?>"><span>План мероприятий</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'huvitegevus/#post-1413', null)?>"><span>Проекты</span></a></li>
                             </ul>
                         </div>
                     </div>
