@@ -164,11 +164,104 @@ setTimeout(function(){scroll(0,0);},1);
 
 $(function(){
 
-// if we have anchor on the url (calling from other page)
-if(window.location.hash){
-    // smooth scroll to the anchor id
-    $('html,body').animate({
-        scrollTop:$(window.location.hash).offset().top - 500
+    // if we have anchor on the url (calling from other page)
+    if(window.location.hash){
+        // smooth scroll to the anchor id
+        let href = window.location.hash.substring(1);
+
+        const scrollTarget = document.getElementById(href);
+
+        const topOffset = document.querySelector('.scrollby').offsetHeight;
+            // const topOffset = 0; // если не нужен отступ сверху 
+        const elementPosition = scrollTarget.getBoundingClientRect().top;
+        const offsetPosition = elementPosition - 2 * topOffset;
+
+        /*window.scrollBy({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });*/
+        $('html,body').animate({
+        scrollTop: offsetPosition
         },1000,'swing');
+        /*$('html,body').animate({
+        scrollTop:$(window.location.hash).offset().top - 500
+        },1000,'swing');*/
     }
+    
 });
+
+
+/*
+function scroll() {
+        let href = window.location.hash.substring(1);
+        let scrollTarget = document.getElementById(href);
+    
+
+        let topOffset = document.querySelector('.scrollby').offsetHeight;
+        let elementPosition = scrollTarget.getBoundingClientRect().top;
+        let offsetPosition = elementPosition - 2 * topOffset;
+        // длительность прокручивания страницы
+        let duration = 1000,
+            // старт анимации прокручивания страницы
+            start = new Date().getTime();
+
+        let fn = function() {
+            // текущее положение верхней границы контейнера с учётом высоты шапки с меню
+            // при прокрутке контейнер не должен заходить под шапку
+            let top = offsetPosition,
+                // время прошедшее от начала прокрутки страницы
+                now = new Date().getTime() - start,
+                // на сколько должна быть прокручена страница
+                result = Math.round(top * now / duration);
+            console.log(result);
+            console.log(top)
+        }
+    requestAnimationFrame(fn);
+}
+        
+*/        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

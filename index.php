@@ -55,7 +55,7 @@
     </div>
 
     <div id="particles-js"></div>
-    <div id="category" class="container-fluid scrollby">
+    <div id="category" class="container-fluid scrollto">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <h2 data-aos="fade-up">Категории</h2>
