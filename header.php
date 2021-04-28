@@ -13,8 +13,8 @@
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/aos.js' ?>" defer=""></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/js/vanilla-tilt.js' ?>" defer=""></script>
     
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/particles/particles.js' ?>" defer=""></script>
-    <script src="<?php echo get_stylesheet_directory_uri(). '/js/particles/app.js' ?>" defer=""></script>
+    <!--<script src="<?php echo get_stylesheet_directory_uri(). '/js/particles/particles.js' ?>" defer=""></script>
+    <script src="<?php echo get_stylesheet_directory_uri(). '/js/particles/app.js' ?>" defer=""></script>-->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>

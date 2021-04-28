@@ -65,7 +65,7 @@
                             <h3>Гимназия</h3>
                             <ul>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/Opilaste-arv-klassides.pdf' ?>"><span>Наполняемость классов</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'teenused', null)?>"><span>Список услуг</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium', null)?>"><span>Список услуг</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'tookoht', null)?>"><span>Вакансии</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'riigihanked', null)?>"><span>Государственные поставки</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'kohtulahendid', null)?>"><span>Судебные решения</span></a></li>
