@@ -21,17 +21,3 @@
 Учебный план гимназии
 Опросы
 Темы исследовательский работ
-
-
-1)teenused
-2)tookoht
-
-
-let tableList = document.querySelectorAll(".wp-block-table")
-    console.log(tableList);
-for (let i = 0; i<tableList.length; i++){
-    console.log(tableList[i]);
-    if (tableList[i].parentElement.classList.contains("table")){
-        tableList[i].parentElement.classList.remove("table");
-    }
-}
