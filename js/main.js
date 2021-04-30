@@ -176,50 +176,24 @@ $(function(){
         const elementPosition = scrollTarget.getBoundingClientRect().top;
         const offsetPosition = elementPosition - 2 * topOffset;
 
-        /*window.scrollBy({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });*/
         $('html,body').animate({
         scrollTop: offsetPosition
         },1000,'swing');
-        /*$('html,body').animate({
-        scrollTop:$(window.location.hash).offset().top - 500
-        },1000,'swing');*/
     }
     
 });
 
 
-/*
-function scroll() {
-        let href = window.location.hash.substring(1);
-        let scrollTarget = document.getElementById(href);
-    
-
-        let topOffset = document.querySelector('.scrollby').offsetHeight;
-        let elementPosition = scrollTarget.getBoundingClientRect().top;
-        let offsetPosition = elementPosition - 2 * topOffset;
-        // длительность прокручивания страницы
-        let duration = 1000,
-            // старт анимации прокручивания страницы
-            start = new Date().getTime();
-
-        let fn = function() {
-            // текущее положение верхней границы контейнера с учётом высоты шапки с меню
-            // при прокрутке контейнер не должен заходить под шапку
-            let top = offsetPosition,
-                // время прошедшее от начала прокрутки страницы
-                now = new Date().getTime() - start,
-                // на сколько должна быть прокручена страница
-                result = Math.round(top * now / duration);
-            console.log(result);
-            console.log(top)
-        }
-    requestAnimationFrame(fn);
+/*TABLE-CLASS-DELETE*/
+let tableList = document.querySelectorAll(".wp-block-table")
+for (let i = 0; i<tableList.length; i++){
+    if (tableList[i].parentElement.classList.contains("table")){
+        tableList[i].parentElement.classList.remove("table");
+        tableList[i].parentElement.classList.add("table-block");
+    }
 }
-        
-*/        
+/*TABLE-CLASS-DELE-END*/
+      
         
         
         

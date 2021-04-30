@@ -65,14 +65,14 @@
                             <h3>Гимназия</h3>
                             <ul>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/Opilaste-arv-klassides.pdf' ?>"><span>Наполняемость классов</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'gumnaasium', null)?>"><span>Список услуг</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'tookoht', null)?>"><span>Вакансии</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'riigihanked', null)?>"><span>Государственные поставки</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'kohtulahendid', null)?>"><span>Судебные решения</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'ruumirent', null)?>"><span>Аренда помещений</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-582', null)?>"><span>Список услуг</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-1522', null)?>"><span>Вакансии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-597', null)?>"><span>Государственные поставки</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-662', null)?>"><span>Судебные решения</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-675', null)?>"><span>Аренда помещений</span></a></li>
                                 <li><a href="http://dhs.tallinn.ee/atp/"><span>Регистр документов</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'klassiastumine', null)?>"><span>Прием в 1 класс</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'koolisookla', null)?>"><span>Меню школьной столовой</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-750', null)?>"><span>Прием в 1 класс</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'gumnaasium/#post-728', null)?>"><span>Меню школьной столовой</span></a></li>
                                 <li><a><span>Страница школьных новостей</span></a></li>
                             </ul>
                         </div>

@@ -21,7 +21,7 @@
     
     <title> <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title('');?></title>
     <?php wp_head(); ?>
-    <base target="_blank">
+    <!--<base target="_blank">-->
 </head>
 
 <body id="tpg">
