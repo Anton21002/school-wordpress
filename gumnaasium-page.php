@@ -13,7 +13,7 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="gumnaasium-content" class="container-fluid page-content table-list-page common-page">
+    <div id="gumnaasium-content" class="container-fluid page-content common-page">
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">

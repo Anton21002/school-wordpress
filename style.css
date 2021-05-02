@@ -576,48 +576,50 @@ body::after {
     .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
     .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}
     .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
-    .page-content figure {/*height:100%;*/ margin:0; overflow-x:inherit}
-    .page-content figcaption {/*color:#002959; font-size:25px; font-weight:400; margin:0 0 30px 0!important;*/color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
+    .page-content figure {margin:0; overflow-x:inherit}
+    .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
     .page-content .col-lg-5:last-child figcaption {text-align:end}
     .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
     .page-content .table {width:100%; background:#fff; box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:45px; border-radius:5px}
     .page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+    
+    .page-content p {margin:0 0 15px 0}
+    .page-content p:last-child {margin:0}
+    .page-content h3 {margin:45px 0}
+    .page-content h3:first-child {margin:0 0 45px 0}
+    .page-content .wp-block-file .wp-block-file__button {padding:0 1em!important}
+    .page-content .wp-block-file:last-child {margin:0!important}
+    
+    .page-content  {padding:75px 15px}
+    .page-content  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1)}
+    .page-content .table-block {width:100%}
+    .page-content tr {position:relative; transition:all.3s}
+    .page-content tr:first-child {background:#002959}
+    .page-content tr:first-child::before{width:0; height:0}
+    .page-content tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
+    .page-content tr:hover td {color:#fff; transition:all.3s}
+    .page-content tr:hover {background:#002959; transition:all.3s}
+    .page-content tr:hover .hover:hover {background:#d77a06; transition:all.3s}
+    .page-content tr:hover .hover:hover a {color:#fff}
+    .page-content td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
+    .page-content td:first-child {padding:15px 15px 15px 30px}
+    .page-content td:last-child {padding:15px 30px 15px 15px}
+    .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
+    .page-content table br {margin:0 0 10px 0}
         /*STYLE-FOR-ALL-PAGE-END*/
 
         /*TABLE-PAGE-MAIN-STYLE-LIST*/
-    .table-list-page  {padding:75px 15px}
-    .table-list-page  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1)}
-    .table-list-page .table-block {width:100%}
-    .table-list-page tr {position:relative; transition:all.3s}
-    .table-list-page tr:first-child {background:#002959}
-    .table-list-page tr:first-child::before{width:0; height:0}
-    .table-list-page tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
-    .table-list-page tr:hover td {color:#fff; transition:all.3s}
-    .table-list-page tr:hover {background:#002959; transition:all.3s}
-    .table-list-page tr:hover .hover:hover {background:#d77a06; transition:all.3s}
-    .table-list-page tr:hover .hover:hover a {color:#fff}
-    .table-list-page td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
-    .table-list-page td:first-child {padding:15px 15px 15px 30px}
-    .table-list-page td:last-child {padding:15px 30px 15px 15px}
-    .table-list-page td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
-    
-    
-    /*.table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
+    .table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
     .table-list-page .col-lg-5:last-child .col-lg-12 h3 {letter-spacing:0; text-align:end}
     .table-list-page .col-lg-12 {margin:0 0 100px 0}
     .table-list-page .col-lg-12:last-child {margin:0}
-    .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}*/
+    .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
         /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
 
         /*COMMON-PAGE-MAIN-STYLE-LIST*/
     .common-page {padding:75px 15px 75px 15px}
     .common-page .col-lg-5:last-child {top:-130px}
-    /*.common-page .col-lg-5:first-child .col-lg-10:nth-child(2n)::after {content:""; bottom:-75px; left:15px; position:absolute; width:50%; height:2px; background:#002959}
-    .common-page .col-lg-5:first-child .col-lg-10:last-child::after {content:none}
-    .common-page .col-lg-5:last-child .col-lg-10:nth-child(2n-1)::after {content:""; bottom:-75px; right:15px; position:absolute; width:50%; height:2px; background:#002959}*/
-    
-    
     .common-page .col-lg-10 {margin:0 0 150px 0}
     .common-page .col-lg-10:last-child {margin:0}
     .common-page .col-lg-5:first-child .row {justify-content:flex-start}
@@ -664,7 +666,7 @@ body::after {
     .achivements-title .col-lg-8 {padding:125px 15px!important}
     
     #achivements-content {height:500px}
-    #achivements-content .col-lg-12 {top:-230px}
+    #achivements-content .col-lg-12 {top:-260px}
     #achivements-content .swiper-container-achivements {width:100%; padding:100px 0; perspective:1200px; touch-action:pan-y; margin:0 auto; position:relative; overflow:hidden; list-style:none; /*z-index:1*/}
     #achivements-content .swiper-wrapper {transform-style:preserve-3d; position:relative; width:100%; height:100%; /*z-index:1;*/ display:flex; transition-property:transform; box-sizing:content-box}
     #achivements-content .swiper-slide {background-position:center; background-size:cover; flex-shrink:0; position:relative; transition-property:transform}

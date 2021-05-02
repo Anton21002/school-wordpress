@@ -85,11 +85,11 @@
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/01/TPG_Arengukava.pdf' ?>"><span>Программа развития</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'jarelvalve', null)?>"><span>Государственный надзор</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'oppenoukogud', null)?>"><span>Педсоветы и решения</span></a></li>
-                                <li><a><span>Внутренний распорядок</span></a></li>
-                                <li><a><span>Условия приема в гимназию</span></a></li>
-                                <li><a><span>Руководство по зарплате</span></a></li>
-                                <li><a><span>Защита личных данных</span></a></li>
-                                <li><a><span>Официальные бланки</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/KODUKORD_2021.pdf' ?>"><span>Внутренний распорядок</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/TPG_vastuvotu_kord_2021.pdf' ?>"><span>Условия приема в гимназию</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/Tootasujuhend-2021.pdf' ?>"><span>Руководство по зарплате</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/andmekaitse.pdf' ?>"><span>Защита личных данных</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '' ?>"><span>Официальные бланки</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,13 +109,13 @@
                             <h3>Учебная работа</h3>
                             <ul>
                                 <li><a href="<?php echo get_site_url(null, 'oppekava', null)?>"><span>Учебная программа</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'eesmark', null)?>"><span>Цели школы</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'tookorraldus', null)?>"><span>Режим работы гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1006', null)?>"><span>Цели школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1023', null)?>"><span>Режим работы гимназии</span></a></li>
                                 <li><a href="https://pae.edupage.org/timetable/?1"><span>Расписание уроков</span></a></li>
-                                <li><a href="http://development/wp-content/uploads/2021/02/Konsultatsioonid.pdf"><span>Расписание консультаций</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'terviseedendus', null)?>"><span>Охрана здоровья учащихся</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'hariduslik-erivajadus', null)?>"><span>Образовательные потребности</span></a></li>
-                                <li><a href="http://development/wp-content/uploads/2021/02/KK2017-2018.pdf"><span>Языковое погружение</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/02/Konsultatsioonid.pdf' ?>"><span>Расписание консультаций</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1039', null)?>"><span>Охрана здоровья учащихся</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1064', null)?>"><span>Образовательные потребности</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/02/KK2017-2018.pdf' ?>"><span>Языковое погружение</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -123,13 +123,13 @@
                         <div class="table">
                             <h3>Учащимся</h3>
                             <ul>
-                                <li><a href="<?php echo get_site_url(null, 'gumnaasiumi-lopetaja', null)?>"><span>Выпускникам гимназии</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'pohikooli-lopetaja', null)?>"><span>Выпускникам основной школы</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'oppeplaan', null)?>"><span>Учебный план гимназии</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'kusitlused', null)?>"><span>Опросы</span></a></li>
-                                <li><a><span>Практические и исследовательские работы в гимназии</span></a></li>
-                                <li><a><span>Творческие работы в основной школе</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'uurimistoo-teema', null)?>"><span>Темы исследовательских работ</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opilastele/#post-1124', null)?>"><span>Выпускникам гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opilastele/#post-1145', null)?>"><span>Выпускникам основной школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opilastele/#post-1161', null)?>"><span>Учебный план гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opilastele/#post-1168', null)?>"><span>Опросы</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/Tallinna-Pae-Gumnaasiumi-uurimistoode-juhend.pdf' ?>"><span>Практические и исследовательские работы в гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/PK_Loovtoode_juhend_2019.pdf' ?>"><span>Творческие работы в основной школе</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opilastele/#post-1187', null)?>"><span>Темы исследовательских работ</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -137,15 +137,15 @@
                         <div class="table">
                             <h3>Родителям</h3>
                             <ul>
-                                <li><a><span>Распорядок дня</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/TPG-paevakava_2017-18.pdf' ?>"><span>Распорядок дня</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'hoolekogu', null)?>"><span>Попечительский совет</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'koosolekud', null)?>"><span>Родительские собрания</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'eelkool', null)?>"><span>Подготовительная группа</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'koolivorm', null)?>"><span>Школьная форма</span></a></li>
-                                <li><a><span>Школа родительского успеха</span></a></li>
+                                <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/lapsevanemate_kool_2020-2021.pdf' ?>"><span>Школа родительского успеха</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'lapsevanemate-kooli-materjalid', null)?>"><span>Материалы "Школа родительского успеха"</span></a></li>
                                 <li><a><span>Важная информация</span></a></li>
-                                <li><a><span>Среда для заказа ученического билета</span></a></li>
+                                <li><a href="https://pilet.idnetwork.eu/et/a/opilaspilet"><span>Среда для заказа ученического билета</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -115,14 +115,14 @@
             }
         }
         
-        let aTag = document.getElementsByTagName("td");
-        for (let i=0; i<aTag.length; i++){
-            if (aTag.item(i).childElementCount > 0) {
-                aTag.item(i).classList.add("hover");
-            }else{
-
+        //Проблема с добавлением класса .hover всем родителям с наличием тега <a>
+        let aTag = document.querySelectorAll("a");
+        for(let i=0; i<aTag.length; i++){
+            if(aTag.item(i).parentElement = "<td>"){
+                aTag.item(i).parentElement.classList.add("hover");
             }
         }
+        
         
        /*Удаление тега который не содержит текста*/
         let hEmpty = document.getElementsByTagName("h3");
@@ -130,8 +130,6 @@
             //console.log(hEmpty.item(i));
             if (hEmpty.item(i).textContent < 1) {
                 hEmpty.item(i).parentNode.removeChild(hEmpty.item(i));
-            }else{
-
             }
         }
         /*Удаление тега который не содержит текста-end*/
