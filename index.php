@@ -89,6 +89,7 @@
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/TPG_vastuvotu_kord_2021.pdf' ?>"><span>Условия приема в гимназию</span></a></li>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/Tootasujuhend-2021.pdf' ?>"><span>Руководство по зарплате</span></a></li>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/05/andmekaitse.pdf' ?>"><span>Защита личных данных</span></a></li>
+                                <li><a><span>Порядок питания</span></a></li>
                                 <li><a href="<?php echo get_site_url(). '' ?>"><span>Официальные бланки</span></a></li>
                             </ul>
                         </div>

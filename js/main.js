@@ -6,6 +6,13 @@ let likey;
 
 
 window.onload = function() {
+    /*LOADER*/
+    let preloader = document.getElementById('preloader');
+    preloader.classList.add('hide-preloader');
+    setInterval(function() {
+          preloader.classList.add('preloader-hidden');
+    }, 1990);
+    /*LOADER-END*/
     
     AOS.init({
         duration: 1200,
@@ -28,14 +35,6 @@ window.onload = function() {
     }*/
     /*NAVBAR-SCROLL-END*/
     
-    
-    /*LOADER*/
-    /*document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 4000);*/   
-    /*LOADER-END*/
     
     
     
@@ -126,7 +125,7 @@ let swiperAchievements = new Swiper('.swiper-container-achivements', {
         slideShadows: true,
       },
     autoplay: {
-            delay: 4000,
+            delay: 3000,
             disableOnInteraction: false,
         }
     
@@ -175,12 +174,13 @@ $(function(){
             // const topOffset = 0; // если не нужен отступ сверху 
         const elementPosition = scrollTarget.getBoundingClientRect().top;
         const offsetPosition = elementPosition - 2 * topOffset;
-
-        $('html,body').animate({
-        scrollTop: offsetPosition
-        },1000,'swing');
-    }
-    
+        
+        setTimeout(function() {
+            $('html,body').animate({
+            scrollTop: offsetPosition
+            },1000,'swing');
+        }, 1500);
+    } 
 });
 
 

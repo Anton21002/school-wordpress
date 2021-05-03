@@ -35,6 +35,13 @@
         <div class="loader-1"></div>
     </div>
 </div>-->
+<div id="preloader">
+    <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
     <div id="navbar" class="container-fluid scrollby">
         <div class="row justify-content-center">
             <div class="col-lg-10 col-xl-2">
