@@ -104,10 +104,10 @@ window.onload = function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        /*autoplay: {
+        autoplay: {
             delay: 8000,
             disableOnInteraction: false,
-        }*/
+        }
     });
 
 

@@ -37,9 +37,9 @@
                         <h2>Со всеми последними событиями можете ознакомится на нашем новом информационном портале</h2>
                         <div class="row-button">
                             <a href="">Подробнее</a>
-                            <div class="info">
+                            <!--<div class="info">
                                 <div class="info-img"></div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
