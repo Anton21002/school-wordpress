@@ -78,7 +78,7 @@
     .col-lg-12 {-ms-flex:0 0 100%; flex:0 0 100%; max-width:100%}
 }
 
-@media (min-width:1366px) {
+@media (min-width:1600px) {
     .container {max-width:1140px;}
     .col-xl {-ms-flex-preferred-size:0; flex-basis:0; -ms-flex-positive:1; flex-grow:1; max-width:100%}
     .col-xl-auto {-ms-flex:0 0 auto; flex:0 0 auto; width:auto; max-width:100%}
@@ -203,7 +203,7 @@ body::after {
     h1 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:30px; font-weight:400; letter-spacing:3px; margin:0px 0 30px 0; font-family:Lora}
     h2 {text-align:center; text-transform:uppercase; color:#d77a06; font-size:25px; font-weight:400; letter-spacing:3px; margin:0 0 30px 0; font-family:Lora}
     h3 {color:#002959; font-size:21px; font-weight:400; margin:0 0 45px 0; font-family:Lora}
-    a, p {font-size:15px; line-height:1.5; font-family:Montserrat-Regular}
+    a, p {font-size:16px; line-height:26px; font-family:Montserrat-Regular}
     p {color:#000; margin:0}
     a {color:#d77a06; text-decoration:none}
     
@@ -311,7 +311,7 @@ body::after {
     #mnav.mnav {-webkit-transform:translateX(0); transform:translateX(0); -webkit-transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:background-color 0.5s ease-out, -webkit-transform 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition:transform 0.5s ease-out, background-color 0.5s ease-out, -webkit-transform 0.5s ease-out}
     #mnav .navbar-main {position:relative; width:100%; height:100%}
     #mnav .navbar-list {position:relative; list-style-type:none; margin:0; padding:0; font-size:0; z-index:1}
-    #mnav a {display:block; text-decoration:none; font-size:15px; padding:10px 0px; color:#002959; margin:0; transition:all.3s}
+    #mnav a {display:block; text-decoration:none; font-size:16px; padding:10px 0px; color:#002959; margin:0; transition:all.3s}
     #mnav li .sub-menu {position:absolute; padding:0; top:0; background:#fff; list-style-type:none; transform:translateX(-110%); transition:transform 0.25s ease-out, background-color 0s ease-out; transition-delay:.6s}
     #mnav li.active .sub-menu {width:100%}
     #mnav li.active > .sub-menu {display:block; visibility:visible!important; transform:translateX(0); transition:transform 0.5s ease-out, background-color 0.5s ease-out; transition-delay:.6s; z-index:2}
@@ -356,7 +356,7 @@ body::after {
     #slider .swiper-container {position:relative; width:100%; height:500px; overflow:hidden; list-style:none; padding:0; margin:0}
     #slider .swiper-wrapper {position:relative; width:100%; height:100%; display:flex; transition-property:transform}
     #slider .swiper-slide {flex-shrink:0; width:100%; height:100%; position:relative; transition-property:transform}
-    #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:150px 15px 30px 15px; background:#002959; background-size:cover; background-position:center}
+    #slider .slide-1 {display:flex; justify-content:center; height:100%; background:#002959; padding:150px 15px 30px 15px; background:radial-gradient(#002959, #212121); background-size:cover; background-position:center}
     #slider .slide-1 h2.mobile {display:block}
     #slider .slide-1 h2.full {display:none}
     #slider .slide-2 {display:flex; justify-content:center; height:100%; background:radial-gradient(#002959, #212121); padding:150px 15px 30px 15px}
@@ -467,7 +467,290 @@ body::after {
     /*PRELOADER-END*/
 
     
+    /*PAGE-BANNER*/
+    #page-banner {height:200px}
+    #page-banner > .row {height:100%}
+    #page-banner .col-lg-1 {display:none}
+    #page-banner .col-lg-8 {display:flex; justify-content:center; align-items:flex-end; padding:45px 15px; background:#002959}
+    #page-banner .col-lg-3 {display:none}
+    #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+    #page-banner h2 {margin:0; text-align:start}
+    /*PAGE-BANNER-END*/
+
+    /*PAGE-CONTENT*/
+
+        /*STYLE-FOR-ALL-PAGE*/
+    .page-content .row {justify-content:center}
+    /*.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}*/
+    .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
+    .page-content figure {margin:0; overflow-x:inherit}
+    .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
+    .page-content .col-lg-5:last-child figcaption {text-align:end}
+    .page-content ul {font-size:16px; line-height:26px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
+    .page-content i {margin:0 10px 0 0; color:#002959}
+    .page-content .table {width:100%; background:rgba(255,255,255, 0.6); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 45px 0}
+    .page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+    .page-content .wp-block-image {display:none}
     
+    .page-content p {margin:0 0 15px 0}
+    .page-content p:last-child {margin:0}
+    .page-content h3 {margin:45px 0}
+    .page-content h3:first-child {margin:0 0 30px 0}
+    .page-content .wp-block-file .wp-block-file__button {padding:0 1em!important}
+    .page-content .wp-block-file:last-child {margin:0!important}
+    
+    
+
+    
+    .page-content  {padding:75px 15px}
+    .page-content  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1)}
+    .page-content .table-block {width:100%; background:rgba(255,255,255, 0.6); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 45px 0}
+    .page-content tr {position:relative; transition:all.3s}
+    .page-content tr:first-child {background:#002959}
+    .page-content tr:first-child::before{width:0; height:0}
+    .page-content tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
+    .page-content tr:hover td {color:#fff; transition:all.3s}
+    .page-content tr:hover {background:#002959; transition:all.3s}
+    .page-content tr:hover .hover:hover {background:#d77a06; transition:all.3s}
+    .page-content tr:hover .hover:hover a {color:#fff}
+    .page-content td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
+    .page-content td:first-child {padding:15px 15px 15px 30px}
+    .page-content td:last-child {padding:15px 30px 15px 15px}
+    .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
+    .page-content table br {margin:0 0 10px 0}
+        /*STYLE-FOR-ALL-PAGE-END*/
+
+        /*TABLE-PAGE-MAIN-STYLE-LIST*/
+    .table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
+    .table-list-page .col-lg-5:last-child .col-lg-12 h3 {letter-spacing:0; text-align:end}
+    .table-list-page .col-lg-12 {margin:0 0 100px 0}
+    .table-list-page .col-lg-12:last-child {margin:0}
+    .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
+        /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
+
+        /*COMMON-PAGE-MAIN-STYLE-LIST*/
+    .common-page {padding:45px 15px 45px 15px}
+    /*.common-page .col-lg-5:last-child {top:-130px}*/
+    /*.common-page .col-lg-10 {margin:0 0 45px 0}*/
+    .common-page .col-lg-10:last-child {margin:0}
+    .common-page .col-lg-5:first-child .row {justify-content:flex-start}
+    .common-page .col-lg-5:last-child .row {justify-content:flex-end}
+        /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
+
+        /*WP-FILE-LINK*/
+    .wp-block-file {display:flex; justify-content:space-between; text-align:start; margin:0 0 15px 0!important}
+    .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none}
+    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
+    
+    /*.wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
+    .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
+    .wp-block-file .wp-block-file__button:hover::before {transition-delay:0s}
+    .wp-block-file .wp-block-file__button:hover::after {background:#002959 !important; transition-delay:.35s}
+    .wp-block-file .wp-block-file__button::before {top:0; left:50%;	height:100%; width:0; border:1px solid #002959;	border-left:0; border-right:0}
+    .wp-block-file .wp-block-file__button::after {bottom:0;	left:0;	height:0; width:100%;	background:#002959!important}
+    .wp-block-file .wp-block-file__button:hover::before {left:0; width:100%}
+    .wp-block-file .wp-block-file__button:hover::after {top:0; height:100%}*/
+        /*WP-FILE-LINK-END*/
+
+    /*GUMNAASIUM-TEMPLATE*/
+    #post-564, #post-582 .wp-block-table {display:none}
+    
+    .page-content .wp-block-table {display:none}
+    .page-content .wp-block-file a.wp-block-file__button {display:none}
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
+    
+        /*MEEDIAS-TEMPLATE*/
+    #meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*MEEDIAS-TEMPLATE-END*/
+
+        /*SERVICE-LIST-TEMPLATE*/
+    #service-list-content .col-lg-5:last-child {top:-130px}
+    #service-list-content .col-lg-5:last-child .row {justify-content:flex-end}
+        /*SERVICE-LIST-TEMPLATE-END*/
+
+        /*ACHIEVEMENTS-TEMPLATE*/
+    #achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:0}
+    /*#achivements-content .slider-achivements {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+    #achivements-content .swiper-container {overflow:hidden}
+    #achivements-content .swiper-wrapper {display:flex; transition-property:transform}
+    #achivements-content .slider-achivements .slide {flex-shrink:0; transition-property:transform}
+    #achivements-content .slider-achivements .slide img {box-shadow:none}
+    #achivements-content .swiper-pagination {position:absolute; text-align:center; transition:.3s opacity; transform:translate3d(0,0,0); z-index:10}
+    #achivements-content .swiper-pagination-bullets {bottom:10px; left:0; width:100%}
+    #achivements-content .swiper-pagination-bullet {width:10px; height:10px; display:inline-block; border-radius:100%; background:#000; opacity:.2}
+    #achivements-content .swiper-pagination-bullets .swiper-pagination-bullet {margin:0 5px}
+    #achivements-content .swiper-pagination-clickable .swiper-pagination-bullet {cursor:pointer}
+    #achivements-content .swiper-pagination-bullet-active {opacity:1; background:#002959;}*/
+    #page-banner.achivements-title {height:350px}
+    .achivements-title .col-lg-8 {padding:125px 15px!important}
+    
+    #achivements-content {height:500px}
+    #achivements-content .col-lg-12 {top:-260px; padding:0}
+    #achivements-content .swiper-container-achivements {width:100%; padding:100px 0; perspective:1200px; touch-action:pan-y; margin:0 auto; position:relative; overflow:hidden; list-style:none; /*z-index:1*/}
+    #achivements-content .swiper-wrapper {transform-style:preserve-3d; position:relative; width:100%; height:100%; /*z-index:1;*/ display:flex; transition-property:transform; box-sizing:content-box}
+    #achivements-content .swiper-slide {background-position:center; background-size:cover; flex-shrink:0; position:relative; transition-property:transform}
+    
+    
+        /*ACHIEVEMENTS-TEMPLATE-END*/
+
+        /*RUUMIRENT-TEMPLATE*/
+    #ruumirent-content {padding:75px 15px 0 15px}
+    #ruumirent-content .col-lg-5:last-child {top:-130px}
+    #ruumirent-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #ruumirent-content .wp-block-file:nth-child(2) {margin:0 0 30px 0!important}
+        /*RUUMIRENT-TEMPLATE-END*/
+
+        /*KOOLISOOKLA-TEMPLATE*/
+    #koolisookla-content .wp-block-file {margin:0!important}
+        /*KOOLISOOKLA-TEMPLATE-END*/
+
+        /*OPPENOUKOGU-TEMPLATE*/
+    #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*OPPENOUKOGU-TEMPLATE-END*/
+
+        /*JUHTKOND-TEMPLATE*/
+    #juhtkond-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*JUHTKOND-TEMPLATE-END*/
+
+        /*KLASSIJUHATAJAD-TEMPLATE*/
+    #klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*KLASSIJUHATAJAD-TEMPLATE-END*/
+
+        /*OPETAJAD-TEMPLATE*/
+    #opetajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*OPETAJAD-TEMPLATE-END*/
+
+        /*SPETSIALISTID-TEMPLATE*/
+    #spetsialistid-content {padding:75px 15px 75px 15px}
+    #spetsialistid-content .col-lg-5:last-child {top:-130px}
+    #spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
+        /*SPETSIALISTID-TEMPLATE-END*/
+
+        /*TOOKORRALDUS-TEMPLATE*/
+    #tookorraldus-content {padding:75px 15px 0 15px}
+    #tookorraldus-content .col-lg-5:last-child {top:-130px}
+    #tookorraldus-content .col-lg-5:last-child .row {justify-content:flex-end}
+        /*TOOKORRALDUS-TEMPLATE-END*/
+
+        /*TERVISEEDENDUS-TEMPLATE*/
+    #terviseedendus-content .col-lg-5:last-child {top:-130px}
+    #terviseedendus-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #terviseedendus-content .wp-block-file {margin:0 0 30px 0!important}
+        /*TERVISEEDENDUS-TEMPLATE-END*/
+
+        /*OPPEKAVA-TEMPLATE*/
+    #oppekava-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0}
+    #oppekava-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #oppekava-content p {font-style:italic}
+        /*OPPEKAVA-TEMPLATE-END*/
+    
+        /*LOPETAJA-TEMPLATE*/
+    #gumnaasiumi-lopetaja-content {padding:75px 15px}
+    #gumnaasiumi-lopetaja-content .table h3:nth-child(4) {margin:45px 0}
+    #gumnaasiumi-lopetaja-content p {margin:0 0 15px 0}
+        /*LOPETAJA-TEMPLATE-END*/
+        
+        /*JARELVALVE-TEMPLATE*/
+    #jarelvalve-content .wp-block-file {margin:0 0 30px 0!important}
+        /*JARELVALVE-TEMPLATE-END*/
+    
+    /*POHIKOOLI-LOPETAJA-TEMPLATE*/
+    #pohikooli-lopetaja-content p {font-style:italic}
+    /*POHIKOOLI-LOPETAJA-TEMPLATE-END*/
+    
+    /*UURIMISTOO-TEEMA-TEMPLATE*/
+    #uurimistoo-teema-content .wp-block-file:nth-child(4) {margin:0 0 45px 0!important}
+    /*UURIMISTOO-TEEMA-TEMPLATE-END*/
+    
+    /*KOOSOLEKUD-TEMPLATE*/
+    #koosolekud-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important}
+    #koosolekud-content .col-lg-5:first-child .col-lg-12:first-child {margin: 100px 0 100px 0}
+    /*KOOSOLEKUD-TEMPLATE-END*/
+    
+    /*HOOLEKOGU-TEMPLATE*/
+    #hoolekogu-content .table {width:100%}
+    #hoolekogu-content h3:first-child {margin:0 0 45px 0}
+    #hoolekogu-content h3 {margin:45px 0 45px 0}
+    /*HOOLEKOGU-TEMPLATE-END*/
+    
+    /*EELKOOL-TEMPLATE*/
+    #eelkool-content .day-list {display:flex; flex-wrap:wrap; width:100%; margin:0 0 10px 0}
+    #eelkool-content .day {position:relative; width:50%; color:#002959; text-align:center; font-family:Lora; font-size:21px; padding:15px; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); cursor:pointer*/}
+    #eelkool-content .is-active {opacity:1}
+    #eelkool-content .disable {opacity:0; position:absolute; top:140px; padding:0}
+    #eelkool-content .wp-block-table {}
+    /*#eelkool-content .day:before, #eelkool-content .day:after {
+        content: '';
+        position: absolute;	
+        transition: inherit;
+        z-index: -1;
+    }
+
+    #eelkool-content .day:hover {
+        color: #fff;
+        transition-delay: .5s;
+    }
+
+    #eelkool-content .day:hover:before {
+        transition-delay: 0s;
+    }
+
+    #eelkool-content .day:hover:after {
+        background: #002959;
+        transition-delay: .35s;
+    }
+    
+    
+    
+    .day:before, 
+    .day:after {
+        top: 0;
+        width: 0;
+        height: 100%;
+    }
+
+    .day:before {
+        right: 0;
+        border: 1px solid #002959;
+        border-left: 0;
+        border-right: 0;	
+    }
+
+    .day:after {
+        left: 0;
+    }
+
+    .day:hover:before,
+    .day:hover:after {
+        width: 100%;
+    }*/
+    /*EELKOOL-TEMPLATE-END*/
+    
+    /*HUVITEGEVUS-TEMPLATE*/
+    #huvitegevus-content .table h3:first-child {margin:0 0 45px 0}
+    #huvitegevus-content .table h3 {margin:45px 0}
+    #huvitegevus-content .col-lg-10:last-child {margin:0 0 150px 0}
+    /*HUVITEGEVUS-TEMPLATE-END*/
+    
+    /**/
+    #lapsevanemate-kooli-materjalid-content {padding:75px 15px}
+    #lapsevanemate-kooli-materjalid-content h4 {color:#002959; font-size:20px; font-weight:400; margin:30px 0; font-family:Lora}
+    #lapsevanemate-kooli-materjalid-content p + p {margin:15px 0 0 0}
+    /**/
+    
+    /*TEST*/
+    #koolivorm-content .col-lg-5:last-child {top:0}
+    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:400px}
+    #koolivorm-content .flip-front, .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0; width:100%}
+    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center; top:30%}
+    #koolivorm-content .flip-back {transform:rotateY(180deg)}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    #flip-1 .flip-back h3:nth-child(3), .flip-back h3:nth-child(3) {margin:45px 0}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    /*TEST-END*/
+/*PAGE-CONTENT-END*/
     
     
     
@@ -504,6 +787,7 @@ body::after {
     h3 {margin:0 0 30px 0}
     
     /*NAVBAR*/
+    #mnav {width:50%}
     /*NAVBAR-END*/
     
     
@@ -523,6 +807,15 @@ body::after {
     #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:45px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
     #footer .copyright {font-size:12px}
     /*FOOTER-END*/
+    
+    /*GUMNAASIUM-TEMPLATE*/
+    
+    /*.page-content .table {background:none; box-shadow:none; margin:0}
+    .page-content .table-block {background:none; box-shadow:none; margin:0}*/
+    
+    
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
     }
     
     
@@ -636,6 +929,162 @@ body::after {
     }*/
     /*PRELOADER-END*/
 
+    /*ALL-PAGE-STYLE-START-THIS*/
+    
+    /*COMMON-PAGE-MAIN-STYLE-LIST*/
+    .common-page {padding:75px 15px 75px 15px}
+    .common-page .col-lg-5:last-child {top:-120px}
+        /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
+    .page-content .wp-block-file a.wp-block-file__button {display:flex; align-items:center}
+    .page-content .wp-block-image {display:block}
+    .page-content figure {margin:0 0 45px 0}
+    .page-content .wp-block-image img {border-radius:5px}
+    .page-content .table, .page-content .table-block {background:rgba(255,255,255, 1)}
+    .page-content .wp-block-table {display:block}
+    
+    /*PAGE-BANNER*/
+    #page-banner .col-lg-1 {display:block; background:#002959}
+    #page-banner .col-lg-8 {justify-content:flex-start}
+    /*PAGE-BANNER*/
+        
+    /*GUMNAASIUM-TEMPLATE*/
+    #post-675.table-block {background:transparent; box-shadow:none; padding:0}
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media (min-width:1366px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {letter-spacing:15px; font-size:45px; margin:105px 0 30px 0}
+    h2 {letter-spacing:5px; font-size:32px}
+    h3 {font-size:25px; margin:0 0 45px 0}
+    
+
+    /*BANNER*/
+    #slider {height:100%}
+    #slider .swiper-container {height:90%}
+    #slider h2 {font-size:16px; letter-spacing:3px}
+    #slider .slide-1 {padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('http://development/wp-content/uploads/2020/12/6.jpg'); background-size:cover; background-position:center}
+    #slider .slide-2 {align-items:center; height:100%; padding:90px 15px}
+    #slider .slide-3 .info {position:relative; width:40vw; height:19vw; overflow:hidden; visibility:visible}
+    #slider .slide-3 .info-img {background:url('http://development/wp-content/uploads/2020/12/14.jpg'); width:100%; height:100%; background-size:cover; background-position:center}
+    /*BANNER-END*/
+    
+    /*CATEGORY*/
+    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
+    #category .col-lg-4 {min-height:650px; padding:15px}
+    #category h3 {padding:45px}
+    #category .table a {padding:10px 45px}
+    #category .table a:hover {background:#002959; transition:all.2s}
+    #category .table span {position:relative; color:#000; transition:all.1s}
+    #category .table a:hover span {color:#fff; transition:all.1s}
+    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
+    #category .table:hover h3::after {width:50%}
+    /*CATEGORY-END*/
+    
+    
+    /*LABEL*/
+    /*LABEL-END*/
+
+    /*FOOTER*/
+    #footer .col-lg-4:nth-child(2) .table:last-child {margin: 60px 0 0 0}
+    /*FOOTER-END*/
+    
+    
+    
+    /*PAGE-TEMPLATE-CONTENT*/
+    #post-564, #post-582 .wp-block-table {display:block}
+    .page-content .table-block {background:transparent; padding:0; box-shadow:none}
+    /*PAGE-TEMPLATE-CONTENT*/
+    
+}
+    
+    
+    
+    
+@media (min-width:1600px) {
+    
+    /*NAVBAR*/
+    #navbar .col-xl-2 a {padding:0!important; margin:0}
+    #navbar .logo {width:126.783px; height:67.383px}
+    #navbar .col-xl-8 {display:flex; align-items:center; justify-content:flex-end}
+    #navbar ul {margin:0; padding:0; font-size:0}
+    #navbar li {display:inline-block; position:relative}
+    #navbar a {display:block; padding:30px 0; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
+    #navbar a:hover {color:#002959; transition:all.3s}
+    #navbar ul li:last-child a {margin:0 0 0 15px}
+    #navbar ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible; border-top:3px solid #d77a06}
+    #navbar .sub-menu li {display:block}
+    #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
+    #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
+    
+    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    
+    #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
+    #hamburger{display:none}
+    #navbar:hover {position:fixed; z-index:4; background:#fff; opacity:1; transition:all.3s}
+    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}
+    #navbar .logo{width:126.783px; height:67.383px}
+    #navbar a {padding:30px 0}
+    #navbar .submenu a {padding:10px 0}
+    /*NAVBAR-END*/
+    
+    
+
+    
+    
+    /*CATEGORY*/
+    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
+    #category .col-lg-4 {min-height:650px; padding:15px}
+    #category h3 {padding:45px}
+    #category .table a {padding:10px 45px}
+    #category .table a:hover {background:#002959; transition:all.2s}
+    #category .table span {position:relative; color:#000; transition:all.1s}
+    #category .table a:hover span {color:#fff; transition:all.1s}
+    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
+    #category .table:hover h3::after {width:50%}
+    /*CATEGORY-END*/
+    
+    
+    
+    
+    
     /*PAGE-BANNER*/
     #page-banner {height:300px}
     #page-banner > .row {height:100%}
@@ -649,8 +1098,8 @@ body::after {
 
         /*STYLE-FOR-ALL-PAGE*/
     .page-content .row {justify-content:center}
-    .page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
-    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}
+    .page-content .col-lg-5:last-child .col-xl-12:last-child::before, .page-content .col-lg-5:last-child .col-xl-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:60%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+    .page-content .col-lg-5:last-child .col-xl-12:last-child::after, .page-content .col-lg-5:last-child .col-xl-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:60%; height:2px; background:#002959}
     .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
     .page-content figure {margin:0; overflow-x:inherit}
     .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
@@ -658,7 +1107,7 @@ body::after {
     .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
     .page-content .table {width:100%; background:#fff; box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:45px; border-radius:5px}
-    .page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
+    .page-content .col-lg-5:last-child .col-xl-10 {display:flex; justify-content:flex-end}
     
     .page-content p {margin:0 0 15px 0}
     .page-content p:last-child {margin:0}
@@ -686,24 +1135,24 @@ body::after {
         /*STYLE-FOR-ALL-PAGE-END*/
 
         /*TABLE-PAGE-MAIN-STYLE-LIST*/
-    .table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
-    .table-list-page .col-lg-5:last-child .col-lg-12 h3 {letter-spacing:0; text-align:end}
-    .table-list-page .col-lg-12 {margin:0 0 100px 0}
-    .table-list-page .col-lg-12:last-child {margin:0}
-    .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
+    .table-list-page .col-lg-5:first-child .col-lg-xl h3 {letter-spacing:0; text-align:start}
+    .table-list-page .col-lg-5:last-child .col-lg-xl h3 {letter-spacing:0; text-align:end}
+    .table-list-page .col-xl-12 {margin:0 0 100px 0}
+    .table-list-page .col-xl-12:last-child {margin:0}
+    .table-list-page .col-lg-5:last-child .col-xl-12:last-child {margin: 0 0 100px 0}
         /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
 
         /*COMMON-PAGE-MAIN-STYLE-LIST*/
     .common-page {padding:75px 15px 75px 15px}
     .common-page .col-lg-5:last-child {top:-130px}
-    .common-page .col-lg-10 {margin:0 0 150px 0}
-    .common-page .col-lg-10:last-child {margin:0}
-    .common-page .col-lg-5:first-child .row {justify-content:flex-start}
-    .common-page .col-lg-5:last-child .row {justify-content:flex-end}
+    .common-page .col-xl-10 {margin:0 0 150px 0}
+    .common-page .col-xl-10:last-child {margin:0}
+    .common-page .col-xl-5:first-child .row {justify-content:flex-start}
+    .common-page .col-xl-5:last-child .row {justify-content:flex-end}
         /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
 
         /*WP-FILE-LINK*/
-    .wp-block-file {display:flex; justify-content:space-between; text-align:center; margin:0 0 15px 0!important}
+    .wp-block-file {display:flex; justify-content:space-between; text-align:start; margin:0 0 15px 0!important}
     .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none}
     .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
     .wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
@@ -906,128 +1355,6 @@ body::after {
     #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
     /*TEST-END*/
 /*PAGE-CONTENT-END*/
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-@media (min-width:1366px) {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    h1 {letter-spacing:15px; font-size:45px; margin:105px 0 30px 0}
-    h2 {letter-spacing:5px; font-size:32px}
-    h3 {font-size:25px; margin:0 0 45px 0}
-    
-    /*NAVBAR*/
-    /*NAVBAR-END*/
-
-    /*BANNER*/
-    #slider {height:100%}
-    #slider .swiper-container {height:90%}
-    #slider h2 {font-size:16px; letter-spacing:3px}
-    #slider .slide-1 {padding:90px 15px; background:linear-gradient( rgba(0, 41, 89, 0.9), rgba(0, 41, 89, 0.6) ), url('http://development/wp-content/uploads/2020/12/6.jpg'); background-size:cover; background-position:center}
-    #slider .slide-2 {align-items:center; height:100%; padding:90px 15px}
-    #slider .slide-3 .info {position:relative; width:40vw; height:19vw; overflow:hidden; visibility:visible}
-    #slider .slide-3 .info-img {background:url('http://development/wp-content/uploads/2020/12/14.jpg'); width:100%; height:100%; background-size:cover; background-position:center}
-    /*BANNER-END*/
-    
-    /*CATEGORY*/
-    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
-    #category .col-lg-4 {min-height:650px; padding:15px}
-    #category h3 {padding:45px}
-    #category .table a {padding:10px 45px}
-    #category .table a:hover {background:#002959; transition:all.2s}
-    #category .table span {position:relative; color:#000; transition:all.1s}
-    #category .table a:hover span {color:#fff; transition:all.1s}
-    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
-    #category .table:hover h3::after {width:50%}
-    /*CATEGORY-END*/
-    
-    
-    /*LABEL*/
-    /*LABEL-END*/
-
-    /*FOOTER*/
-    #footer .col-lg-4:nth-child(2) .table:last-child {margin: 60px 0 0 0}
-    /*FOOTER-END*/
-}
-    
-    
-    
-    
-@media (min-width:1600px) {
-    
-    /*NAVBAR*/
-    #navbar .col-xl-2 a {padding:0!important; margin:0}
-    #navbar .logo {width:126.783px; height:67.383px}
-    #navbar .col-xl-8 {display:flex; align-items:center; justify-content:flex-end}
-    #navbar ul {margin:0; padding:0; font-size:0}
-    #navbar li {display:inline-block; position:relative}
-    #navbar a {display:block; padding:30px 0; text-decoration:none; font-size:14px; color:#d77a06; text-transform:uppercase; margin:0 15px; transition:all.3s}
-    #navbar a:hover {color:#002959; transition:all.3s}
-    #navbar ul li:last-child a {margin:0 0 0 15px}
-    #navbar ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:0; top:90%; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
-    #navbar ul li:hover > .sub-menu {opacity:1; transition:all.3s; top:100%; visibility:visible; border-top:3px solid #d77a06}
-    #navbar .sub-menu li {display:block}
-    #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
-    #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
-    
-    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:310px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
-    
-    #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
-    #hamburger{display:none}
-    #navbar:hover {position:fixed; z-index:4; background:#fff; opacity:1; transition:all.3s}
-    #navbar:hover ~ #fader {background:rgba(0, 0, 0, 0.4); visibility:visible; z-index:2; transition:all.3s}
-    #navbar .logo{width:126.783px; height:67.383px}
-    #navbar a {padding:30px 0}
-    #navbar .submenu a {padding:10px 0}
-    /*NAVBAR-END*/
-    
-    
-    
-    /*CATEGORY*/
-    #category .table:hover {background:rgba(255,255,255, 1); transition:all.3s}
-    #category .col-lg-4 {min-height:650px; padding:15px}
-    #category h3 {padding:45px}
-    #category .table a {padding:10px 45px}
-    #category .table a:hover {background:#002959; transition:all.2s}
-    #category .table span {position:relative; color:#000; transition:all.1s}
-    #category .table a:hover span {color:#fff; transition:all.1s}
-    #category .table h3::after {content:""; display:block; position:absolute; bottom:30px; left:45px; width:0; height:2px; -webkit-transition:all.3s; -o-transition:all.3s; -moz-transition:all.3s; transition:all.3s; background:#002959}
-    #category .table:hover h3::after {width:50%}
-    /*CATEGORY-END*/
     
     
     }
