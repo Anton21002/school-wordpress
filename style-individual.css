@@ -1,0 +1,398 @@
+@media (min-width:1px) {
+
+    /*GUMNAASIUM-TEMPLATE*/
+    #post-564, #post-582 .wp-block-table {display:none}
+    #post-582 {margin:0}
+    .page-content .wp-block-table {display:none}
+    .page-content .wp-block-file a.wp-block-file__button {display:none}
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
+    /*JARELVALVE-TEMPLATE*/
+    #jarelvalve-content .table {margin:0}
+    /*JARELVALVE-TEMPLATE-END*/
+
+    /*MEEDIAS-TEMPLATE*/
+    #meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*MEEDIAS-TEMPLATE-END*/
+
+
+    /*ACHIEVEMENTS-TEMPLATE*/
+    #achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:0}
+    #page-banner.achivements-title {height:350px}
+    .achivements-title .col-lg-8 {padding:125px 15px!important}
+    #achivements-content {height:500px}
+    #achivements-content .col-lg-12 {top:-260px; padding:0}
+    #achivements-content .swiper-container-achivements {width:100%; padding:100px 0; perspective:1200px; touch-action:pan-y; margin:0 auto; position:relative; overflow:hidden; list-style:none; /*z-index:1*/}
+    #achivements-content .swiper-wrapper {transform-style:preserve-3d; position:relative; width:100%; height:100%; /*z-index:1;*/ display:flex; transition-property:transform; box-sizing:content-box}
+    #achivements-content .swiper-slide {background-position:center; background-size:cover; flex-shrink:0; position:relative; transition-property:transform}
+    /*ACHIEVEMENTS-TEMPLATE-END*/
+    
+    /*OPPENOUKOGU-TEMPLATE*/
+    #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*OPPENOUKOGU-TEMPLATE-END*/
+
+    /*JUHTKOND-TEMPLATE*/
+    #juhtkond-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*JUHTKOND-TEMPLATE-END*/
+
+        /*KLASSIJUHATAJAD-TEMPLATE*/
+    #klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*KLASSIJUHATAJAD-TEMPLATE-END*/
+
+        /*OPETAJAD-TEMPLATE*/
+    #opetajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+        /*OPETAJAD-TEMPLATE-END*/
+
+        /*SPETSIALISTID-TEMPLATE*/
+    #spetsialistid-content {padding:75px 15px 75px 15px}
+    #spetsialistid-content .col-lg-5:last-child {top:-130px}
+    #spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
+        /*SPETSIALISTID-TEMPLATE-END*/
+
+        /*TOOKORRALDUS-TEMPLATE*/
+    #tookorraldus-content {padding:75px 15px 0 15px}
+    #tookorraldus-content .col-lg-5:last-child {top:-130px}
+    #tookorraldus-content .col-lg-5:last-child .row {justify-content:flex-end}
+        /*TOOKORRALDUS-TEMPLATE-END*/
+
+        /*TERVISEEDENDUS-TEMPLATE*/
+    #terviseedendus-content .col-lg-5:last-child {top:-130px}
+    #terviseedendus-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #terviseedendus-content .wp-block-file {margin:0 0 30px 0!important}
+        /*TERVISEEDENDUS-TEMPLATE-END*/
+
+        /*OPPEKAVA-TEMPLATE*/
+    #oppekava-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0}
+    #oppekava-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #oppekava-content p {font-style:italic}
+        /*OPPEKAVA-TEMPLATE-END*/
+    
+        /*LOPETAJA-TEMPLATE*/
+    #gumnaasiumi-lopetaja-content {padding:75px 15px}
+    #gumnaasiumi-lopetaja-content .table h3:nth-child(4) {margin:45px 0}
+    #gumnaasiumi-lopetaja-content p {margin:0 0 15px 0}
+        /*LOPETAJA-TEMPLATE-END*/
+        
+        /*JARELVALVE-TEMPLATE*/
+    #jarelvalve-content .wp-block-file {margin:0 0 30px 0!important}
+        /*JARELVALVE-TEMPLATE-END*/
+    
+    /*POHIKOOLI-LOPETAJA-TEMPLATE*/
+    #pohikooli-lopetaja-content p {font-style:italic}
+    /*POHIKOOLI-LOPETAJA-TEMPLATE-END*/
+    
+    /*UURIMISTOO-TEEMA-TEMPLATE*/
+    #uurimistoo-teema-content .wp-block-file:nth-child(4) {margin:0 0 45px 0!important}
+    /*UURIMISTOO-TEEMA-TEMPLATE-END*/
+    
+    /*KOOSOLEKUD-TEMPLATE*/
+    #koosolekud-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important}
+    #koosolekud-content .col-lg-5:first-child .col-lg-12:first-child {margin: 100px 0 100px 0}
+    /*KOOSOLEKUD-TEMPLATE-END*/
+    
+    /*HOOLEKOGU-TEMPLATE*/
+    #hoolekogu-content .table {width:100%}
+    #hoolekogu-content h3:first-child {margin:0 0 45px 0}
+    #hoolekogu-content h3 {margin:45px 0 45px 0}
+    /*HOOLEKOGU-TEMPLATE-END*/
+    
+    /*EELKOOL-TEMPLATE*/
+    #eelkool-content .day-list {display:flex; flex-wrap:wrap; width:100%; margin:0 0 10px 0}
+    #eelkool-content .day {position:relative; width:50%; color:#002959; text-align:center; font-family:Lora; font-size:21px; padding:15px; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); cursor:pointer*/}
+    #eelkool-content .is-active {opacity:1}
+    #eelkool-content .disable {opacity:0; position:absolute; top:140px; padding:0}
+    #eelkool-content .wp-block-table {}
+    /*#eelkool-content .day:before, #eelkool-content .day:after {
+        content: '';
+        position: absolute;	
+        transition: inherit;
+        z-index: -1;
+    }
+
+    #eelkool-content .day:hover {
+        color: #fff;
+        transition-delay: .5s;
+    }
+
+    #eelkool-content .day:hover:before {
+        transition-delay: 0s;
+    }
+
+    #eelkool-content .day:hover:after {
+        background: #002959;
+        transition-delay: .35s;
+    }
+    
+    
+    
+    .day:before, 
+    .day:after {
+        top: 0;
+        width: 0;
+        height: 100%;
+    }
+
+    .day:before {
+        right: 0;
+        border: 1px solid #002959;
+        border-left: 0;
+        border-right: 0;	
+    }
+
+    .day:after {
+        left: 0;
+    }
+
+    .day:hover:before,
+    .day:hover:after {
+        width: 100%;
+    }*/
+    /*EELKOOL-TEMPLATE-END*/
+    
+    /*HUVITEGEVUS-TEMPLATE*/
+    #huvitegevus-content .table h3:first-child {margin:0 0 45px 0}
+    #huvitegevus-content .table h3 {margin:45px 0}
+    #huvitegevus-content .col-lg-10:last-child {margin:0 0 150px 0}
+    /*HUVITEGEVUS-TEMPLATE-END*/
+    
+    /**/
+    #lapsevanemate-kooli-materjalid-content {padding:75px 15px}
+    #lapsevanemate-kooli-materjalid-content h4 {color:#002959; font-size:20px; font-weight:400; margin:30px 0; font-family:Lora}
+    #lapsevanemate-kooli-materjalid-content p + p {margin:15px 0 0 0}
+    /**/
+    
+    /*TEST*/
+    #koolivorm-content .col-lg-5:last-child {top:0}
+    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:400px}
+    #koolivorm-content .flip-front, .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0; width:100%}
+    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center; top:30%}
+    #koolivorm-content .flip-back {transform:rotateY(180deg)}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    #flip-1 .flip-back h3:nth-child(3), .flip-back h3:nth-child(3) {margin:45px 0}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    /*TEST-END*/
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media (min-width:768px) {
+    
+    /*GUMNAASIUM-TEMPLATE*/
+    
+    /*.page-content .table {background:none; box-shadow:none; margin:0}
+    .page-content .table-block {background:none; box-shadow:none; margin:0}*/
+    
+    
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media (min-width:1024px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+    /*GUMNAASIUM-TEMPLATE*/
+    #post-675.table-block {background:transparent; box-shadow:none; padding:0}
+    #post-582 {margin:0 0 45px 0}
+    /*GUMNAASIUM-TEMPLATE-END*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media (min-width:1366px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*PAGE-TEMPLATE-CONTENT*/
+    #post-564, #post-582 .wp-block-table {display:block}
+    /*PAGE-TEMPLATE-CONTENT*/
+    
+}
+    
+    
+    
+    
+@media (min-width:1600px) {
+    
+    
+
+    /*MEEDIAS-TEMPLATE*/
+    #meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*MEEDIAS-TEMPLATE-END*/
+
+    /*ACHIEVEMENTS-TEMPLATE*/
+    #achivements-content .col-lg-5:first-child .col-lg-12:first-child {margin:0}
+    /*#achivements-content .slider-achivements {box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+    #achivements-content .swiper-container {overflow:hidden}
+    #achivements-content .swiper-wrapper {display:flex; transition-property:transform}
+    #achivements-content .slider-achivements .slide {flex-shrink:0; transition-property:transform}
+    #achivements-content .slider-achivements .slide img {box-shadow:none}
+    #achivements-content .swiper-pagination {position:absolute; text-align:center; transition:.3s opacity; transform:translate3d(0,0,0); z-index:10}
+    #achivements-content .swiper-pagination-bullets {bottom:10px; left:0; width:100%}
+    #achivements-content .swiper-pagination-bullet {width:10px; height:10px; display:inline-block; border-radius:100%; background:#000; opacity:.2}
+    #achivements-content .swiper-pagination-bullets .swiper-pagination-bullet {margin:0 5px}
+    #achivements-content .swiper-pagination-clickable .swiper-pagination-bullet {cursor:pointer}
+    #achivements-content .swiper-pagination-bullet-active {opacity:1; background:#002959;}*/
+    #page-banner.achivements-title {height:350px}
+    .achivements-title .col-lg-8 {padding:125px 15px!important}
+    #achivements-content {height:500px}
+    #achivements-content .col-lg-12 {top:-260px; padding:0}
+    #achivements-content .swiper-container-achivements {width:100%; padding:100px 0; perspective:1200px; touch-action:pan-y; margin:0 auto; position:relative; overflow:hidden; list-style:none; /*z-index:1*/}
+    #achivements-content .swiper-wrapper {transform-style:preserve-3d; position:relative; width:100%; height:100%; /*z-index:1;*/ display:flex; transition-property:transform; box-sizing:content-box}
+    #achivements-content .swiper-slide {background-position:center; background-size:cover; flex-shrink:0; position:relative; transition-property:transform}
+    /*ACHIEVEMENTS-TEMPLATE-END*/
+
+    /*OPPENOUKOGU-TEMPLATE*/
+    #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*OPPENOUKOGU-TEMPLATE-END*/
+
+    /*JUHTKOND-TEMPLATE*/
+    #juhtkond-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*JUHTKOND-TEMPLATE-END*/
+
+    /*KLASSIJUHATAJAD-TEMPLATE*/
+    #klassijuhatajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*KLASSIJUHATAJAD-TEMPLATE-END*/
+
+    /*OPETAJAD-TEMPLATE*/
+    #opetajad-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    /*OPETAJAD-TEMPLATE-END*/
+
+    /*SPETSIALISTID-TEMPLATE*/
+    #spetsialistid-content {padding:75px 15px 75px 15px}
+    #spetsialistid-content .col-lg-5:last-child {top:-130px}
+    #spetsialistid-content .col-lg-5:last-child .row {justify-content:flex-end}
+    /*SPETSIALISTID-TEMPLATE-END*/
+
+    /*OPPEKAVA-TEMPLATE*/
+    #oppekava-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0}
+    #oppekava-content .col-lg-5:last-child .row {justify-content:flex-end}
+    #oppekava-content p {font-style:italic}
+    /*OPPEKAVA-TEMPLATE-END*/
+        
+    /*JARELVALVE-TEMPLATE*/
+    #jarelvalve-content .wp-block-file {margin:0 0 30px 0!important}
+    /*JARELVALVE-TEMPLATE-END*/
+    
+    /*KOOSOLEKUD-TEMPLATE*/
+    #koosolekud-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important}
+    #koosolekud-content .col-lg-5:first-child .col-lg-12:first-child {margin: 100px 0 100px 0}
+    /*KOOSOLEKUD-TEMPLATE-END*/
+    
+    /*HOOLEKOGU-TEMPLATE*/
+    #hoolekogu-content .table {width:100%}
+    #hoolekogu-content h3:first-child {margin:0 0 45px 0}
+    #hoolekogu-content h3 {margin:45px 0 45px 0}
+    /*HOOLEKOGU-TEMPLATE-END*/
+    
+    /*EELKOOL-TEMPLATE*/
+    #eelkool-content .day-list {display:flex; flex-wrap:wrap; width:100%; margin:0 0 10px 0}
+    #eelkool-content .day {position:relative; width:50%; color:#002959; text-align:center; font-family:Lora; font-size:21px; padding:15px; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); cursor:pointer*/}
+    #eelkool-content .is-active {opacity:1}
+    #eelkool-content .disable {opacity:0; position:absolute; top:140px; padding:0}
+    #eelkool-content .wp-block-table {}
+    
+    /*HUVITEGEVUS-TEMPLATE*/
+    #huvitegevus-content .table h3:first-child {margin:0 0 45px 0}
+    #huvitegevus-content .table h3 {margin:45px 0}
+    #huvitegevus-content .col-lg-10:last-child {margin:0 0 150px 0}
+    /*HUVITEGEVUS-TEMPLATE-END*/
+    
+    /**/
+    #lapsevanemate-kooli-materjalid-content {padding:75px 15px}
+    #lapsevanemate-kooli-materjalid-content h4 {color:#002959; font-size:20px; font-weight:400; margin:30px 0; font-family:Lora}
+    #lapsevanemate-kooli-materjalid-content p + p {margin:15px 0 0 0}
+    /**/
+    
+    /*TEST*/
+    #koolivorm-content .col-lg-5:last-child {top:0}
+    #koolivorm-content .flipper {transition:0.6s; transform-style:preserve-3d; position:relative; height:400px}
+    #koolivorm-content .flip-front, .flip-back {backface-visibility:hidden; -webkit-backface-visibility:hidden; position:absolute; top:0; left:0; width:100%}
+    #koolivorm-content .flip-front {z-index:2; transform:rotateY(0deg); text-align:center; top:30%}
+    #koolivorm-content .flip-back {transform:rotateY(180deg)}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    #flip-1 .flip-back h3:nth-child(3), .flip-back h3:nth-child(3) {margin:45px 0}
+    #koolivorm-content .flip-button {padding:10px 20px; background:#d77a06; color:#fff}
+    /*TEST-END*/
+/*PAGE-CONTENT-END*/
+    
+    
+    }
