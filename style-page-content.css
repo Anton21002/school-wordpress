@@ -37,10 +37,10 @@
     .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
     .page-content figure {margin:0; overflow-x:inherit}
     .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
-    .page-content .col-lg-5:nth-child(2n) figcaption {text-align:end}
+    .page-content .col-lg-6:nth-child(2n) figcaption {text-align:end}
     .page-content ul {font-size:16px; line-height:26px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
-    .page-content .table {width:100%; background:rgba(255,255,255, 0.6); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 30px 0}
+    .page-content .table {width:100%; background:rgba(255,255,255, 1); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 30px 0}
     .page-content .col-lg-5:last-child .col-lg-10 {display:flex; justify-content:flex-end}
     .page-content .wp-block-image {display:none}
     
@@ -55,37 +55,18 @@
 
     
     .page-content  {padding:75px 15px}
-    .page-content  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1)}
-    .page-content .table-block {width:100%; background:rgba(255,255,255, 0.6); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 30px 0}
-    .page-content tr {position:relative; transition:all.3s}
-    .page-content tr:first-child {background:#002959}
-    .page-content tr:first-child::before{width:0; height:0}
-    .page-content tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
-    .page-content tr:hover td {color:#fff; transition:all.3s}
-    .page-content tr:hover {background:#002959; transition:all.3s}
-    .page-content tr:hover .hover:hover {background:#d77a06; transition:all.3s}
-    .page-content tr:hover .hover:hover a {color:#fff}
-    .page-content td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
-    .page-content td:first-child {padding:15px 15px 15px 30px}
-    .page-content td:last-child {padding:15px 30px 15px 15px}
+    
+    .page-content table {background:none; box-shadow:none}
+    .page-content tbody tr:first-child {display:none}
+    .page-content tr {display:flex; flex-wrap:wrap; margin:0 0 45px 0; flex-direction:column; transition:all 0.3s ease-in-out; align-items:center; justify-content:center; background:#fff; border-radius:5px; box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5)}
+    
+    
+    .page-content td {width: 100%; font-size:14px; color:#000; line-height:1.5; padding:15px; text-align:center; font-family:Montserrat-Regular; transition:all.3s}
+    .page-content td:first-child {padding:30px 15px; background:#002959; color:#fff; border-radius:5px 5px 0 0; font-size:16px}
+    .page-content td:last-child {padding:15px 15px 30px 15px}
     .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
-    .page-content table br {margin:0 0 10px 0}
+    
         /*STYLE-FOR-ALL-PAGE-END*/
-
-        /*TABLE-PAGE-MAIN-STYLE-LIST*/
-    .table-list-page .col-lg-5:first-child .col-lg-12 h3 {letter-spacing:0; text-align:start}
-    .table-list-page .col-lg-5:last-child .col-lg-12 h3 {letter-spacing:0; text-align:end}
-    .table-list-page .col-lg-12 {margin:0 0 100px 0}
-    .table-list-page .col-lg-12:last-child {margin:0}
-    .table-list-page .col-lg-5:last-child .col-lg-12:last-child {margin: 0 0 100px 0}
-        /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
-
-        /*COMMON-PAGE-MAIN-STYLE-LIST*/
-    .common-page {padding:45px 15px}
-    .common-page .col-lg-10:last-child {margin:0}
-    .common-page .col-lg-5:first-child .row {justify-content:flex-start}
-    .common-page .col-lg-5:last-child .row {justify-content:flex-end}
-        /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
 
         /*WP-FILE-LINK*/
     .wp-block-file {display:flex; justify-content:space-between; text-align:start; margin:0 0 15px 0!important}
@@ -153,13 +134,9 @@
     
     
 @media (min-width:1024px) {
+    .page-content .col-lg-5:nth-child(2n), .page-content .col-lg-6:nth-child(2n) {top:125px}
+    .page-content .col-lg-5:last-child, .page-content .col-lg-6:last-child {margin:0 0 150px 0}
     
-    
-    
-    
-    /*COMMON-PAGE-MAIN-STYLE-LIST*/
-    .common-page {padding:75px 15px 75px 15px}
-    /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
     
     .page-content h3 {text-align:start}
     .page-content .wp-block-file a.wp-block-file__button {display:flex; align-items:center}
@@ -174,11 +151,6 @@
     #page-banner .col-lg-1 {display:block; background:#002959}
     #page-banner .col-lg-8 {padding:45px 15px; justify-content:flex-start}
     /*PAGE-BANNER*/
-        
-    /*GUMNAASIUM-TEMPLATE*/
-    #post-675.table-block {background:transparent; box-shadow:none; padding:0}
-    #post-582 {margin:0 0 45px 0}
-    /*GUMNAASIUM-TEMPLATE-END*/
     
 
     
@@ -227,8 +199,6 @@
     .page-content > .row {justify-content:center}
     .page-content .col-lg-10 > .row {justify-content:space-between}
     .page-content .col-lg-5, .page-content .col-lg-6 {margin:0 0 75px 0}
-    .page-content .col-lg-5:last-child, .page-content .col-lg-6:last-child {margin:0 0 150px 0}
-    .page-content .col-lg-5:nth-child(2n), .page-content .col-lg-6:nth-child(2n) {top:125px}
     
     
     /*.page-content .col-lg-5:last-child .table::before, .page-content .col-lg-5:last-child .wp-block-table::before {content:"Tallinna Pae Gümnaasium"; bottom:-55px; right:0; width:60%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
@@ -237,7 +207,6 @@
     
     
     .page-content figure {margin:0; overflow-x:inherit}
-    .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important; font-family:Lora}
     .page-content .col-lg-5:nth-child(2n) figcaption {text-align:end}
     .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
@@ -258,18 +227,12 @@
     .page-content tr:hover {background:#002959; transition:all.3s}
     .page-content tr:hover .hover:hover {background:#d77a06; transition:all.3s}
     .page-content tr:hover .hover:hover a {color:#fff}
-    .page-content td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
-    .page-content td:first-child {padding:15px 15px 15px 30px}
-    .page-content td:last-child {padding:15px 30px 15px 15px}
         /*STYLE-FOR-ALL-PAGE-END*/
 
         /*TABLE-PAGE-MAIN-STYLE-LIST*/
     .table-list-page .col-lg-6:nth-child(2n) h3 {text-align:end}
         /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
 
-        /*COMMON-PAGE-MAIN-STYLE-LIST*/
-    /*.common-page {padding:75px 15px}*/
-        /*COMMON-PAGE-MAIN-STYLE-LIST-END*/
 
         /*WP-FILE-LINK*/
     .wp-block-file {display:flex; justify-content:space-between; text-align:start; margin:0 0 15px 0!important}

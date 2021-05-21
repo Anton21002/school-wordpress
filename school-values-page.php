@@ -15,40 +15,17 @@ get_header(); ?>
     
     <div id="school-values-content" class="container-fluid page-content common-page">
         <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-10">
                 <div class="row">
                         <?php $query = new WP_Query( array( 'category_name' => 'vaartused-category' ) );?>	
                             <?php 
-                            $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 0) { ?>
-                                <div class="col-lg-10">
+                                <div class="col-lg-6">
                                     <div class="table">
                                         <p><?php the_content(); ?></p>
                                     </div>
                                 </div>
-                            <?php }?>
                         <?php 
-                        $idx++;
-                        endwhile; 
-                        ?>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'vaartused-category' ) );?>	
-                            <?php 
-                            $idx = 1;
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx % 2 == 1) { ?>
-                                <div class="col-lg-10">
-                                    <div class="table">
-                                        <p><?php the_content(); ?></p>
-                                    </div>
-                                </div>
-                            <?php }?>
-                        <?php 
-                        $idx++;
                         endwhile; 
                         ?>
                 </div>

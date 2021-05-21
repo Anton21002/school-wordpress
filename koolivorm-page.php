@@ -15,14 +15,12 @@ get_header(); ?>
     
     <div id="koolivorm-content" class="container-fluid page-content common-page table-list-page">
         <div class="row">
-            <div class="col-lg-5">
-                <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'koolivorm-category' ) );?>	
+            <div class="col-lg-10">
+                <div class="row">  
+                        <?php $query = new WP_Query('p=1385');?>	
                             <?php 
-                            $idx = 1;
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx == 1) { ?>
-                                <div class="col-lg-6">
+                                <div class="col-lg-3">
                                     <div id=flip-1>
                                         <div class="flipper">
                                             <div class="flip-front">
@@ -35,17 +33,13 @@ get_header(); ?>
                                         </div>
                                     </div>
                                 </div>
-                            <?php }?>
                         <?php 
-                        $idx++;
                         endwhile; 
                         ?>
-                        <?php $query = new WP_Query( array( 'category_name' => 'koolivorm-category' ) );?>	
+                        <?php $query1 = new WP_Query('p=1367');?>	
                             <?php 
-                            $idx = 1;
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx == 3) { ?>
-                                <div class="col-lg-6">
+                            while ($query1 -> have_posts()) : $query1 -> the_post(); ?>
+                                <div class="col-lg-3">
                                     <div id=flip-2>
                                         <div class="flipper">
                                             <div class="flip-front">
@@ -58,28 +52,18 @@ get_header(); ?>
                                         </div>
                                     </div>
                                 </div>
-                            <?php }?>
                         <?php 
-                        $idx++;
                         endwhile; 
                         ?>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="row">
-                    <?php $query = new WP_Query( array( 'category_name' => 'koolivorm-category' ) );?>	
+                        <?php $query2 = new WP_Query('p=1375');?>	
                             <?php 
-                            $idx = 1;
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                            <? if( $idx == 2) { ?>
-                                <div class="col-lg-10">
+                            while ($query2 -> have_posts()) : $query2 -> the_post(); ?>
+                                <div class="col-lg-5">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>
                                 </div>
-                            <?php }?>
                         <?php 
-                        $idx++;
                         endwhile; 
                         ?>
                 </div>

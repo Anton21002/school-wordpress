@@ -28,7 +28,7 @@
     /*ACHIEVEMENTS-TEMPLATE-END*/
     
     /*OPPENOUKOGU-TEMPLATE*/
-    #oppenoukogud-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
+    
     /*OPPENOUKOGU-TEMPLATE-END*/
 
     /*JUHTKOND-TEMPLATE*/
@@ -236,12 +236,14 @@
 
         
     /*GUMNAASIUM-TEMPLATE*/
-    #post-675.table-block {background:transparent; box-shadow:none; padding:0}
+    #post-722.table-block {background:transparent; box-shadow:none; padding:0}
     #post-582 {margin:0 0 45px 0}
     /*GUMNAASIUM-TEMPLATE-END*/
     
     
-    
+    /*OPPENOUKOGU-TEMPLATE*/
+    #oppenoukogud-content .col-lg-6:nth-child(2n) h3 {text-align:end}
+    /*OPPENOUKOGU-TEMPLATE-END*/
     
     
     
