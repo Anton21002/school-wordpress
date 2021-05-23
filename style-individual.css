@@ -1,10 +1,12 @@
 @media (min-width:1px) {
 
     /*GUMNAASIUM-TEMPLATE*/
-    #post-564, #post-582 .wp-block-table {display:none}
-    #post-582 {margin:0}
-    .page-content .wp-block-table {display:none}
-    .page-content .wp-block-file a.wp-block-file__button {display:none}
+    /*#post-564, #post-582 .wp-block-table {display:none}*/
+    #post-660, #post-577, #post-566 {display:none}
+    /*#gumnaasium-content.page-content .wp-block-table {display:none}*/
+    /*#gumnaasium-content.page-content .table-block {background:rgba(255,255,255, 1); box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 30px 0}*/
+    #post-752 p {text-align:center}
+    #post-752 br {margin:0 0 15px 0}
     /*GUMNAASIUM-TEMPLATE-END*/
     
     /*JARELVALVE-TEMPLATE*/
@@ -236,8 +238,8 @@
 
         
     /*GUMNAASIUM-TEMPLATE*/
-    #post-722.table-block {background:transparent; box-shadow:none; padding:0}
-    #post-582 {margin:0 0 45px 0}
+    #gumnaasium-content.page-content .table-block {background:none; box-shadow:none; padding:0; border-radius:0}
+    #post-752 p {text-align:start}
     /*GUMNAASIUM-TEMPLATE-END*/
     
     
@@ -266,27 +268,6 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*PAGE-TEMPLATE-CONTENT*/
-    #post-564, #post-582 .wp-block-table {display:block}
-    /*PAGE-TEMPLATE-CONTENT*/
-    
 }
     
     
@@ -294,7 +275,14 @@
     
 @media (min-width:1600px) {
     
+    /*GUMNAASIUM-TEMPLATE*/
+    #post-660, #post-577, #post-566 {display:block}
+    /*GUMNAASIUM-TEMPLATE-END*/
     
+    /*JARELVALVE-TEMPLATE*/
+    #jarelvalve-content.page-content .col-xl-5:nth-child(2n), .page-content .col-lg-6:nth-child(2n), .page-content .col-xl-6:nth-child(2n) {top:0}
+    #jarelvalve-content .wp-block-file {margin:0 0 30px 0!important}
+    /*JARELVALVE-TEMPLATE-END*/
 
     /*MEEDIAS-TEMPLATE*/
     #meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
@@ -350,9 +338,7 @@
     #oppekava-content p {font-style:italic}
     /*OPPEKAVA-TEMPLATE-END*/
         
-    /*JARELVALVE-TEMPLATE*/
-    #jarelvalve-content .wp-block-file {margin:0 0 30px 0!important}
-    /*JARELVALVE-TEMPLATE-END*/
+
     
     /*KOOSOLEKUD-TEMPLATE*/
     #koosolekud-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:10px 0 30px 0 !important}

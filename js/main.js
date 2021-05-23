@@ -191,6 +191,10 @@ for (let i = 0; i<tableList.length; i++){
         tableList[i].parentElement.classList.remove("table");
         tableList[i].parentElement.classList.add("table-block");
     }
+    if (tableList[i].offsetParent.classList.contains("col-lg-6")){
+        tableList[i].offsetParent.classList.remove("col-lg-6");
+        tableList[i].offsetParent.classList.add("col-lg-12");
+    }
 }
 /*TABLE-CLASS-DELE-END*/
 
