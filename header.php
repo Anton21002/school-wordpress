@@ -46,7 +46,7 @@
     <div id="navbar" class="container-fluid scrollby">
         <div class="row justify-content-center">
             <div class="col-lg-10 col-xl-2">
-                <a href="">
+                <a href="<?php echo get_site_url()?>">
                     <span class="logo"></span>
                 </a>
                 <div id="hamburger">

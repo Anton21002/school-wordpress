@@ -53,13 +53,12 @@
     /*.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
     .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}*/
     .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
-    .page-content figure {margin:0; overflow-x:inherit}
+    .page-content figure {margin:0 0 75px 0; overflow-x:inherit}
     .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:15px 0 0 0; font-family:Lora; text-align:center}
     .page-content .col-lg-6:nth-child(2n) figcaption {text-align:end}
     .page-content ul {font-size:16px; line-height:26px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
     .page-content .table {background:rgba(255,255,255, 1); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 75px 0}
-    .page-content .wp-block-table {margin:0 0 75px 0}
     .page-content .col-xl-5:last-child .wp-block-table {margin:0}
     .page-content .wp-block-image {display:none}
     .page-content .wp-block-file a.wp-block-file__button {display:none}
@@ -146,9 +145,9 @@
     .page-content .col-lg-10 > .row {align-items:center}
     .page-content h3 {text-align:start}
     .page-content .wp-block-image {display:block}
-    .page-content figure {margin:0 0 45px 0}
+    /*.page-content figure {margin:0 0 45px 0}
+    .page-content .table {margin:0 0 45px 0}*/
     .page-content .wp-block-image img {border-radius:5px}
-    .page-content .table {margin:0 0 45px 0}
     .page-content .table, .page-content .table-block {background:rgba(255,255,255, 1)}
     .page-content .wp-block-table {display:block; position:relative}
     
