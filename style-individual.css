@@ -5,13 +5,9 @@
     #post-660, #post-577, #post-566 {display:none}
     /*#gumnaasium-content.page-content .wp-block-table {display:none}*/
     /*#gumnaasium-content.page-content .table-block {background:rgba(255,255,255, 1); box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 30px 0}*/
-    #post-752 p {text-align:center}
     #post-752 br {margin:0 0 15px 0}
     /*GUMNAASIUM-TEMPLATE-END*/
     
-    /*JARELVALVE-TEMPLATE*/
-    #jarelvalve-content .table {margin:0}
-    /*JARELVALVE-TEMPLATE-END*/
 
     /*MEEDIAS-TEMPLATE*/
     #meedias-content .col-lg-5:first-child .col-lg-12:first-child {margin:100px 0 100px 0}
@@ -154,7 +150,6 @@
     /*HUVITEGEVUS-TEMPLATE*/
     #huvitegevus-content .table h3:first-child {margin:0 0 45px 0}
     #huvitegevus-content .table h3 {margin:45px 0}
-    #huvitegevus-content .col-lg-10:last-child {margin:0 0 150px 0}
     /*HUVITEGEVUS-TEMPLATE-END*/
     
     /**/

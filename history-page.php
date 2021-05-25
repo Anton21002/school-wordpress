@@ -20,7 +20,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'ajalugu-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>

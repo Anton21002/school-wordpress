@@ -8,7 +8,7 @@
     
     
     .page-content td {width: 100%; font-size:14px; color:#000; line-height:1.5; padding:15px; text-align:center; font-family:Montserrat-Regular; transition:all.3s}
-    .page-content td:first-child {padding:30px 15px; background:#002959; color:#fff; border-radius:5px 5px 0 0; font-size:16px}
+    .page-content td:first-child {padding:30px 30px; background:#002959; color:#fff; border-radius:5px 5px 0 0; font-size:16px}
     .page-content td:last-child {padding:15px 15px 30px 15px}
     .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
     
@@ -55,7 +55,8 @@
     /*.page-content .col-xl-6:first-child .table, .page-content .col-xl-5:first-child .table {margin:75px 0}*/
     .page-content figure {margin:0 0 75px 0; overflow-x:inherit}
     /*.page-content .col-xl-5:last-child figure, .page-content .col-xl-6:last-child figure, .page-content .col-xl-5:last-child .table  {margin:0}*/
-    
+    .page-content .table-block .wp-block-file {margin:0 0 15px 30px!important}
+
     .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:15px 0 0 0; font-family:Lora; text-align:center}
 
     .page-content ul {font-size:16px; line-height:26px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
@@ -64,9 +65,8 @@
     .page-content .wp-block-image {display:none}
     .page-content .wp-block-file a.wp-block-file__button {display:none}
     .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
-    .page-content .wp-block-file {display:flex; justify-content:center}
-    .page-content .wp-block-file a {text-align:center}
-    .page-content .wp-block-file a:last-child  {text-align:center}
+    /*.page-content .wp-block-file a {text-align:center}
+    .page-content .wp-block-file a:last-child  {text-align:center}*/
     
     .page-content p {margin:0 0 15px 0}
     .page-content p:last-child {margin:0}
@@ -138,7 +138,7 @@
 @media (min-width:1024px) {
 
     
-    .page-content .col-lg-10 > .row {align-items:center}
+    .page-content .col-lg-10 > .row {justify-content:space-between; align-items:center}
     .page-content h3 {text-align:start}
     .page-content .wp-block-image {display:block}
     .page-content .wp-block-image img {border-radius:5px}
@@ -164,6 +164,7 @@
     
     /*WP-FILE-LINK*/
     .page-content .wp-block-file {justify-content:space-between}
+    .page-content .table-block .wp-block-file {margin:0 0 15px 0!important}
     .page-content .wp-block-file a {text-align:start}
     /*WP-FILE-LINK-END*/
     
