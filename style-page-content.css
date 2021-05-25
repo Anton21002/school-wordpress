@@ -48,20 +48,25 @@
     /*PAGE-CONTENT*/
 
         /*STYLE-FOR-ALL-PAGE*/
-    .page-content  {padding:75px 15px}
+    .page-content  {padding:75px 15px 0 15px}
     .page-content .row {justify-content:center}
-    /*.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
-    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}*/
-    .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
+    
+    .page-content .table {background:rgba(255,255,255, 1); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 75px 0}
+    /*.page-content .col-xl-6:first-child .table, .page-content .col-xl-5:first-child .table {margin:75px 0}*/
     .page-content figure {margin:0 0 75px 0; overflow-x:inherit}
+    /*.page-content .col-xl-5:last-child figure, .page-content .col-xl-6:last-child figure, .page-content .col-xl-5:last-child .table  {margin:0}*/
+    
     .page-content figcaption {color:#6a6a6a; font-size:14px; font-style:italic; margin:15px 0 0 0; font-family:Lora; text-align:center}
-    .page-content .col-lg-6:nth-child(2n) figcaption {text-align:end}
+
     .page-content ul {font-size:16px; line-height:26px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
     .page-content i {margin:0 10px 0 0; color:#002959}
-    .page-content .table {background:rgba(255,255,255, 1); box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:30px; border-radius:5px; margin:0 0 75px 0}
-    .page-content .col-xl-5:last-child .wp-block-table {margin:0}
+
     .page-content .wp-block-image {display:none}
     .page-content .wp-block-file a.wp-block-file__button {display:none}
+    .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
+    .page-content .wp-block-file {display:flex; justify-content:center}
+    .page-content .wp-block-file a {text-align:center}
+    .page-content .wp-block-file a:last-child  {text-align:center}
     
     .page-content p {margin:0 0 15px 0}
     .page-content p:last-child {margin:0}
@@ -70,6 +75,10 @@
     .page-content .wp-block-file .wp-block-file__button {padding:0 1em!important}
     .page-content .wp-block-file:last-child {margin:0!important}
     
+    /*.page-content .col-lg-5:last-child .col-lg-12:last-child::before, .page-content .col-lg-5:last-child .col-lg-10:last-child::before {content:"Tallinna Pae Gümnaasium"; bottom:-80px; right:10px; width:50%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
+    .page-content .col-lg-5:last-child .col-lg-12:last-child::after, .page-content .col-lg-5:last-child .col-lg-10:last-child::after {content:""; bottom:-50px!important; right:15px; position:absolute; width:50%; height:2px; background:#002959}*/
+
+    
     
 
     
@@ -77,20 +86,7 @@
     
         /*STYLE-FOR-ALL-PAGE-END*/
 
-        /*WP-FILE-LINK*/
-    .wp-block-file {display:flex; justify-content:center; margin:0 0 15px 0!important}
-    .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; text-align:center}
-    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
-    
-    /*.wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
-    .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
-    .wp-block-file .wp-block-file__button:hover::before {transition-delay:0s}
-    .wp-block-file .wp-block-file__button:hover::after {background:#002959 !important; transition-delay:.35s}
-    .wp-block-file .wp-block-file__button::before {top:0; left:50%;	height:100%; width:0; border:1px solid #002959;	border-left:0; border-right:0}
-    .wp-block-file .wp-block-file__button::after {bottom:0;	left:0;	height:0; width:100%;	background:#002959!important}
-    .wp-block-file .wp-block-file__button:hover::before {left:0; width:100%}
-    .wp-block-file .wp-block-file__button:hover::after {top:0; height:100%}*/
-        /*WP-FILE-LINK-END*/
+
 
 /*PAGE-CONTENT-END*/
     
@@ -145,8 +141,6 @@
     .page-content .col-lg-10 > .row {align-items:center}
     .page-content h3 {text-align:start}
     .page-content .wp-block-image {display:block}
-    /*.page-content figure {margin:0 0 45px 0}
-    .page-content .table {margin:0 0 45px 0}*/
     .page-content .wp-block-image img {border-radius:5px}
     .page-content .table, .page-content .table-block {background:rgba(255,255,255, 1)}
     .page-content .wp-block-table {display:block; position:relative}
@@ -169,8 +163,8 @@
     .page-content figcaption {text-align:end}
     
     /*WP-FILE-LINK*/
-    .wp-block-file {justify-content:space-between}
-    .wp-block-file a {text-align:start}
+    .page-content .wp-block-file {justify-content:space-between}
+    .page-content .wp-block-file a {text-align:start}
     /*WP-FILE-LINK-END*/
     
     /*PAGE-BANNER*/
@@ -188,11 +182,17 @@
     
     
     /*PAGE-TEMPLATE-CONTENT*/
+    .page-content > .row {justify-content:center}
+    .page-content .col-lg-10 > .row {justify-content:space-between; align-items:flex-start}
     .page-content .table-block {background:transparent; padding:0; box-shadow:none}
-    .page-content .wp-block-file a.wp-block-file__button {display:flex; align-items:center}
     /*PAGE-TEMPLATE-CONTENT*/
     
-    
+        /*WP-FILE-LINK*/
+    .wp-block-file {display:flex; justify-content:space-between; margin:0 0 15px 0!important}
+    .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; text-align:center}
+    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
+    .page-content .wp-block-file a.wp-block-file__button {display:flex; align-items:center}
+        /*WP-FILE-LINK-END*/
 
     
 }
@@ -215,7 +215,9 @@
     /*PAGE-BANNER-END*/
 
     /*PAGE-CONTENT*/
-
+    
+    
+    
         /*STYLE-FOR-ALL-PAGE*/
     .page-content h3 {margin:45px 0}
     .page-content h3:first-child {margin:0 0 45px 0}
@@ -224,32 +226,18 @@
     .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
     .page-content table br {margin:0 0 10px 0}
     
-    
-    .page-content  {padding:75px 15px}
+    .page-content  {padding:75px 15px}    
+    .page-content .table {position:relative; width:100%; padding:45px; margin:0}
+    .page-content figure {margin:0; overflow-x:inherit}
+    .page-content .col-lg-5:nth-child(2n) figcaption {text-align:end}
     .page-content > .row {justify-content:center}
     .page-content .col-lg-10 > .row {justify-content:space-between; align-items:flex-start}
-    .page-content .col-xl-5, .page-content .col-lg-6 {margin:0 0 75px 0}
+    .page-content .col-xl-5, .page-content .col-lg-6, .page-content .col-lg-12 {margin:0 0 75px 0}
     .page-content .col-xl-5:nth-child(2n), .page-content .col-lg-6:nth-child(2n), .page-content .col-xl-6:nth-child(2n) {top:125px}
     .page-content .col-xl-5:last-child, .page-content .col-xl-6:last-child .page-content .col-lg-6:last-child {margin:0 0 150px 0}
     
     /*.page-content .col-lg-5:last-child .table::before, .page-content .col-lg-5:last-child .wp-block-table::before {content:"Tallinna Pae Gümnaasium"; bottom:-55px; right:0; width:60%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
     .page-content .col-lg-5:last-child .table::after, .page-content .col-lg-5:last-child .wp-block-table::after {content:""; bottom:-25px!important; right:0; position:absolute; width:60%; height:2px; background:#002959}*/
-    .page-content .wp-block-image img {box-shadow:0px 50px 100px -30px rgba(0,0,0,0.5); height:100%}
-    
-    
-    .page-content figure {margin:0; overflow-x:inherit}
-    .page-content .col-lg-5:nth-child(2n) figcaption {text-align:end}
-    .page-content ul {font-size:16px; line-height:30px; font-family:Montserrat-Regular; list-style:none; padding:0; margin:0}
-    .page-content i {margin:0 10px 0 0; color:#002959}
-    .page-content .table {position:relative; width:100%; background:#fff; box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5); padding:45px; border-radius:5px; margin:0}
-    .page-content .table-block {margin:0}
-    
-    
-    .page-content .wp-block-file .wp-block-file__button {padding:0 1em!important}
-    .page-content .wp-block-file:last-child {margin:0!important}
-    
-    
-
         /*STYLE-FOR-ALL-PAGE-END*/
 
         /*TABLE-PAGE-MAIN-STYLE-LIST*/
@@ -258,9 +246,6 @@
 
 
         /*WP-FILE-LINK*/
-    .wp-block-file {display:flex; justify-content:space-between; text-align:start; margin:0 0 15px 0!important}
-    .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none}
-    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
     .wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
     .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
     .wp-block-file .wp-block-file__button:hover::before {transition-delay:0s}

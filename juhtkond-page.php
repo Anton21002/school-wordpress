@@ -21,7 +21,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'juhtkond-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6 col-xl-6">
+                                <div class="col-lg-12 col-xl-6">
                                     <h3><?php the_title();?></h3>
                                     <p><?php the_content(); ?></p>
                                 </div>

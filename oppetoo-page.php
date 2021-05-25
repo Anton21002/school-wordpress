@@ -13,14 +13,14 @@ get_header(); ?>
         </div>
     </div>
     
-    <div id="oppetoo-content" class="container-fluid page-content table-list-page common-page">
+    <div id="oppetoo-content" class="container-fluid page-content common-page">
         <div class="row">
             <div class="col-lg-10">
                 <div class="row">
                         <?php $query = new WP_Query( array( 'category_name' => 'oppetoo-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div id ="post-<?php the_ID(); ?>" class="table">
                                         <?php the_content(); ?>
                                     </div>

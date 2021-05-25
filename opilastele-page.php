@@ -20,7 +20,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'opilastele-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div id ="post-<?php the_ID(); ?>" class="table">
                                         <?php the_content(); ?>
                                     </div>
