@@ -124,8 +124,8 @@
 /*FONTS-END*/
 
 
-html,body, main{width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff; scrollbar-width:thin}
-
+html,body {width:100%; height:100%; margin:0; scrollbar-color:#002959 #fff; scrollbar-width:thin}
+body {overflow-x:hidden}
 
 @keyframes morph {
  0% {
@@ -605,7 +605,7 @@ body::after {
     #navbar .sub-menu a {display:block; margin:0!important; padding:10px 0!important; font-size:14px; transition:all.3s}
     #navbar .sub-menu a:hover {padding:10px 0 10px 5px!important; transition:all.3s}
     
-    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:320px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
+    #navbar ul li > ul li > ul {position:absolute; background:#fff; padding:10px 20px; width:330px; border-radius:0 0 5px 5px; left:250px; top:-13px; border: 1px solid #d77a06; opacity:0; transition:all.3s; visibility:hidden}
     
     #navbar ul li:hover > ul li:hover > ul {left:270px; top:-13px}
     #hamburger{display:none}

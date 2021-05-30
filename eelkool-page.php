@@ -20,7 +20,7 @@ get_header(); ?>
                     <?php $query2 = new WP_Query('p=1285');?>	
                             <?php 
                             while ($query2 -> have_posts()) : $query2 -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>
@@ -31,13 +31,15 @@ get_header(); ?>
                     <?php $query = new WP_Query('p=1280');?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-xl-6">
                                     <h3><?php the_title();?></h3>
                                     <div class="day-list">
                                         <div class="day">Вторник</div>
                                         <div class="day">Четверг</div>
                                     </div>
-                                    <?php the_content(); ?>
+                                    <div class="table-list">
+                                        <?php the_content(); ?>
+                                    </div>    
                                 </div>
                         <?php 
                         endwhile; 
@@ -52,9 +54,9 @@ get_header(); ?>
     tab = document.querySelectorAll('.day');
     hideTabsContent(1);
 
-    document.getElementById('eelkool-content').onclick= function (event) {
+    /*document.getElementById('eelkool-content').onclick= function (event) {
         let target = event.target;
-        //console.log(event);
+        console.log(event);
         if (target.className === 'day') {
             for (let i=0; i<tab.length; i++) {
                 if (target === tab[i]) {
@@ -63,7 +65,33 @@ get_header(); ?>
                 }
             }
         }
-    }
+    }*/
+        tab.addEventListener('click', function () {
+            for (let i=0; i<tab.length; i++) {
+                tab[i].classList.remove("active");
+                tab[i].classList.toggle("active");  
+            }
+        })
+    
+   /* for (let button of tab) {
+    button.addEventListener('click', function () {
+        tab.forEach(i => i.classList.remove('active'));
+        this.classList.toggle('active');
+        console.log(button[i]);
+    });
+}*/
+    /*document.getElementById('eelkool-content').onclick= function (event) {
+        let target = event.target;
+        console.log(event);
+        if (target.classList.contains('day')) {
+            for (let i=0; i<tab.length; i++) {
+                if (target === tab[i]) {
+                    showTabsContent(i);
+                    break;
+                }
+            }
+        }
+    }*/
 
     function hideTabsContent(a) {
         for (let i=a; i<tabContent.length; i++) {
@@ -80,6 +108,13 @@ get_header(); ?>
         }
     }
     
+/*    for (let button of tab) {
+    button.addEventListener('click', function () {
+        tab.forEach(i => i.classList.remove('active'));
+
+        this.classList.toggle('active');
+    });
+}*/
     
     //let buttons = document.querySelectorAll(".day");
 

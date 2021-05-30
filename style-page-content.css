@@ -10,7 +10,7 @@
     .page-content td {width: 100%; font-size:14px; color:#000; line-height:1.5; padding:15px; text-align:center; font-family:Montserrat-Regular; transition:all.3s}
     .page-content td:first-child {padding:30px 30px; background:#002959; color:#fff; border-radius:5px 5px 0 0; font-size:16px}
     .page-content td:last-child {padding:15px 15px 30px 15px}
-    .page-content td a {font-size:14px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
+    .page-content td a {font-size:16px; text-decoration:none; color:#d77a06; line-height:1.5; transition:all.5s}
     
 }
 
@@ -235,14 +235,15 @@
     .page-content .col-lg-10 > .row {justify-content:space-between; align-items:flex-start}
     .page-content .col-xl-5, .page-content .col-lg-6, .page-content .col-lg-12 {margin:0 0 75px 0}
     .page-content .col-xl-5:nth-child(2n), .page-content .col-lg-6:nth-child(2n), .page-content .col-xl-6:nth-child(2n) {top:125px}
-    .page-content .col-xl-5:last-child, .page-content .col-xl-6:last-child .page-content .col-lg-6:last-child {margin:0 0 150px 0}
+    .page-content .col-xl-5:last-child, .page-content .col-xl-6:last-child, .page-content .col-lg-6:last-child {margin:0 0 150px 0}
+    .page-content .col-xl-5:nth-child(2n-1), .page-content .col-xl-6:nth-child(2n-1), .page-content .col-lg-6:nth-child(2n-1) {margin:0 0 75px 0}
     
     /*.page-content .col-lg-5:last-child .table::before, .page-content .col-lg-5:last-child .wp-block-table::before {content:"Tallinna Pae Gümnaasium"; bottom:-55px; right:0; width:60%; text-align:end; font-size:14px; letter-spacing:5px; text-transform:uppercase; position:absolute; color:#d77a06; font-family:Lora}
     .page-content .col-lg-5:last-child .table::after, .page-content .col-lg-5:last-child .wp-block-table::after {content:""; bottom:-25px!important; right:0; position:absolute; width:60%; height:2px; background:#002959}*/
         /*STYLE-FOR-ALL-PAGE-END*/
 
         /*TABLE-PAGE-MAIN-STYLE-LIST*/
-    .table-list-page .col-lg-6:nth-child(2n) h3 {text-align:end}
+    .table-list-page .col-xl-6:nth-child(2n) h3 {text-align:end}
         /*TABLE-PAGE-MAIN-STYLE-LIST-END*/
 
 
