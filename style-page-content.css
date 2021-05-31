@@ -146,16 +146,25 @@
     .page-content .wp-block-table {display:block; position:relative}
     
     
-    .page-content  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1)}
+    .page-content  table {box-shadow: 0px 10px 20px #d9d9d9; border-collapse:collapse; border-spacing:0; background:rgba(255, 255, 255,1); border-radius:5px}
     .page-content .table-block {width:100%}
     .page-content tr {position:relative; transition:all.3s}
-    .page-content tr:first-child {background:#002959}
     .page-content tr:first-child::before{width:0; height:0}
-    .page-content tr:first-child td {font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
-    .page-content tr:hover td {color:#fff; transition:all.3s}
-    .page-content tr:hover {background:#002959; transition:all.3s}
+    .page-content tr:first-child td {background:#002959; font-size:21px; font-family:Lora; color:#fff; font-family:Lora; font-size:21px; font-weight:400}
+    .page-content tr:hover td {background:#002959; color:#fff; transition:all.3s}
     .page-content tr:hover .hover:hover {background:#d77a06; transition:all.3s}
     .page-content tr:hover .hover:hover a {color:#fff}
+    
+    .page-content tr:first-child td:first-child  {border-radius:5px 0 0 0}
+    .page-content tr:first-child td:last-child  {border-radius:0 5px 0 0}
+    .page-content tr:last-child td:first-child {border-radius:0 0 0 5px}
+    .page-content tr:last-child td:last-child {border-radius:0 0 5px 0}
+    
+    /*.page-content tr:first-child:hover td:first-child {background:#002959; color:#fff; transition:all.3s}*/
+    
+    
+    
+    
     .page-content td {font-size:14px; color:#000; line-height:1.5; padding:15px; font-family:Montserrat-Regular; transition:all.3s}
     .page-content td:first-child {padding:15px 15px 15px 30px}
     .page-content td:last-child {padding:15px 30px 15px 15px}

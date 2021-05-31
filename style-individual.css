@@ -96,12 +96,13 @@
     
     /*EELKOOL-TEMPLATE*/
     #eelkool-content .day-list {display:flex; flex-wrap:wrap; width:100%; margin:0 0 10px 0}
-    #eelkool-content .day {position:relative; width:50%; color:#002959; text-align:center; font-family:Lora; font-size:21px; padding:15px; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); cursor:pointer*/}
+    #eelkool-content .day {position:relative; width:50%; color:#002959; text-align:center; font-family:Lora; font-size:21px; padding:15px; transition:all 0.3s ease 0s; border-radius:5px; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); cursor:pointer*/}
     /*#eelkool-content .is-active {opacity:1}
     #eelkool-content .disable {opacity:0; position:absolute; top:140px; padding:0}*/
     #eelkool-content .table-list {position:relative}
     #eelkool-content .wp-block-table.is-active {transform:translateX(0); opacity:1; transition:all 1s; transition-delay:1.3s}
     #eelkool-content .wp-block-table.disable {position:absolute; top:0; left:0; width:100%; opacity:0; transition:all 1s}
+    #eelkool-content .day.active {background:#d77a06; color:#fff; border-radius:5px; transition:all 0.3s ease 0s}
     /*#eelkool-content .day:before, #eelkool-content .day:after {
         content: '';
         position: absolute;	

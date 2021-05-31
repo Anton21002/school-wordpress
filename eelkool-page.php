@@ -34,7 +34,7 @@ get_header(); ?>
                                 <div class="col-lg-6 col-xl-6">
                                     <h3><?php the_title();?></h3>
                                     <div class="day-list">
-                                        <div class="day">Вторник</div>
+                                        <div class="day active">Вторник</div>
                                         <div class="day">Четверг</div>
                                     </div>
                                     <div class="table-list">
@@ -54,35 +54,13 @@ get_header(); ?>
     tab = document.querySelectorAll('.day');
     hideTabsContent(1);
 
-    /*document.getElementById('eelkool-content').onclick= function (event) {
-        let target = event.target;
-        console.log(event);
-        if (target.className === 'day') {
-            for (let i=0; i<tab.length; i++) {
-                if (target === tab[i]) {
-                    showTabsContent(i);
-                    break;
-                }
-            }
-        }
-    }*/
-        tab.addEventListener('click', function () {
-            for (let i=0; i<tab.length; i++) {
-                tab[i].classList.remove("active");
-                tab[i].classList.toggle("active");  
-            }
-        })
     
-   /* for (let button of tab) {
-    button.addEventListener('click', function () {
-        tab.forEach(i => i.classList.remove('active'));
-        this.classList.toggle('active');
-        console.log(button[i]);
-    });
-}*/
-    /*document.getElementById('eelkool-content').onclick= function (event) {
+    for (let button of tab) {
+   button.addEventListener('click', function (event) {
+     tab.forEach(i => i.classList.remove('active'));
+     this.classList.toggle('active');
         let target = event.target;
-        console.log(event);
+        //console.log(event);
         if (target.classList.contains('day')) {
             for (let i=0; i<tab.length; i++) {
                 if (target === tab[i]) {
@@ -91,7 +69,9 @@ get_header(); ?>
                 }
             }
         }
-    }*/
+   });
+};
+    
 
     function hideTabsContent(a) {
         for (let i=a; i<tabContent.length; i++) {
@@ -108,21 +88,4 @@ get_header(); ?>
         }
     }
     
-/*    for (let button of tab) {
-    button.addEventListener('click', function () {
-        tab.forEach(i => i.classList.remove('active'));
-
-        this.classList.toggle('active');
-    });
-}*/
-    
-    //let buttons = document.querySelectorAll(".day");
-
-    /*for (let button of tab) {
-    button.addEventListener('click', function () {
-        tab.forEach(i => i.classList.remove('active'));
-
-        this.classList.toggle('active');
-    });
-}*/
 </script>
