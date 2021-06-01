@@ -36,12 +36,14 @@
     
     
     /*PAGE-BANNER*/
-    #page-banner {height:200px}
+    #page-banner {background:#002959; width:100%; padding:105px 15px 30px 15px}
+    #page-banner > .row {align-items:center; justify-content:center}
+    /*#page-banner {height:200px}
     #page-banner > .row {height:100%}
     #page-banner .col-lg-1 {display:none}
     #page-banner .col-lg-8 {display:flex; justify-content:center; align-items:flex-end; padding:30px 15px; background:#002959}
     #page-banner .col-lg-3 {display:none}
-    #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
+    #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}*/
     #page-banner h2 {margin:0; text-align:center}
     /*PAGE-BANNER-END*/
 
@@ -137,6 +139,7 @@
     
 @media (min-width:1024px) {
 
+
     
     .page-content .col-lg-10 > .row {justify-content:space-between; align-items:center}
     .page-content h3 {text-align:start}
@@ -187,7 +190,18 @@
     
     
 @media (min-width:1366px) {
+    /*PAGE-BANNER*/
+    #page-banner {background:url("../school-p/img/wave.svg"); background-repeat:no-repeat; width:100%; height:310px; padding:0 15px}
+    #page-banner > .row {align-items:center; justify-content:center; height:100%}
+    /*
     
+    #page-banner {height:300px}
+    #page-banner > .row {height:100%}
+    #page-banner .col-lg-1 {background:#002959}
+    #page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:75px 15px; background:#002959}
+    #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}*/
+    #page-banner h2 {margin:0; text-align:start}
+    /*PAGE-BANNER-END*/
 
     
     
@@ -216,12 +230,7 @@
 
     
     /*PAGE-BANNER*/
-    #page-banner {height:300px}
-    #page-banner > .row {height:100%}
-    #page-banner .col-lg-1 {background:#002959}
-    #page-banner .col-lg-8 {display:flex; justify-content:flex-start; align-items:flex-end; padding:75px 15px; background:#002959}
-    #page-banner .col-lg-4 {min-height:100%; right:10%; top:70%; background:#fff; box-shadow:0 50px 100px -30px rgba(0,0,0,.5)}
-    #page-banner h2 {margin:0; text-align:start}
+    #page-banner {height:450px}
     /*PAGE-BANNER-END*/
 
     /*PAGE-CONTENT*/

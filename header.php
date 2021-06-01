@@ -25,7 +25,7 @@
     <!--<base target="_blank">-->
 </head>
 
-<body id="tpg">
+<body id="tpg" class="overflow-hidden">
 <!--<div id="preloader">
     <h1 class="flip">
         <span class="text-wrapper">
@@ -37,6 +37,7 @@
     </div>
 </div>-->
 <div id="preloader">
+    <h2>Tallinna Pae Gümnaasium</h2>
     <div class="loader">
         <div></div>
         <div></div>

@@ -8,10 +8,13 @@ let likey;
 window.onload = function() {
     /*LOADER*/
     let preloader = document.getElementById('preloader');
+    let body = document.getElementById('tpg');
+    
     preloader.classList.add('hide-preloader');
     setInterval(function() {
-          preloader.classList.add('preloader-hidden');
-    }, 1990);
+        preloader.classList.add('preloader-hidden');
+        body.classList.remove('overflow-hidden');
+    }, 1500);
     /*LOADER-END*/
     
     AOS.init({
@@ -45,7 +48,7 @@ window.onload = function() {
 	mnav = document.getElementById('mnav');
     navbar = document.getElementById('navbar');
     fader = document.getElementById('fader');
-    let body = document.getElementById('tpg');
+    
     let ulList = mnav.querySelectorAll('.menu-item-has-children');
     let activeNav = mnav.getElementsByClassName("active");
     let button = document.getElementById('back-button');

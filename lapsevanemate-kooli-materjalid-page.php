@@ -5,11 +5,9 @@ Template Name: lapsevanemate-kooli-materjalid-page
 get_header(); ?>
     <div id=page-banner class="container-fluid">
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <h2><?php the_title(); ?></h2>
             </div>
-            <div class="col-lg-3"></div>
         </div>
     </div>
     
@@ -21,7 +19,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'lapsevanemate-kooli-materjalid-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>
