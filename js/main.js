@@ -14,7 +14,7 @@ window.onload = function() {
     setInterval(function() {
         preloader.classList.add('preloader-hidden');
         body.classList.remove('overflow-hidden');
-    }, 1500);
+    }, 2000);
     /*LOADER-END*/
     
     AOS.init({

@@ -19,7 +19,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'oppekava-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-xl-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <h3><?php the_title();?></h3>
                                     <div class="table">
                                         <?php the_content(); ?>

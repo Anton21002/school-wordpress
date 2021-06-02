@@ -18,7 +18,7 @@ get_header(); ?>
                         <?php $query = new WP_Query( array( 'category_name' => 'huvitegevus-category' ) );?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6 col-xl-5">
+                                <div class="col-lg-6 col-xl-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <div id ="post-<?php the_ID(); ?>" class="table">
                                         <?php the_content(); ?>
                                     </div>

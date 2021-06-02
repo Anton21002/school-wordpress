@@ -18,7 +18,7 @@ get_header(); ?>
                         <?php $query = new WP_Query('p=1385');?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <div id=flip-1>
                                         <div class="flipper">
                                             <div class="flip-front">
@@ -37,7 +37,7 @@ get_header(); ?>
                         <?php $query1 = new WP_Query('p=1367');?>	
                             <?php 
                             while ($query1 -> have_posts()) : $query1 -> the_post(); ?>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <div id=flip-2>
                                         <div class="flipper">
                                             <div class="flip-front">
@@ -56,7 +56,7 @@ get_header(); ?>
                         <?php $query2 = new WP_Query('p=1375');?>	
                             <?php 
                             while ($query2 -> have_posts()) : $query2 -> the_post(); ?>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>

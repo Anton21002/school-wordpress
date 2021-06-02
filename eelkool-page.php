@@ -18,7 +18,7 @@ get_header(); ?>
                     <?php $query2 = new WP_Query('p=1285');?>	
                             <?php 
                             while ($query2 -> have_posts()) : $query2 -> the_post(); ?>
-                                <div class="col-lg-6 col-xl-5">
+                                <div class="col-lg-6 col-xl-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <div class="table">
                                         <?php the_content(); ?>
                                     </div>
@@ -29,7 +29,7 @@ get_header(); ?>
                     <?php $query = new WP_Query('p=1280');?>	
                             <?php 
                             while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6 col-xl-6">
+                                <div class="col-lg-6 col-xl-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
                                     <h3><?php the_title();?></h3>
                                     <div class="day-list">
                                         <div class="day active">Вторник</div>

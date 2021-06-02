@@ -1,3 +1,7 @@
+.page-content .col-xl-5:first-child, .page-content .col-lg-6:first-child, .page-content .col-lg-12:first-child, .page-content .col-xl-6:first-child {transition-delay:1500ms}
+
+.page-content .col-xl-5:nth-child(2), .page-content .col-lg-6:nth-child(2), .page-content .col-lg-12:nth-child(2), .page-content .col-xl-6:nth-child(2) {transition-delay:1500ms}
+
 @media (max-width:1023px) {  
 
 
