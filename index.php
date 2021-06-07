@@ -77,7 +77,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Документы</h3>
                             <ul>
@@ -94,7 +94,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Коллектив</h3>
                             <ul>
@@ -105,7 +105,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Учебная работа</h3>
                             <ul>
@@ -134,7 +134,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Родителям</h3>
                             <ul>
@@ -150,7 +150,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Работа по интересам</h3>
                             <ul>
@@ -161,7 +161,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up">
                         <div class="table">
                             <h3>Обзор школы</h3>
                             <ul>
@@ -186,17 +186,17 @@
                 <div id="lable-list" class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row justify-content-center">
-                            <div class="img" data-aos="fade-up" data-aos-delay="150"><a class="unesco" href="http://unesco.ee/uhendkoolide-vorgustik/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="300"><a class="ekool" href="https://ekool.eu" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="450"><a class="erasmus" href="http://www.erasmuspluss.ee/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="600"><a class="keel" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="750"><a class="fox" href="https://www.foxcademy.com/#welcome" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="900"><a class="tek" href="http://www.terviseinfo.ee/et/tervise-edendamine/koolis/tervist-edendavate-koolide-vorgustik" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="1050"><a class="nk" href="http://www.nooredkooli.ee/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="1200"><a class="tagasi" href="https://tagasikooli.ee/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="1350"><a class="marka" href="https://www.tallinn.ee/est/markajaaita/Marka-ja-aita-see-on-imeline-2" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="1500"><a class="kiamisest" href="http://kiusamisestvabaks.ee/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up" data-aos-delay="1650"><a class="tore" href="http://tore.ee/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="unesco" href="http://unesco.ee/uhendkoolide-vorgustik/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="ekool" href="https://ekool.eu" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="erasmus" href="http://www.erasmuspluss.ee/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="keel" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="fox" href="https://www.foxcademy.com/#welcome" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="tek" href="http://www.terviseinfo.ee/et/tervise-edendamine/koolis/tervist-edendavate-koolide-vorgustik" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="nk" href="http://www.nooredkooli.ee/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="tagasi" href="https://tagasikooli.ee/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="marka" href="https://www.tallinn.ee/est/markajaaita/Marka-ja-aita-see-on-imeline-2" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="kiamisest" href="http://kiusamisestvabaks.ee/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="tore" href="http://tore.ee/" target="_blank"></a></div>
                         </div>
                     </div>
                 </div>

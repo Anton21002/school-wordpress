@@ -16,7 +16,7 @@ get_header(); ?>
             <?php $query = new WP_Query( array( 'category_name' => 'saavutused-category' ) );?>	
             <?php 
                 while ($query -> have_posts()) : $query -> the_post(); ?>
-                    <div class="col-lg-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="center-bottom">
+                    <div class="col-lg-12" data-aos="flip-left" data-aos-easing="ease-out-cubic">
                         <div class="slider-achivements">
                             <div class="swiper-container-achivements">
                                 <div class="swiper-wrapper">

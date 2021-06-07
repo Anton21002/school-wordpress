@@ -8,12 +8,10 @@ let likey;
 window.onload = function() {
     /*LOADER*/
     let preloader = document.getElementById('preloader');
-    let body = document.getElementById('tpg');
     
     preloader.classList.add('hide-preloader');
     setInterval(function() {
         preloader.classList.add('preloader-hidden');
-        body.classList.remove('overflow-hidden');
     }, 2000);
     /*LOADER-END*/
     
@@ -49,6 +47,7 @@ window.onload = function() {
     navbar = document.getElementById('navbar');
     fader = document.getElementById('fader');
     
+    let body = document.getElementById('tpg');
     let ulList = mnav.querySelectorAll('.menu-item-has-children');
     let activeNav = mnav.getElementsByClassName("active");
     let button = document.getElementById('back-button');

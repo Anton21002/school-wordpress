@@ -2,6 +2,7 @@
 
 .page-content .col-xl-5:nth-child(2), .page-content .col-lg-6:nth-child(2), .page-content .col-lg-12:nth-child(2), .page-content .col-xl-6:nth-child(2) {transition-delay:1500ms}
 
+
 @media (max-width:1023px) {  
 
 
@@ -218,7 +219,8 @@
         /*WP-FILE-LINK*/
     .wp-block-file {display:flex; justify-content:space-between; margin:0 0 15px 0!important}
     .wp-block-file a {display:flex; align-items:center; color:#d77a06; text-decoration:none; text-align:center}
-    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:0!important; color:#002959!important; transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1); opacity:1!important; z-index:1}
+    .wp-block-file .wp-block-file__button {position:relative; background:none!important; font-size:16px!important; border-radius:5px!important; border:1px solid #002959; color:#002959!important; /*transition:all 500ms cubic-bezier(0.77, 0, 0.175, 1);*/ transition:all.3s; opacity:1!important; z-index:1}
+    .wp-block-file .wp-block-file__button:hover {background:#002959!important; color:#fff!important; border:1px solid transparent; transition:all.3s}
     .page-content .wp-block-file a.wp-block-file__button {display:flex; align-items:center}
         /*WP-FILE-LINK-END*/
 
@@ -270,14 +272,14 @@
 
 
         /*WP-FILE-LINK*/
-    .wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
+    /*.wp-block-file .wp-block-file__button::before, .wp-block-file .wp-block-file__button::after {content:''; position:absolute;	transition:inherit;	z-index:-1}
     .wp-block-file .wp-block-file__button:hover {color:#fff!important; transition-delay:.5s}
     .wp-block-file .wp-block-file__button:hover::before {transition-delay:0s}
     .wp-block-file .wp-block-file__button:hover::after {background:#002959 !important; transition-delay:.35s}
     .wp-block-file .wp-block-file__button::before {top:0; left:50%;	height:100%; width:0; border:1px solid #002959;	border-left:0; border-right:0}
     .wp-block-file .wp-block-file__button::after {bottom:0;	left:0;	height:0; width:100%;	background:#002959!important}
     .wp-block-file .wp-block-file__button:hover::before {left:0; width:100%}
-    .wp-block-file .wp-block-file__button:hover::after {top:0; height:100%}
+    .wp-block-file .wp-block-file__button:hover::after {top:0; height:100%}*/
         /*WP-FILE-LINK-END*/
 /*PAGE-CONTENT-END*/
 }
