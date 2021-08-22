@@ -100,7 +100,7 @@
                             <ul>
                                 <li><a href="<?php echo get_site_url(null, 'juhtkond', null)?>"><span>Администрация</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'klassijuhatajad', null)?>"><span>Классные руководители</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'opetajad', null)?>"><span>Преподаватели</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'opetajad', null)?>"><span>Учителя предметники</span></a></li>
                                 <li><a href="<?php echo get_site_url(null, 'spetsialistid', null)?>"><span>Специалисты</span></a></li>
                             </ul>
                         </div>
@@ -186,10 +186,16 @@
                 <div id="lable-list" class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row justify-content-center">
+                            <div class="img" data-aos="fade-up"><a class="htm" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="harno" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="lkk" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="opiq" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="swedbank" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="tltp" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
+                            <div class="img" data-aos="fade-up"><a class="tlu" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="unesco" href="http://unesco.ee/uhendkoolide-vorgustik/" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="ekool" href="https://ekool.eu" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="erasmus" href="http://www.erasmuspluss.ee/" target="_blank"></a></div>
-                            <div class="img" data-aos="fade-up"><a class="keel" href="https://www.innove.ee/oppevara-ja-metoodikad/keelekumblus/" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="fox" href="https://www.foxcademy.com/#welcome" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="tek" href="http://www.terviseinfo.ee/et/tervise-edendamine/koolis/tervist-edendavate-koolide-vorgustik" target="_blank"></a></div>
                             <div class="img" data-aos="fade-up"><a class="nk" href="http://www.nooredkooli.ee/" target="_blank"></a></div>

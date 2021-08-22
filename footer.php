@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row justify-content-between">
-                        <div class="col-md-12 col-lg-4">
+                        <div class="col-md-6">
                             <div class="table">
                                 <h3>Контакты</h3>
                                 <p>
@@ -21,46 +21,14 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="map">
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="table">
-                                <h3>Полезные ссылки</h3>
-                                <ul>
-                                    <li><a href="">BigBlueButton</a></li>
-                                    <li><a href="">CAE Eeltest link</a></li>
-                                    <li><a href="">HKK</a></li>
-                                    <li><a href="">VKK</a></li>
-                                    <li><a href="">Галерея</a></li>
-                                </ul>
-                            </div>
-                            <div class="table">
-                                <h3>Партнеры и проекты</h3>
-                                <ul>
-                                    <li><a href="">Comenius Project</a></li>
-                                    <li><a href="">Tervist Edendavad Kool</a></li>
-                                    <li><a href="">Keelekümbluskeskus</a></li>
-                                    <li><a href="">eKool</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="table">
-                                <h3>Ссылки</h3>
-                                <ul>
-                                    <li><a href="">Linna töötaja portaal</a></li>
-                                    <li><a href="">Heategevusfond</a></li>
-                                    <li><a href="">INNOVE AS</a></li>
-                                    <li><a href="">HKK töölehed</a></li>
-                                    <li><a href="">Tallinna Haridusamet</a></li>
-                                    <li><a href="">Haridus- ja Teadusministeerium</a></li>
-                                    <li><a href="">Põhikooli ja gümnaasiumiseadus</a></li>
-                                    <li><a href="">Jyoshinmon Karate</a></li>
-                                    <li><a href="">Lasnamäe Lastekeskus</a></li>
-                                    <li><a href="">E-Kool</a></li>
-                                    <li><a href="">GeniUS Tallinn</a></li>
-                                </ul>
+                            <div class="social-media">
+                                <a class="facebook" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                                <a class="youtube" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                                <a class="instagram" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -175,9 +143,19 @@
         }
         if (document.getElementById('footer')!= null){
             let idFooter = document.getElementById("footer");
-            let removeClassFooter = idFooter.getElementsByTagName("i");
-            for (let i = removeClassFooter.length - 1; i >= 0; --i) {
-                removeClassFooter[i].remove();
+            let ulFooter = idFooter.getElementsByTagName("ul");
+            
+            for (let i=ulFooter.length -1; i>=0; --i){
+            let removeClassFooter = ulFooter.item(i).getElementsByTagName("i");
+                for (let i = removeClassFooter.length - 1; i >= 0; --i) {
+                    removeClassFooter[i].remove();
+                }
+            }
+            
+            let AllTagI = idFooter.getElementsByTagName("i");
+            console.log(AllTagI);
+            for(i = AllTagI.length -1; i >= 0; --i){
+                AllTagI.item(i).classList.remove("fas", "fa-angle-right");
             }
         }
         /*Добавление Arrow в список-end*/

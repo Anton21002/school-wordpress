@@ -360,6 +360,14 @@ body::after {
     #lable-list a {display:inline-block; width:178px; height:112px; background-repeat:no-repeat; background-size:cover; box-shadow:0px 10px 20px #d9d9d9; border-radius:5px; transition:all.3s}
     #lable-list a:hover {box-shadow:none; transition:all.3s}
     #lable-list .col-lg-2 {display:flex; justify-content:center; padding:15px 0}
+    #lable-list .htm {background:url("../school-p/img/lables/haridus_ja_teadus_ministeerium.png")}
+    #lable-list .harno {background:url("../school-p/img/lables/harno.png")}
+    #lable-list .lkk {background:url("../school-p/img/lables/liikuma_kutsuv_kool.png")}
+    #lable-list .opiq {background:url("../school-p/img/lables/opiq.png")}
+    #lable-list .swedbank {background:url("../school-p/img/lables/swedbank.png")}
+    #lable-list .tltp {background:url("../school-p/img/lables/tallinna_linna_tootaja_portaal.png")}
+    #lable-list .tlu {background:url("../school-p/img/lables/tlu.png")}
+    
     #lable-list .unesco {background:url("../school-p/img/lables/unesco.png")}
     #lable-list .ekool {background:url("../school-p/img/lables/ekool.png")}
     #lable-list .erasmus {background:url("../school-p/img/lables/erasmus_plus.png")}
@@ -375,13 +383,17 @@ body::after {
     
     /*FOOTER*/
     #footer {background:#002959; padding:45px 15px}
-    #footer .table {/*min-height:300px;*/ padding:0 15px; margin:0 0 30px 0}
+    #footer .col-md-6:first-child, #footer .col-md-6:last-child {padding:0 30px}
     #footer h3 {color:#d77a06}
     #footer .phone-active a, #footer .mail-active a, #footer a{text-decoration:none; color:#fff; font-size:16px; transition:all.3s}
     #footer p {color:#fff; line-height:1.5; font-size:16px; margin:0}
     #footer ul {margin:45px 0 0 0; padding:0; list-style-type:none}
     #footer li {padding:7.5px 15px; border-left:3px solid #d77a17}
     #footer .copyright {margin:45px 0 0 0; color:#fff; font-family:Montserrat-Light; font-size:8px}
+    #footer .social-media {font-size:0; margin:45px 0 0 0}
+    #footer .social-media .facebook, #footer .social-media .youtube, #footer .social-media .instagram {font-size:25px; color:#fff; margin:0 15px 0 0}
+    #footer .social-media .instagram {margin:0}
+    
     /*FOOTER-END*/
 
     
@@ -430,10 +442,13 @@ body::after {
     /*LABEL-END*/
     
     /*FOOTER*/
-    #footer .col-md-12 {display:flex; flex-wrap:wrap; margin:0 0 45px 0}
-    #footer .col-md-12 .table {width:50%}
-    #footer .map {display:block; width:346.5px; height:220.5px; background-repeat:no-repeat!important; margin:45px 0 0 0; background-size:cover!important; background:url("../school-p/img/map.svg")}
+    #footer .col-md-6:first-child {padding:0 15px 0 30px}
+    #footer .col-md-6:last-child {padding:0 30px 0 15px}
+    #footer .map {display:block; width:297px; height:189px; background-repeat:no-repeat!important; background-size:cover!important; background:url("../school-p/img/map.svg")}
     #footer .copyright {font-size:12px}
+    #footer .col-md-6:nth-child(2) {display:flex; justify-content:flex-end; flex-wrap:wrap; align-content:space-between}
+    #footer .map {margin:0}
+    #footer .social-media {text-align:end; width:100%; height:min-content; margin:0}
     /*FOOTER-END*/
 
     
@@ -509,10 +524,13 @@ body::after {
     /*LABLE-LIST-END*/
 
     /*FOOTER*/
-    #footer .col-md-12 .table {width:100%; min-height:300px}
+    #footer .col-md-6:first-child, #footer .col-md-6:last-child {padding:0 15px}
     #footer .copyright {margin:60px 0 0 0; font-size:12px}
-    #footer .map {width:247.5px; height:157.5px}
     #footer .phone-active a:hover, #footer .mail-active a:hover, #footer a:hover {color:#d77a06; transition:all.3s}
+    #footer .social-media .facebook, #footer .social-media .youtube, #footer .social-media .instagram {transition:all.3s}
+    #footer .social-media .facebook:hover {color:#395693}
+    #footer .social-media .youtube:hover {color:#c34a47}
+    #footer .social-media .instagram:hover {color:#e1306c}
     /*FOOTER-END*/
 
     
@@ -596,8 +614,7 @@ body::after {
     /*LABEL-END*/
 
     /*FOOTER*/
-    #footer .col-lg-4:nth-child(2) .table:last-child {margin: 60px 0 0 0}
-    #footer .map {width:297px; height:189px}
+    #footer .col-md-6:nth-child(2) .table:last-child {margin: 60px 0 0 0}
     /*FOOTER-END*/
     
 }
