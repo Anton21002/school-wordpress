@@ -15,17 +15,27 @@ get_header(); ?>
         <div class="row">
             <div class="col-lg-10">
                 <div class="row">
-                        <?php $query = new WP_Query( array( 'category_name' => 'vaartused-category' ) );?>	
-                            <?php 
-                            while ($query -> have_posts()) : $query -> the_post(); ?>
-                                <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic">
-                                    <div class="table">
-                                        <p><?php the_content(); ?></p>
-                                    </div>
-                                </div>
-                        <?php 
-                        endwhile; 
-                        ?>
+                    <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+
+                        <input type="checkbox" id="click">
+                        <label for="click" class="share-btn">
+                            <span class="fas fa-share-alt"></span>
+                            <a href="#">Armastus</a>
+                            <a href="#">Silmaring</a>
+                            <a href="#">Koostöövõime</a>
+                            <a href="#">Armastus</a>
+                            <a href="#">Ausus</a>
+                            <a href="#">Avastus</a>
+                        </label>
+                    </div>
+                    <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+                        <div class="table">
+                        </div> 
+                    </div>
+                    <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+                        <div class="table">
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>
