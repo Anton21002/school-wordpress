@@ -36,12 +36,15 @@ get_header(); ?>
             global $wpdb;
             $result = $wpdb->get_results( "SELECT * FROM infohandler");
             foreach ( $result as $print ) { 
+            $itemdesc=$print->ItemDescription ;
             $relatr1=$print->RelAtr1;   
             $relatr2=$print->RelAtr2;
             $relatr3=$print->RelAtr3; 
-            $relatr4=$print->RelAtr4; ?>
-            <figure class="juhtcard"><img src="" alt="" class="juhtimg">
-                <figcaption>
+            $relatr4=$print->RelAtr4;
+            $relatr5=$print->RelAtr5;
+            ?>
+            <figure class="juhtcard"><img src="<?php echo $relatr5 ?>" alt="<?php echo $itemdesc  ?>" class="juhtimg"> 
+                <figcaption class="juhtdesc">
                     <p><?php  echo $relatr1 ."</p>
                     <p>". $relatr2 . "</p>
                     <p> tel : ". $relatr3 . "</p>
