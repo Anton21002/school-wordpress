@@ -110,12 +110,12 @@
                             <h3>Учебная работа</h3>
                             <ul>
                                 <li><a href="<?php echo get_site_url(null, 'oppekava', null)?>"><span>Учебная программа</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1006', null)?>"><span>Цели школы</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1023', null)?>"><span>Режим работы гимназии</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'postpage?post=1006&img=1009', null)?>"><span>Цели школы</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'postpage?post=1023&img=1021', null)?>"><span>Режим работы гимназии</span></a></li>
                                 <li><a href="https://pae.edupage.org/timetable/?1"><span>Расписание уроков</span></a></li>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/02/Konsultatsioonid.pdf' ?>"><span>Расписание консультаций</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1039', null)?>"><span>Охрана здоровья учащихся</span></a></li>
-                                <li><a href="<?php echo get_site_url(null, 'oppetoo/#post-1064', null)?>"><span>Образовательные потребности</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'postpage?post=1039&img=1043', null)?>"><span>Охрана здоровья учащихся</span></a></li>
+                                <li><a href="<?php echo get_site_url(null, 'postpage?post=1064&img=1060', null)?>"><span>Образовательные потребности</span></a></li>
                                 <li><a href="<?php echo get_site_url(). '/wp-content/uploads/2021/02/KK2017-2018.pdf' ?>"><span>Языковое погружение</span></a></li>
                             </ul>
                         </div>

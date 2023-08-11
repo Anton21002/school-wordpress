@@ -2,7 +2,7 @@
 /*
 Template Name: crud-editoutcome
 */
-
+get_header();
 ?><p>edit</p><?php
 $ID=$_POST['ID'];
 $newPostID=$_POST['postid'];
@@ -28,3 +28,4 @@ array('%d','%s','%s','%s','%s','%s','%s','%s')
 );
 ?>
 <a href="/admin-panel">Back to Admin panel</a>
+<?php  get_footer(); ?>

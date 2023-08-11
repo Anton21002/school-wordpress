@@ -16,13 +16,13 @@ CREATE TABLE IF NOT EXISTS infohandler
 `RelAtr0` VARCHAR(1000)
 ) ENGINE=InnoDB AUTO_INCREMENT=3330 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 INSERT INTO infohandler 
-(Datatype,ItemDescription,RelAtr1,RelAtr2,RelAtr3,RelAtr4,RelAtr5) VALUES 
-('LIST',"direktori kontaktandmed","Изабелла Рийтсаар","Директор","621 1611","direktor@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Светлана Каст","HEV координатор","621 1984","s.borodavko@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Наталия Преснецова","Заведующая учебной частью программы погружения","623 1223","n.voronova@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Павел Алонов","Руководитель по проектам, учитель","623 1223","p.alonov@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Оксана Шеленёва","Заведующая учебной частью ","6623 1223 ","o.selenjova@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Валентина Диденко","Заведующая хозяйственной частью","621 1963","majajuht@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Леа Лойде ","Заведующая канцелярией","621 0230","pae@pae.tln.edu.ee",""),
-('LIST',"direktori kontaktandmed","Анна Луйк","Руководитель по интересам","621 1963","a.hurm@pae.tln.edu.ee","")
+(PostID,Datatype,ItemDescription,RelAtr1,RelAtr2,RelAtr3,RelAtr4,RelAtr5) VALUES 
+(5,'LIST',"direktori kontaktandmed","Изабелла Рийтсаар","Директор","621 1611","direktor@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Светлана Каст","HEV координатор","621 1984","s.borodavko@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Наталия Преснецова","Заведующая учебной частью программы погружения","623 1223","n.voronova@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Павел Алонов","Руководитель по проектам, учитель","623 1223","p.alonov@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Оксана Шеленёва","Заведующая учебной частью ","623 1223 ","o.selenjova@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Валентина Диденко","Заведующая хозяйственной частью","621 1963","majajuht@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Леа Лойде ","Заведующая канцелярией","621 0230","pae@pae.tln.edu.ee",""),
+(5,'LIST',"direktori kontaktandmed","Анна Луйк","Руководитель по интересам","621 1963","a.hurm@pae.tln.edu.ee","")
 ;

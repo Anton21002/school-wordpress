@@ -22,7 +22,7 @@ get_header(); ?>
                                     <div id ="post-<?php the_ID(); ?>" class="table">
                                         <?php the_content(); ?>
                                     </div>
-                                </div>
+                                </div> 
                         <?php 
                         endwhile; 
                         ?>

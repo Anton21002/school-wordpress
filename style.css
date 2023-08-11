@@ -28,6 +28,76 @@ flex-direction: row;
 align-items: stretch;
 justify-content: space-evenly;   
 }
+.juhtkondtable{
+padding-top: 100px;
+padding-left: 20px;
+}
+.juhtkonditem{
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 5px;
+padding-bottom: 5px;
+border: navy solid 1px; 
+display: table-cell !important;  
+padding-right: 20px;
+}
+.crudforms{
+display: flex; 
+padding-top: 30px; 
+padding-left: 5%;  
+padding-right: 5%;
+justify-content: space-evenly;
+}
+.addform{
+width: 30%;
+padding: 5px;
+border: navy solid 1px; 
+}
+.deleteform{
+width: 30%;    
+}
+.editform{
+width: 30%;   
+}
+.submitbutton{
+height: 50px; 
+margin: 10px;   
+}
+.inputfield{
+height: 30px;    
+}
+
+.postitem{
+display: block;
+padding-top: 100px;    
+padding-bottom: 40px ;
+padding-left: 40px ;
+padding-right: 40px ;
+}
+.post{
+    padding: 45px 15px 40px 15px;
+    width: 100%;
+    display: flex;   
+    border-radius: 5px;
+    margin: 0 0 75px 0;
+    justify-content: space-evenly;
+}
+
+.post_elem{
+    width : 40% ; 
+    padding: 30px;
+    background: rgba(255,255,255, 1);
+    box-shadow: 0px 50px 100px -30px rgba(0,0,0,0.5);
+    
+}
+.post_content{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.post_img{
+
+}
 /*GRID*/
     html {box-sizing:border-box; -ms-overflow-style:scrollbar}
     *, *::before, *::after {box-sizing:inherit}

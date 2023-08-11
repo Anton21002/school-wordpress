@@ -37,12 +37,13 @@ get_header(); ?>
             $result = $wpdb->get_results( "SELECT * FROM infohandler");
             foreach ( $result as $print ) { 
             $itemdesc=$print->ItemDescription ;
+            $itemid=$print->PostID ;
             $relatr1=$print->RelAtr1;   
             $relatr2=$print->RelAtr2;
             $relatr3=$print->RelAtr3; 
             $relatr4=$print->RelAtr4;
             $relatr5=$print->RelAtr5;
-            ?>
+            if($itemid == 5 ) { ?>
             <figure class="juhtcard"><img src="<?php echo $relatr5 ?>" alt="<?php echo $itemdesc  ?>" class="juhtimg"> 
                 <figcaption class="juhtdesc">
                     <p><?php  echo $relatr1 ."</p>
@@ -51,8 +52,11 @@ get_header(); ?>
                     <p> email : ". $relatr4 . "</p>
                 </figcaption>
             </figure>";  
-                    } ?>
+                  }  } ?>
     </div></div>
+    <div>
+    
+    
 <?php get_footer(); ?>
 
 <?php /* table example

@@ -2,7 +2,7 @@
 /*
 Template Name: crud-edit
 */
-
+get_header();
 ?>
 <body>
 <div>
@@ -36,9 +36,10 @@ $result = $wpdb->get_results( "SELECT * FROM infohandler WHERE ID = $editByID ")
                   $relatr5 . "</td>",
                   "</tr>";  }   ?>
                   </table></div>  
+<div class="crudforms">                  
 <form action="/edit-outcome" method="post">
 <label for="ID">Currently selected id :</label><br>
-<input type="text" name="ID" id="ID" value="<?php echo $id ?>" readonly="readonly">    
+<input type="text" name="ID" id="ID" value="<?php echo $id ?>" readonly="readonly">    <br>
 <label for="postid">Item id:</label><br>
 <input type="text" id="postid" name="postid" value="<?php echo $itemid ?>" required="required"><br>    
 <label for="descrpt">Description:</label><br>
@@ -59,4 +60,5 @@ $result = $wpdb->get_results( "SELECT * FROM infohandler WHERE ID = $editByID ")
 <input type="text" id="atribute5" name="atribute5" value="<?php echo $relatr5 ?>"><br>
 <input type="submit" value="Apply changes">
 </form>
-<a href="/admin-panel">Back to Admin panel</a>
+<a href="/admin-panel">Back to Admin panel</a></div>
+<?php get_footer(); ?>

@@ -4,6 +4,7 @@ Template Name: crud-delete
 */
 
 ?>
+<?php get_header(); ?>
 <a href="/admin-panel">Back to Admin panel</a>
 
 <?php 
@@ -21,4 +22,5 @@ echo "No item with provided id". $deleteByID ." was found";
 echo "Sucessfully deleted entry with ID ". $deleteByID ." ! <br>".$deleteres ;
 }
 ;
+get_footer();
 ?>
