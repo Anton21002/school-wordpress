@@ -3,9 +3,9 @@
 Template Name: crud-add
 */
 
-?>
-u good?
-
+?><?php get_header(); ?>
+<div class="topbar"></div>
+<h1>Sucessfully added a new item</h1>
 
 <?php
 $addpostid=$_POST['postid'] ;
@@ -30,11 +30,15 @@ $wpdb->insert('infohandler',array(
 array('%d','%s','%s','%s','%s','%s','%s','%s')
 ); 
 ?><tr class="juhkkondrow">
-<td><?php  echo $addatr1 ."</td><td>".
-  $addatr2 . "</td><td>".
-  $addatr3 . "</td><td>".
-  $addatr4 . "</td><td>".
-  $addatr5 . "</td>",
+<td> ID : <?php  echo $addpostid ."</td>
+<td> Description : ".$additemdesc . "</td>
+<td> Data type : ".$datatype . "</td>
+<td> Variable 1 : ".$addatr1 . "</td>
+<td> Variable 2 : ".$addatr2 . "</td>
+<td> Variable 3 : ".$addatr3 . "</td>
+<td> Variable 4 : ".$addatr4 . "</td>
+<td> Variable 5 : ".$addatr5 . "</td>",
   "</tr>"; 
 ?>
 <a href="/admin-panel">Back to Admin panel</a>
+<?php  get_footer(); ?>

@@ -5,7 +5,8 @@ Template Name: crud-edit
 get_header();
 ?>
 <body>
-<div>
+
+<div class="topbar"></div>
     <table class="juhtkondtable"><tr>    
     <th>ID</th>
     <th>Имя, фамилия</th>

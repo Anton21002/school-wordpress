@@ -3,7 +3,8 @@
 Template Name: crud-editoutcome
 */
 get_header();
-?><p>edit</p><?php
+?><div class="topbar"></div>
+<p>edit</p><?php
 $ID=$_POST['ID'];
 $newPostID=$_POST['postid'];
 $newdesc=$_POST['descrpt'];

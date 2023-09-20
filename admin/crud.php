@@ -11,41 +11,7 @@ Template Name: crud-admin
 get_header();
 ?>
 <title>Admin Panel</title>
-
-<body>
-<div class="juhtkondtable">
-    <table><tr class="juhkkondrow">    
-    <th>ID</th>
-    <th>Description</th>
-    <th>Имя, фамилия</th>
-    <th>Должность</th>
-    <th>Номер телефона</th>
-    <th>Электронная почта</th>
-    <th>image link</th>
-</tr>
-    <?php 
-            global $wpdb;
-            $result = $wpdb->get_results( "SELECT * FROM infohandler");
-            foreach ( $result as $print ) { 
-            $id=$print-> ID ;  
-            $itemid=$print->PostID ;
-            $itemdesc=$print->ItemDescription ;
-            $relatr1=$print->RelAtr1;   
-            $relatr2=$print->RelAtr2;
-            $relatr3=$print->RelAtr3; 
-            $relatr4=$print->RelAtr4;
-            $relatr5=$print->RelAtr5;
-            ?>
-            <tr class="juhkkondrow">
-                <td class="juhtkonditem"><?php  echo $id.'</td><td class="juhtkonditem">'. 
-                $itemdesc .'</td><td class="juhtkonditem">'.
-                $relatr1 .'</td><td class="juhtkonditem">'.
-                $relatr2 . '</td><td class="juhtkonditem">'.
-                $relatr3 . '</td><td class="juhtkonditem">'.
-                $relatr4 . '</td><td class="juhtkonditem">'.
-                $relatr5 . "</td>",
-            "</tr>";  } ?>
-    </table></div>
+ 
 <div class="crudforms">        
 <div class="addform">
 <form action="/add-item" method="post">
@@ -81,6 +47,42 @@ get_header();
 <input type="submit" value="Edit entry" class="submitbutton" >   
 </form></div>
 </div>
+
+<div class="crudtable">
+    <table class="juhtkondtable"><tr class="juhkrowtop">    
+    <th>ID</th>
+    <th>Table id</th>
+    <th>Description</th>
+    <th>Имя, фамилия</th>
+    <th>Должность</th>
+    <th>Номер телефона</th>
+    <th>Электронная почта</th>
+    <th>image link</th>
+</tr>
+    <?php 
+            global $wpdb;
+            $result = $wpdb->get_results( "SELECT * FROM infohandler");
+            foreach ( $result as $print ) { 
+            $id=$print-> ID ;  
+            $itemid=$print->PostID ;
+            $itemdesc=$print->ItemDescription ;
+            $relatr1=$print->RelAtr1;   
+            $relatr2=$print->RelAtr2;
+            $relatr3=$print->RelAtr3; 
+            $relatr4=$print->RelAtr4;
+            $relatr5=$print->RelAtr5;
+            ?>
+            <tr class="juhkkondrow">
+                <td class="juhtkonditem"><?php  echo $id.'</td><td class="juhtkonditem">'. 
+                $itemid .'</td><td class="juhtkonditem">'.
+                $itemdesc .'</td><td class="juhtkonditem">'.
+                $relatr1 .'</td><td class="juhtkonditem">'.
+                $relatr2 . '</td><td class="juhtkonditem">'.
+                $relatr3 . '</td><td class="juhtkonditem">'.
+                $relatr4 . '</td><td class="juhtkonditem">'.
+                $relatr5 . "</td>",
+            "</tr>";  } ?>
+    </table></div>
 
 </body><?php
  get_footer();  ?>

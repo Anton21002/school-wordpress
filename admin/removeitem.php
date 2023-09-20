@@ -5,6 +5,7 @@ Template Name: crud-delete
 
 ?>
 <?php get_header(); ?>
+<div class="topbar"></div>
 <a href="/admin-panel">Back to Admin panel</a>
 
 <?php 

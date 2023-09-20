@@ -24,8 +24,9 @@ $imgcont=$img->post_content;
     </div>
     <div id="koosolekud-content" class="post">
         <div class="post_content post_elem">
-        <p ><?php echo $content ?></p></div>
-        <div class="post_img post_elem"><img  src=" <?php echo $imgcont ?> " alt=" <?php $title ?> " >
+            <?php echo $content ?></div>
+        <div class="post_img post_elem">
+        <?php  echo $imgcont ?>   
         </div>
     </div>
 <?php
